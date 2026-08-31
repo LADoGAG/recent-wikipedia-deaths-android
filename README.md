@@ -1,2 +1,2 @@
-# recent-wikipedia-deaths-android
+# Recent Wikipedia Deaths
 Android application that tracks recently created or edited Wikipedia articles about recently deceased people in real time.
