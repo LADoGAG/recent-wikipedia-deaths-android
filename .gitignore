@@ -1,4 +1,13 @@
-app/release/
+/app/release/
+/app/debug/
+/app/build/
+/build/
+*/build/
+*.apk
+*.aab
+*.dm
+baselineProfiles/
+output-metadata.json
 
 # Gradle files
 .gradle/
