@@ -5,6 +5,7 @@ package io.github.ladogag.recentwikipediadeaths.ui
 
 import android.content.Intent
 import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.expandVertically
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -28,6 +29,8 @@ import androidx.compose.foundation.shape.CornerSize
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Card
@@ -38,8 +41,10 @@ import androidx.compose.material3.ElevatedCard
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.LargeTopAppBar
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.ListItem
+import androidx.compose.material3.ListItemDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.SegmentedButton
@@ -48,32 +53,45 @@ import androidx.compose.material3.SingleChoiceSegmentedButtonRow
 import androidx.compose.material3.Slider
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextField
+import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.material3.TextButton
+import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
-import androidx.compose.material3.LargeTopAppBar
 import androidx.compose.material3.rememberTopAppBarState
-import androidx.compose.material3.ListItemDefaults
+import androidx.compose.material3.TriStateCheckbox
+import androidx.compose.material3.pulltorefresh.PullToRefreshBox
+import androidx.compose.material3.pulltorefresh.rememberPullToRefreshState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.state.ToggleableState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Shape
+import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.graphics.Shape
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.input.nestedscroll.nestedScroll
+import androidx.compose.ui.draw.clipToBounds
+import androidx.compose.ui.draw.clip
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.asPaddingValues
 import androidx.compose.foundation.layout.navigationBars
 import androidx.compose.foundation.layout.plus
+import androidx.compose.foundation.layout.Box
 import androidx.core.net.toUri
 import io.github.ladogag.recentwikipediadeaths.R
 import io.github.ladogag.recentwikipediadeaths.data.DeathEvent
+import io.github.ladogag.recentwikipediadeaths.data.ErrorDetail
 import io.github.ladogag.recentwikipediadeaths.viewmodel.TimeMode
 import io.github.ladogag.recentwikipediadeaths.viewmodel.TrackerViewModel
 import java.util.Date
@@ -104,17 +122,17 @@ fun FeedScreen(viewModel: TrackerViewModel, onOpenSettings: () -> Unit) {
     val loading by viewModel.isLoading.collectAsState()
     val failedLangs by viewModel.failedLangs.collectAsState()
     val successCount by viewModel.successCount.collectAsState()
-    val targets by viewModel.targets.collectAsState()
+    val isRefreshing by viewModel.isRefreshing.collectAsState()
 
     val showDetails = remember { mutableStateOf(false) }
     if (showDetails.value) ErrorDetailsDialog(failedLangs) { showDetails.value = false }
 
-    val scrollBehavior = TopAppBarDefaults.exitUntilCollapsedScrollBehavior(
-        rememberTopAppBarState()
-    )
+    val topAppBarState = rememberTopAppBarState()
+    val scrollBehavior = TopAppBarDefaults.exitUntilCollapsedScrollBehavior(topAppBarState)
+
+    val pullToRefreshState = rememberPullToRefreshState()
 
     Scaffold(
-        modifier = Modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
         containerColor = screenBackground(),
         topBar = {
             LargeTopAppBar(
@@ -133,69 +151,88 @@ fun FeedScreen(viewModel: TrackerViewModel, onOpenSettings: () -> Unit) {
             )
         }
     ) { padding ->
-        LazyColumn(
-            modifier = Modifier.fillMaxSize(),
-            contentPadding = PaddingValues(
-                start = 16.dp,
-                end = 16.dp,
-                top = padding.calculateTopPadding() + 8.dp,
-                bottom = 8.dp
-            ) + WindowInsets.navigationBars.asPaddingValues(),
-            verticalArrangement = Arrangement.spacedBy(2.dp)
+        PullToRefreshBox(
+            isRefreshing = isRefreshing,
+            onRefresh = {
+                if (topAppBarState.collapsedFraction == 0f) {
+                    viewModel.refresh()
+                }
+            },
+            state = pullToRefreshState,
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = padding.calculateTopPadding())
         ) {
-            if (loading) item {
-                LinearProgressIndicator(
-                    Modifier.fillMaxWidth().padding(bottom = 12.dp)
-                )
-            }
+            LazyColumn(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .nestedScroll(scrollBehavior.nestedScrollConnection),
+                contentPadding = PaddingValues(
+                    start = 16.dp,
+                    end = 16.dp,
+                    top = 8.dp,
+                    bottom = 8.dp
+                ) + WindowInsets.navigationBars.asPaddingValues(),
+                verticalArrangement = Arrangement.spacedBy(2.dp)
+            ) {
+                if (loading) item {
+                    LinearProgressIndicator(
+                        Modifier.fillMaxWidth().padding(bottom = 12.dp)
+                    )
+                }
 
-            if (!loading) {
-                val totalCount = targets.size
-                when {
-                    successCount == 0 -> item {
-                        StatusCard(
-                            stringResource(R.string.error_total),
-                            failedLangs = failedLangs,
-                            onShowDetails = { showDetails.value = true },
-                            modifier = Modifier.padding(bottom = 12.dp)
-                        )
-                    }
-                    failedLangs.isNotEmpty() -> item {
-                        StatusCard(
-                            stringResource(R.string.error_partial) + "\n" +
-                                    stringResource(R.string.error_summary, successCount, totalCount),
-                            failedLangs = failedLangs,
-                            onShowDetails = { showDetails.value = true },
-                            modifier = Modifier.padding(bottom = 12.dp)
-                        )
+                if (!loading) {
+                    when {
+                        successCount == 0 -> item {
+                            StatusCard(
+                                stringResource(R.string.error_total),
+                                failedLangs = failedLangs,
+                                onShowDetails = { showDetails.value = true },
+                                modifier = Modifier.padding(bottom = 12.dp)
+                            )
+                        }
+                        failedLangs.isNotEmpty() -> item {
+                            val attempted = successCount + failedLangs.size
+                            StatusCard(
+                                stringResource(R.string.error_partial) + "\n" +
+                                        stringResource(R.string.error_summary, successCount, attempted),
+                                failedLangs = failedLangs,
+                                onShowDetails = { showDetails.value = true },
+                                modifier = Modifier.padding(bottom = 12.dp)
+                            )
+                        }
                     }
                 }
-            }
 
-            itemsIndexed(events, key = { _, e -> e.id }) { index, event ->
-                EventCard(
-                    event = event,
-                    shape = groupShape(
-                        isFirst = index == 0,
-                        isLast = index == events.lastIndex
+                itemsIndexed(events, key = { _, e -> e.id }) { index, event ->
+                    EventCard(
+                        event = event,
+                        shape = groupShape(
+                            isFirst = index == 0,
+                            isLast = index == events.lastIndex
+                        )
                     )
-                )
-            }
+                }
 
-            if (!loading && events.isEmpty()) item {
-                Text(
-                    stringResource(R.string.empty),
-                    style = MaterialTheme.typography.bodyLarge,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.padding(24.dp)
-                )
+                if (!loading && events.isEmpty()) item {
+                    Text(
+                        stringResource(R.string.empty),
+                        style = MaterialTheme.typography.bodyLarge,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        modifier = Modifier.padding(24.dp)
+                    )
+                }
             }
         }
     }
 }
 
 @Composable
-fun SettingsScreen(viewModel: TrackerViewModel, onBack: () -> Unit) {
+fun SettingsScreen(
+    viewModel: TrackerViewModel,
+    onBack: () -> Unit,
+    onOpenSearch: () -> Unit = {}
+) {
     val selectedLangs by viewModel.selectedLangs.collectAsState()
     val targets by viewModel.targets.collectAsState()
     val timeMode by viewModel.timeMode.collectAsState()
@@ -224,7 +261,12 @@ fun SettingsScreen(viewModel: TrackerViewModel, onBack: () -> Unit) {
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = screenBackground(),
                     scrolledContainerColor = screenBackground()
-                )
+                ),
+                actions = {
+                    IconButton(onClick = onOpenSearch) {
+                        Icon(Icons.Default.Search, contentDescription = null)
+                    }
+                }
             )
         }
     ) { padding ->
@@ -254,7 +296,9 @@ fun SettingsScreen(viewModel: TrackerViewModel, onBack: () -> Unit) {
                     colors = CardDefaults.cardColors(containerColor = cardBackground())
                 ) {
                     Column(
-                        modifier = Modifier.padding(16.dp)
+                        modifier = Modifier
+                            .padding(16.dp)
+                            .animateContentSize()
                     ) {
                         SingleChoiceSegmentedButtonRow(Modifier.fillMaxWidth()) {
                             SegmentedButton(
@@ -277,7 +321,11 @@ fun SettingsScreen(viewModel: TrackerViewModel, onBack: () -> Unit) {
                             exit = fadeOut(tween(180, easing = FastOutLinearInEasing)) +
                                     shrinkVertically(tween(180, easing = FastOutLinearInEasing))
                         ) {
-                            Column(modifier = Modifier.padding(top = 12.dp)) {
+                            Column(
+                                modifier = Modifier
+                                    .padding(top = 12.dp)
+                                    .clipToBounds()
+                            ) {
                                 Slider(
                                     value = hours.toFloat(),
                                     onValueChange = { viewModel.setHours(it.toInt()) },
@@ -305,12 +353,19 @@ fun SettingsScreen(viewModel: TrackerViewModel, onBack: () -> Unit) {
             }
 
             if (targets.isEmpty()) {
-                item { CircularProgressIndicator(Modifier.padding(16.dp)) }
+                item {
+                    Box(
+                        modifier = Modifier.fillMaxWidth().padding(24.dp),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        CircularProgressIndicator()
+                    }
+                }
             } else {
                 item {
                     Card(
                         modifier = Modifier.fillMaxWidth(),
-                        shape = groupShape(isFirst = true, isLast = targets.isEmpty()),
+                        shape = groupShape(isFirst = true, isLast = false),
                         colors = CardDefaults.cardColors(containerColor = cardBackground())
                     ) {
                         ListItem(
@@ -323,9 +378,13 @@ fun SettingsScreen(viewModel: TrackerViewModel, onBack: () -> Unit) {
                                 )
                             },
                             leadingContent = {
-                                Checkbox(
-                                    checked = selectedLangs.size == targets.size,
-                                    onCheckedChange = { viewModel.setAllLangs(it) }
+                                TriStateCheckbox(
+                                    state = when {
+                                        selectedLangs.isEmpty() -> ToggleableState.Off
+                                        selectedLangs.size == targets.size -> ToggleableState.On
+                                        else -> ToggleableState.Indeterminate
+                                    },
+                                    onClick = { viewModel.setAllLangs(selectedLangs.size != targets.size) }
                                 )
                             },
                             modifier = Modifier.clickable {
@@ -335,11 +394,129 @@ fun SettingsScreen(viewModel: TrackerViewModel, onBack: () -> Unit) {
                     }
                 }
 
-                items(targets.size, key = { i -> targets[i].lang }) { index ->
-                    val target = targets[index]
+                itemsIndexed(targets, key = { _, target -> target.lang }) { index, target ->
                     Card(
                         modifier = Modifier.fillMaxWidth(),
-                        shape = groupShape(isFirst = false, isLast = index == targets.lastIndex),
+                        shape = groupShape(
+                            isFirst = false,
+                            isLast = index == targets.lastIndex
+                        ),
+                        colors = CardDefaults.cardColors(containerColor = cardBackground())
+                    ) {
+                        ListItem(
+                            colors = ListItemDefaults.colors(containerColor = Color.Transparent),
+                            headlineContent = { Text(target.displayName) },
+                            supportingContent = {
+                                Text(target.lang.uppercase(), style = MaterialTheme.typography.labelSmall)
+                            },
+                            leadingContent = {
+                                Checkbox(
+                                    checked = target.lang in selectedLangs,
+                                    onCheckedChange = { viewModel.toggleLang(target.lang) }
+                                )
+                            },
+                            modifier = Modifier.clickable { viewModel.toggleLang(target.lang) }
+                        )
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+fun LanguageSearchScreen(
+    viewModel: TrackerViewModel,
+    onBack: () -> Unit,
+    isActive: Boolean = true
+) {
+    val targets by viewModel.targets.collectAsState()
+    val selectedLangs by viewModel.selectedLangs.collectAsState()
+    var searchQuery by remember { mutableStateOf("") }
+    val focusRequester = remember { FocusRequester() }
+    val focusManager = androidx.compose.ui.platform.LocalFocusManager.current
+
+    LaunchedEffect(isActive) {
+        if (isActive) focusRequester.requestFocus()
+        else {
+            focusManager.clearFocus()
+            searchQuery = ""
+        }
+    }
+
+    val filteredTargets = remember(targets, searchQuery) {
+        if (searchQuery.isBlank()) targets
+        else targets.filter {
+            it.displayName.contains(searchQuery, ignoreCase = true) ||
+                    it.lang.contains(searchQuery, ignoreCase = true)
+        }
+    }
+
+    Scaffold(
+        containerColor = screenBackground(),
+        topBar = {
+            TopAppBar(
+                title = {
+                    TextField(
+                        value = searchQuery,
+                        onValueChange = { searchQuery = it },
+                        singleLine = true,
+                        colors = TextFieldDefaults.colors(
+                            focusedContainerColor = Color.Transparent,
+                            unfocusedContainerColor = Color.Transparent,
+                            disabledContainerColor = Color.Transparent,
+                            focusedIndicatorColor = Color.Transparent,
+                            unfocusedIndicatorColor = Color.Transparent,
+                        ),
+                        modifier = Modifier.fillMaxWidth().focusRequester(focusRequester)
+                    )
+                },
+                navigationIcon = {
+                    IconButton(onClick = onBack) {
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null)
+                    }
+                },
+                actions = {
+                    if (searchQuery.isNotEmpty()) {
+                        IconButton(onClick = { searchQuery = "" }) {
+                            Icon(Icons.Default.Close, contentDescription = null)
+                        }
+                    }
+                },
+                colors = TopAppBarDefaults.topAppBarColors(
+                    containerColor = screenBackground(),
+                    scrolledContainerColor = screenBackground()
+                )
+            )
+        }
+    ) { padding ->
+        LazyColumn(
+            modifier = Modifier.fillMaxSize(),
+            contentPadding = PaddingValues(
+                start = 16.dp,
+                end = 16.dp,
+                top = padding.calculateTopPadding() + 8.dp,
+                bottom = 8.dp
+            ) + WindowInsets.navigationBars.asPaddingValues(),
+            verticalArrangement = Arrangement.spacedBy(2.dp)
+        ) {
+            if (targets.isEmpty()) {
+                item {
+                    Box(
+                        modifier = Modifier.fillMaxWidth().padding(24.dp),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        CircularProgressIndicator()
+                    }
+                }
+            } else {
+                itemsIndexed(filteredTargets, key = { _, target -> target.lang }) { index, target ->
+                    Card(
+                        modifier = Modifier.fillMaxWidth(),
+                        shape = groupShape(
+                            isFirst = index == 0,
+                            isLast = index == filteredTargets.lastIndex
+                        ),
                         colors = CardDefaults.cardColors(containerColor = cardBackground())
                     ) {
                         ListItem(
@@ -366,13 +543,14 @@ fun SettingsScreen(viewModel: TrackerViewModel, onBack: () -> Unit) {
 @Composable
 private fun StatusCard(
     text: String,
-    failedLangs: List<io.github.ladogag.recentwikipediadeaths.data.ErrorDetail>,
+    failedLangs: List<ErrorDetail>,
     onShowDetails: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     ElevatedCard(
         modifier = Modifier.fillMaxWidth().then(modifier),
         shape = MaterialTheme.shapes.extraLarge,
+        elevation = CardDefaults.elevatedCardElevation(defaultElevation = 0.dp),
         colors = CardDefaults.elevatedCardColors(
             containerColor = MaterialTheme.colorScheme.errorContainer,
             contentColor = MaterialTheme.colorScheme.onErrorContainer
@@ -394,21 +572,43 @@ private fun StatusCard(
 
 @Composable
 private fun ErrorDetailsDialog(
-    failedLangs: List<io.github.ladogag.recentwikipediadeaths.data.ErrorDetail>,
+    failedLangs: List<ErrorDetail>,
     onDismiss: () -> Unit
 ) {
     AlertDialog(
         onDismissRequest = onDismiss,
+        containerColor = screenBackground(),
         title = { Text(stringResource(R.string.error_details_title)) },
         text = {
-            Column(Modifier.verticalScroll(rememberScrollState())) {
-                failedLangs.forEach { err ->
-                    ListItem(
-                        headlineContent = { Text(err.lang.uppercase()) },
-                        supportingContent = {
-                            Text(err.message, style = MaterialTheme.typography.bodySmall)
+            Column(
+                modifier = Modifier.verticalScroll(rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(2.dp)
+            ) {
+                failedLangs.forEachIndexed { index, err ->
+                    Surface(
+                        modifier = Modifier.fillMaxWidth(),
+                        shape = groupShape(
+                            isFirst = index == 0,
+                            isLast = index == failedLangs.lastIndex
+                        ),
+                        color = cardBackground()
+                    ) {
+                        Column(
+                            modifier = Modifier.padding(horizontal = 20.dp, vertical = 12.dp),
+                            verticalArrangement = Arrangement.spacedBy(4.dp)
+                        ) {
+                            Text(
+                                err.lang.uppercase(),
+                                style = MaterialTheme.typography.titleSmall,
+                                color = MaterialTheme.colorScheme.onSurface
+                            )
+                            Text(
+                                err.message,
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
                         }
-                    )
+                    }
                 }
             }
         },
@@ -430,6 +630,7 @@ private fun EventCard(event: DeathEvent, shape: Shape) {
     Card(
         modifier = Modifier
             .fillMaxWidth()
+            .clip(shape)
             .clickable {
                 val url = "https://${event.wiki}.wikipedia.org/wiki/" +
                         android.net.Uri.encode(event.title)

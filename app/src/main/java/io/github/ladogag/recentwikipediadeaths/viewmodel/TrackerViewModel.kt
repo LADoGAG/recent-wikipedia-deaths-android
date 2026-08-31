@@ -90,10 +90,25 @@ class TrackerViewModel : ViewModel() {
                     fetchedLangs += lang
                     val target = _targetsState.value.firstOrNull { it.lang == lang }
                     if (target != null) {
-                        val items = WikiRepository.fetchCategoryMembers(target)
+                        val (items, error) = WikiRepository.fetchCategoryMembers(target)
                         if (items == null) {
+                            val readable = when (error) {
+                                "rate_limited" -> "Превышен лимит запросов (HTTP 429)"
+                                "not_found" -> "Категория не найдена (HTTP 404)"
+                                "no_internet" -> "Нет подключения к интернету"
+                                "timeout" -> "Превышено время ожидания ответа"
+                                "invalid_response" -> "Получен некорректный ответ от сервера"
+                                "ssl_error" -> "Ошибка SSL-соединения"
+                                "network_error" -> "Ошибка сети"
+                                "parse_error" -> "Не удалось обработать ответ"
+                                else -> if (error?.startsWith("server_error_") == true) {
+                                    "Ошибка сервера (${error.removePrefix("server_error_")})"
+                                } else if (error?.startsWith("http_") == true) {
+                                    "Ошибка HTTP ${error.removePrefix("http_")}"
+                                } else "Неизвестная ошибка"
+                            }
                             _failedLangs.update {
-                                it + ErrorDetail(lang, "unavailable", System.currentTimeMillis())
+                                it + ErrorDetail(lang, readable, System.currentTimeMillis())
                             }
                         } else {
                             _successCount.value += 1
@@ -107,7 +122,10 @@ class TrackerViewModel : ViewModel() {
                     }
                     delay(1000)
                 }
-                if (pendingLangs.isEmpty) _isLoading.value = false
+                if (pendingLangs.isEmpty) {
+                    _isLoading.value = false
+                    _isRefreshing.value = false
+                }
             }
         }
 
@@ -175,5 +193,17 @@ class TrackerViewModel : ViewModel() {
 
     fun refreshLocalization() {
         _targetsState.value = WikiRepository.localizedTargets()
+    }
+
+    private val _isRefreshing = MutableStateFlow(false)
+    val isRefreshing: StateFlow<Boolean> = _isRefreshing
+
+    fun refresh() {
+        if (_isLoading.value || _isRefreshing.value) return
+        _isRefreshing.value = true
+        _failedLangs.value = emptyList()
+        _successCount.value = 0
+        fetchedLangs.clear()
+        requestHistory(_selectedLangs.value)
     }
 }

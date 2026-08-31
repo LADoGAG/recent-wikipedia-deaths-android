@@ -234,7 +234,7 @@ object WikiRepository {
         return head + rest
     }
 
-    suspend fun fetchCategoryMembers(target: WikiTarget): List<DeathEvent>? =
+    suspend fun fetchCategoryMembers(target: WikiTarget): Pair<List<DeathEvent>?, String?> =
         withContext(Dispatchers.IO) {
             val url = HttpUrl.Builder()
                 .scheme("https")
@@ -251,35 +251,55 @@ object WikiRepository {
                 .build()
 
             var attempt = 0
+            var lastError = "unknown"
             while (attempt < 2) {
                 try {
                     val body = restClient.newCall(request(url)).execute()
                         .use { resp ->
                             when {
                                 resp.code == 429 -> {
-                                    Log.w(TAG, "${target.lang}: 429, backing off 3s")
+                                    Log.w(TAG, "${target.lang}: 429")
                                     delay(3000)
-                                    null
+                                    "rate_limited"
+                                }
+                                resp.code == 404 -> {
+                                    Log.e(TAG, "${target.lang}: 404")
+                                    "not_found"
+                                }
+                                resp.code >= 500 -> {
+                                    Log.e(TAG, "${target.lang}: HTTP ${resp.code}")
+                                    "server_error_${resp.code}"
                                 }
                                 !resp.isSuccessful -> {
                                     Log.e(TAG, "${target.lang}: HTTP ${resp.code}")
-                                    null
+                                    "http_${resp.code}"
                                 }
                                 else -> resp.body.string()
                             }
                         }
-                    if (body == null) { attempt++; continue }
+
+                    when (body) {
+                        "rate_limited" -> { lastError = "rate_limited"; attempt++; continue }
+                        "not_found" -> { lastError = "not_found"; attempt++; continue }
+                        else -> {
+                            if (body.startsWith("server_error") || body.startsWith("http_")) {
+                                lastError = body; attempt++; continue
+                            }
+                        }
+                    }
+
                     if (!body.trimStart().startsWith("{")) {
                         Log.w(TAG, "${target.lang}: non-JSON response")
+                        lastError = "invalid_response"
                         delay(3000); attempt++; continue
                     }
 
                     val members = JSONObject(body)
                         .optJSONObject("query")
-                        ?.optJSONArray("categorymembers") ?: return@withContext emptyList()
+                        ?.optJSONArray("categorymembers")
 
-                    return@withContext (0 until members.length()).mapNotNull { i ->
-                        val m = members.getJSONObject(i)
+                    val list = (0 until (members?.length() ?: 0)).mapNotNull { i ->
+                        val m = members!!.getJSONObject(i)
                         if (m.optInt("ns") != 0) null else DeathEvent(
                             id = java.util.UUID.randomUUID().toString(),
                             title = m.getString("title"),
@@ -288,13 +308,33 @@ object WikiRepository {
                                 ?: System.currentTimeMillis()
                         )
                     }
+                    return@withContext list to null
+                } catch (e: java.net.UnknownHostException) {
+                    lastError = "no_internet"
+                    Log.e(TAG, "${target.lang}: no internet", e)
+                    attempt++
+                } catch (e: java.net.SocketTimeoutException) {
+                    lastError = "timeout"
+                    Log.e(TAG, "${target.lang}: timeout", e)
+                    attempt++
+                    delay(2000)
+                } catch (e: javax.net.ssl.SSLException) {
+                    lastError = "ssl_error"
+                    Log.e(TAG, "${target.lang}: SSL", e)
+                    attempt++
+                } catch (e: java.io.IOException) {
+                    lastError = "network_error"
+                    Log.e(TAG, "${target.lang}: IO", e)
+                    attempt++
+                    delay(2000)
                 } catch (e: Exception) {
-                    Log.e(TAG, "fetchCategoryMembers(${target.lang}) attempt ${attempt + 1} failed", e)
+                    lastError = "parse_error"
+                    Log.e(TAG, "${target.lang}: parse", e)
                     attempt++
                     delay(2000)
                 }
             }
-            null
+            null to lastError
         }
 
     suspend fun enrichEvents(events: List<DeathEvent>): List<DeathEvent> =
@@ -440,10 +480,20 @@ object WikiRepository {
     }
 
     private fun displayName(code: String, display: Locale): String {
-        val name = Locale.forLanguageTag(code).getDisplayLanguage(display)
-        return if (name.isNullOrBlank() || name.equals(code, ignoreCase = true)) code.uppercase()
-        else name.replaceFirstChar {
-            if (it.isLowerCase()) it.titlecase(display) else it.toString()
+        val locale = Locale.forLanguageTag(code)
+
+        var name = locale.getDisplayLanguage(display)
+
+        if (name.isNullOrBlank() || name.equals(code, ignoreCase = true)) {
+            name = locale.getDisplayLanguage(Locale.ENGLISH)
+        }
+
+        return if (name.isNullOrBlank() || name.equals(code, ignoreCase = true)) {
+            code.uppercase()
+        } else {
+            name.replaceFirstChar {
+                if (it.isLowerCase()) it.titlecase(display) else it.toString()
+            }
         }
     }
 
