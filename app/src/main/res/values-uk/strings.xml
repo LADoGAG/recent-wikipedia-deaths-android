@@ -1,0 +1,23 @@
+<resources>
+ <string name="app_name">Нещодавні смерті у Вікіпедії</string>
+ <string name="wiki_sections">Мовні розділи Вікіпедії</string>
+ <string name="all_languages">Усі мови</string>
+ <string name="langs_selected">%1$d з %2$d</string>
+ <string name="select_all">Вибрати все</string>
+ <string name="done">Готово</string>
+ <string name="timeframe">Період часу</string>
+ <string name="live_only">З моменту відкриття</string>
+ <string name="last_hours">За X годин</string>
+ <string name="hours_value">%1$d год</string>
+ <string name="edit_by">Редагування від %1$s</string>
+ <string name="no_description">Опис відсутній.</string>
+ <string name="empty">Записів за обраними фільтрами не знайдено.</string>
+ <string name="settings">Налаштування</string>
+ <string name="back">Назад</string>
+ <string name="details">Деталі</string>
+ <string name="error_details_title">Помилки запитів</string>
+ <string name="error_summary">Завантажено %1$d з %2$d мовних розділів</string>
+ <string name="error_all_ok">Усі мовні розділи успішно завантажено.</string>
+ <string name="error_partial">Деякі мовні розділи недоступні. Натисніть «Деталі».</string>
+ <string name="error_total">Не вдається зв\'язатися з Вікіпедією. Перевірте підключення.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Nedávná úmrtí na Wikipedii</string>
+    <string name="wiki_sections">Jazykové verze Wikipedie</string>
+    <string name="all_languages">Všechny jazyky</string>
+    <string name="langs_selected">%1$d z %2$d</string>
+    <string name="select_all">Vybrat vše</string>
+    <string name="done">Hotovo</string>
+    <string name="timeframe">Časové období</string>
+    <string name="live_only">Od otevření aplikace</string>
+    <string name="last_hours">Posledních X hodin</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Úprava od %1$s</string>
+    <string name="no_description">Není k dispozici žádný popis.</string>
+    <string name="empty">Pro vybrané filtry neexistují žádné záznamy.</string>
+    <string name="settings">Nastavení</string>
+    <string name="back">Zpět</string>
+    <string name="details">Podrobnosti</string>
+    <string name="error_details_title">Selhání požadavků</string>
+    <string name="error_summary">Načteno %1$d z %2$d jazykových verzí</string>
+    <string name="error_all_ok">Všechny jazykové verze byly úspěšně načteny.</string>
+    <string name="error_partial">K některým jazykovým verzím se nepodařilo připojit. Klepněte na «Podrobnosti».</string>
+    <string name="error_total">K Wikipedii se vůbec nepodařilo připojit. Zkontrolujte připojení.</string>
+</resources>

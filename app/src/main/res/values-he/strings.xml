@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">מקרי מוות אחרונים בוויקיפדיה</string>
+    <string name="wiki_sections">מהדורות ויקיפדיה</string>
+    <string name="all_languages">כל השפות</string>
+    <string name="langs_selected">%1$d מתוך %2$d</string>
+    <string name="select_all">בחר הכל</string>
+    <string name="done">סיום</string>
+    <string name="timeframe">פרק זמן</string>
+    <string name="live_only">מאז פתיחת האפליקציה</string>
+    <string name="last_hours">X שעות אחרונות</string>
+    <string name="hours_value">%1$d שעות</string>
+    <string name="edit_by">עריכה על ידי %1$s</string>
+    <string name="no_description">אין תיאור זמין.</string>
+    <string name="empty">אין רשומות עבור המסננים שנבחרו.</string>
+    <string name="settings">הגדרות</string>
+    <string name="back">חזרה</string>
+    <string name="details">פרטים</string>
+    <string name="error_details_title">כשלי בקשה</string>
+    <string name="error_summary">נטענו %1$d מתוך %2$d מהדורות</string>
+    <string name="error_all_ok">כל המהדורות נטענו בהצלחה.</string>
+    <string name="error_partial">לא ניתן היה להגיע לחלק מהמהדורות. הקש על «פרטים» לרשימה.</string>
+    <string name="error_total">לא ניתן היה להגיע לוויקיפדיה כלל. בדוק את החיבור שלך.</string>
+</resources>

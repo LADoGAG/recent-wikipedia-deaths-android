@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Неодамнешни смртни случаи на Википедија</string>
+    <string name="wiki_sections">Јазични изданија на Википедија</string>
+    <string name="all_languages">Сите јазици</string>
+    <string name="langs_selected">%1$d од %2$d</string>
+    <string name="select_all">Избери ги сите</string>
+    <string name="done">Готово</string>
+    <string name="timeframe">Временски период</string>
+    <string name="live_only">Од отворањето на апликацијата</string>
+    <string name="last_hours">Последните X часа</string>
+    <string name="hours_value">%1$d ч</string>
+    <string name="edit_by">Уредување од %1$s</string>
+    <string name="no_description">Нема достапен опис.</string>
+    <string name="empty">Нема записи за избраните филтри.</string>
+    <string name="settings">Поставки</string>
+    <string name="back">Назад</string>
+    <string name="details">Детали</string>
+    <string name="error_details_title">Грешки во барањата</string>
+    <string name="error_summary">Вчитани се %1$d од %2$d јазични изданија</string>
+    <string name="error_all_ok">Сите изданија се успешно вчитани.</string>
+    <string name="error_partial">Не можеше да се пристапи до некои изданија. Допрете на «Детали» за листа.</string>
+    <string name="error_total">Воопшто не можеше да се пристапи до Википедија. Проверете ја врската.</string>
+</resources>

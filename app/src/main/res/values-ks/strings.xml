@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ویٖکیٖپیٖڈیاس پٮ۪ٹھ حالیہ مرنہٕ</string>
+    <string name="wiki_sections">ویٖکیٖپیٖڈیا زبان نسخہٕ</string>
+    <string name="all_languages">سٲری زبانہٕ</string>
+    <string name="langs_selected">%2$d مَنٛز %1$d</string>
+    <string name="select_all">سٲری کٕریٚو منتخب</string>
+    <string name="done">مکمل</string>
+    <string name="timeframe">وقتُک دورانیہٕ</string>
+    <string name="live_only">ایپ کھلنہٕ پتہٕ</string>
+    <string name="last_hours">آخری X گھنٹے</string>
+    <string name="hours_value">%1$d گھ</string>
+    <string name="edit_by">%1$s سٕنٛز ترمیٖم</string>
+    <string name="no_description">کانٛہہ تفصیٖل چھِ نہٕ۔</string>
+    <string name="empty">منتخب فلٹرنہٕ خٲطرٕ چھِ نہٕ کانٛہہ رِکارڈ۔</string>
+    <string name="settings">سیٹنگز</string>
+    <string name="back">پتھ</string>
+    <string name="details">تفصیٖلات</string>
+    <string name="error_details_title">درخواس ہند ناکامی</string>
+    <string name="error_summary">%2$d زبانن ہندن نسخن مَنٛز %1$d لوڈ چھِ گٔمٕژ</string>
+    <string name="error_all_ok">سٲری زبانن ہند نسخہٕ چھِ کامیٲبی سٕتؠ لوڈ گٔمٕژ۔</string>
+    <string name="error_partial">کیٚنٛہہ زبانن ہند نسخہٕ تام چھِ نہٕ رسٲیی۔ «تفصیٖلات» پٮ۪ٹھ کٕریٚو کلک۔</string>
+    <string name="error_total">ویٖکیٖپیٖڈیا تام چھِ نہٕ رسٲیی۔ پنُن کنیکشن کٕریٚو چیک۔</string>
+</resources>

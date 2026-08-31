@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Dee yu bees ci Wikipedia</string>
+    <string name="wiki_sections">Yëf yi ci làkku Wikipedia</string>
+    <string name="all_languages">Làkk yépp</string>
+    <string name="langs_selected">%1$d ci %2$d</string>
+    <string name="select_all">Tànn yépp</string>
+    <string name="done">Jeexna</string>
+    <string name="timeframe">Diir bi</string>
+    <string name="live_only">Bi ñu ubbee app bi</string>
+    <string name="last_hours">X waxtu wu mujj</string>
+    <string name="hours_value">%1$d w</string>
+    <string name="edit_by">Soppiku ci %1$s</string>
+    <string name="no_description">Amul benn faramfacce.</string>
+    <string name="empty">Amul benn yëf ci filtër yi ñu tànn.</string>
+    <string name="settings">Tànneef yi</string>
+    <string name="back">Dellu</string>
+    <string name="details">Yeneen xibaar</string>
+    <string name="error_details_title">Njuumtey laaj yi</string>
+    <string name="error_summary">%1$d ci %2$d yëf yi ci làkku ñu ngi chargée</string>
+    <string name="error_all_ok">Yëf yépp ci làkku chargée nañu bu baax.</string>
+    <string name="error_partial">Yenn yëf yi ci làkku mënuñu leen a jot. Tàpp «Yeneen xibaar» ngir gis lim bi.</string>
+    <string name="error_total">Mënuñu a jot Wikipedia mukk. Xoolal sa jokkoo.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">விக்கிப்பீடியாவில் சமீபத்திய மரணங்கள்</string>
+    <string name="wiki_sections">விக்கிப்பீடியா மொழிப் பதிப்புகள்</string>
+    <string name="all_languages">அனைத்து மொழிகள்</string>
+    <string name="langs_selected">%2$d இல் %1$d</string>
+    <string name="select_all">அனைத்தையும் தேர்வுசெய்</string>
+    <string name="done">முடிந்தது</string>
+    <string name="timeframe">கால அளவு</string>
+    <string name="live_only">செயலி திறக்கப்பட்டதிலிருந்து</string>
+    <string name="last_hours">கடந்த X மணிநேரங்கள்</string>
+    <string name="hours_value">%1$d ம</string>
+    <string name="edit_by">%1$s ஆல் திருத்தம்</string>
+    <string name="no_description">விவரணை கிடைக்கவில்லை.</string>
+    <string name="empty">தேர்ந்தெடுக்கப்பட்ட வடிகட்டிகளுக்குப் பதிவுகள் இல்லை.</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="back">பின்செல்</string>
+    <string name="details">விவரங்கள்</string>
+    <string name="error_details_title">கோரிக்கை தோல்விகள்</string>
+    <string name="error_summary">%2$d மொழிப் பதிப்புகளில் %1$d ஏற்றப்பட்டது</string>
+    <string name="error_all_ok">அனைத்து மொழிப் பதிப்புகளும் வெற்றிகரமாக ஏற்றப்பட்டன.</string>
+    <string name="error_partial">சில மொழிப் பதிப்புகளை அணுக முடியவில்லை. பட்டியலுக்கு «விவரங்கள்» என்பதைத் தட்டவும்.</string>
+    <string name="error_total">விக்கிப்பீடியாவை அணுகவே முடியவில்லை. உங்கள் இணைப்பைச் சரிபார்க்கவும்.</string>
+</resources>

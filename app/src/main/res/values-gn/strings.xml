@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Omanóva Wikipedia-pe</string>
+    <string name="wiki_sections">Ñe\'ẽ nguéra Wikipedia-gua</string>
+    <string name="all_languages">Ñe\'ẽnguéra opa</string>
+    <string name="langs_selected">%1$d %2$d-gui</string>
+    <string name="select_all">Eiporavo opa</string>
+    <string name="done">Opa</string>
+    <string name="timeframe">Ara</string>
+    <string name="live_only">Ojepe\'a guive app</string>
+    <string name="last_hours">X aravo ohasáva</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Ojapo %1$s</string>
+    <string name="no_description">Ndaipóri mba\'eve.</string>
+    <string name="empty">Ndaipóri mba\'eve umi filtro-pe g̃uarã.</string>
+    <string name="settings">Ñemboheko</string>
+    <string name="back">Tapykue</string>
+    <string name="details">Mba\'emichĩ</string>
+    <string name="error_details_title">Jejavy ñemondoupe</string>
+    <string name="error_summary">%1$d %2$d-gui oñemyanyhẽ</string>
+    <string name="error_all_ok">Opa ñe\'ẽ nguéra oñemyanyhẽ porã.</string>
+    <string name="error_partial">Ndaikatúi ojeike amogotyvo ñe\'ẽme. «Mba\'emichĩ» eikutu.</string>
+    <string name="error_total">Ndaikatúi ojeike Wikipedia-pe. Ehecha ne ñembojoapy.</string>
+</resources>

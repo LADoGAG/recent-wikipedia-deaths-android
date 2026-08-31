@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Vikipediyada son ölüm halları</string>
+    <string name="wiki_sections">Vikipediya dil bölmələri</string>
+    <string name="all_languages">Bütün dillər</string>
+    <string name="langs_selected">%2$d-dən %1$d</string>
+    <string name="select_all">Hamısını seç</string>
+    <string name="done">Bitdi</string>
+    <string name="timeframe">Müddət</string>
+    <string name="live_only">Tətbiq açılandan bəri</string>
+    <string name="last_hours">Son X saat</string>
+    <string name="hours_value">%1$d s</string>
+    <string name="edit_by">%1$s tərəfindən redaktə</string>
+    <string name="no_description">Təsvir mövcud deyil.</string>
+    <string name="empty">Seçilmiş filtrlər üçün heç bir qeyd yoxdur.</string>
+    <string name="settings">Parametrlər</string>
+    <string name="back">Geri</string>
+    <string name="details">Təfərrüatlar</string>
+    <string name="error_details_title">Sorğu xətaları</string>
+    <string name="error_summary">%2$d dil bölməsinin %1$d yükləndi</string>
+    <string name="error_all_ok">Bütün nəşrlər uğurla yükləndi.</string>
+    <string name="error_partial">Bəzi nəşrlərə daxil olmaq mümkün olmadı. Siyahı üçün «Təfərrüatlar»a toxunun.</string>
+    <string name="error_total">Vikipediyaya qətiyyən daxil olmaq mümkün olmadı. Bağlantınızı yoxlayın.</string>
+</resources>

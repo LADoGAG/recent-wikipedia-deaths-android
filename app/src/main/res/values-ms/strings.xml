@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Kematian terkini di Wikipedia</string>
+    <string name="wiki_sections">Edisi bahasa Wikipedia</string>
+    <string name="all_languages">Semua bahasa</string>
+    <string name="langs_selected">%1$d daripada %2$d</string>
+    <string name="select_all">Pilih semua</string>
+    <string name="done">Selesai</string>
+    <string name="timeframe">Tempoh masa</string>
+    <string name="live_only">Sejak aplikasi dibuka</string>
+    <string name="last_hours">X jam terakhir</string>
+    <string name="hours_value">%1$d j</string>
+    <string name="edit_by">Suntingan oleh %1$s</string>
+    <string name="no_description">Tiada keterangan tersedia.</string>
+    <string name="empty">Tiada rekod untuk penapis yang dipilih.</string>
+    <string name="settings">Tetapan</string>
+    <string name="back">Kembali</string>
+    <string name="details">Butiran</string>
+    <string name="error_details_title">Kegagalan permintaan</string>
+    <string name="error_summary">%1$d daripada %2$d edisi bahasa dimuatkan</string>
+    <string name="error_all_ok">Semua edisi bahasa berjaya dimuatkan.</string>
+    <string name="error_partial">Beberapa edisi bahasa tidak dapat diakses. Ketik «Butiran» untuk senarai.</string>
+    <string name="error_total">Tidak dapat menghubungi Wikipedia langsung. Semak sambungan anda.</string>
+</resources>

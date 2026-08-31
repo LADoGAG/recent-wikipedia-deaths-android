@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ویکیپیڈیا پر حالیہ اموات</string>
+    <string name="wiki_sections">ویکیپیڈیا زبان کے نسخے</string>
+    <string name="all_languages">تمام زبانیں</string>
+    <string name="langs_selected">%2$d میں سے %1$d</string>
+    <string name="select_all">سب منتخب کریں</string>
+    <string name="done">ہو گیا</string>
+    <string name="timeframe">مدت</string>
+    <string name="live_only">ایپ کھلنے کے بعد سے</string>
+    <string name="last_hours">گزشتہ X گھنٹے</string>
+    <string name="hours_value">%1$d گھ</string>
+    <string name="edit_by">%1$s کی جانب سے ترمیم</string>
+    <string name="no_description">کوئی تفصیل دستیاب نہیں۔</string>
+    <string name="empty">منتخب فلٹرز کے لیے کوئی ریکارڈ نہیں۔</string>
+    <string name="settings">ترتیبات</string>
+    <string name="back">پیچھے</string>
+    <string name="details">تفصیلات</string>
+    <string name="error_details_title">درخواست کی ناکامیاں</string>
+    <string name="error_summary">%2$d زبان کے نسخوں میں سے %1$d لوڈ ہوئے</string>
+    <string name="error_all_ok">تمام زبان کے نسخے کامیابی سے لوڈ ہو گئے ہیں۔</string>
+    <string name="error_partial">کچھ زبان کے نسخوں تک رسائی ممکن نہیں ہو سکی۔ فہرست کے لیے «تفصیلات» پر ٹیپ کریں۔</string>
+    <string name="error_total">ویکیپیڈیا تک بالکل رسائی ممکن نہیں ہو سکی۔ اپنا کنکشن چیک کریں۔</string>
+</resources>

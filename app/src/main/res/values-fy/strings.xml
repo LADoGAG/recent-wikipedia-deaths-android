@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Resinte stjergefallen op Wikipedia</string>
+    <string name="wiki_sections">Wikipedia-talútjeften</string>
+    <string name="all_languages">Alle talen</string>
+    <string name="langs_selected">%1$d fan %2$d</string>
+    <string name="select_all">Alles selektearje</string>
+    <string name="done">Klear</string>
+    <string name="timeframe">Tiidperioade</string>
+    <string name="live_only">Sûnt it iepenjen fan de app</string>
+    <string name="last_hours">Lêste X oeren</string>
+    <string name="hours_value">%1$d o</string>
+    <string name="edit_by">Bewurking troch %1$s</string>
+    <string name="no_description">Gjin beskriuwing beskikber.</string>
+    <string name="empty">Gjin records foar de selektearre filters.</string>
+    <string name="settings">Ynstellingen</string>
+    <string name="back">Werom</string>
+    <string name="details">Details</string>
+    <string name="error_details_title">Fersykflaters</string>
+    <string name="error_summary">%1$d fan %2$d edysjes laden</string>
+    <string name="error_all_ok">Alle edysjes binne mei sukses laden.</string>
+    <string name="error_partial">Guon edysjes koene net berikt wurde. Tikje op «Details» foar in list.</string>
+    <string name="error_total">Wikipedia koe hielendal net berikt wurde. Kontrolearje jo ferbining.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Deadams nilöfik su Vükiped</string>
+    <string name="wiki_sections">Püks lingavik Vükipeda</string>
+    <string name="all_languages">Püks valik</string>
+    <string name="langs_selected">%1$d de %2$d</string>
+    <string name="select_all">Välön valikis</string>
+    <string name="done">Fenikü</string>
+    <string name="timeframe">Timaspad</string>
+    <string name="live_only">De pämaifükam aplikama</string>
+    <string name="last_hours">Düps X lätik</string>
+    <string name="hours_value">%1$d d</string>
+    <string name="edit_by">Votükam fa %1$s</string>
+    <string name="no_description">Bepenon no dabinon.</string>
+    <string name="empty">No dabinons nüns pro filtrums pävälöl.</string>
+    <string name="settings">Paramets</string>
+    <string name="back">Geik</string>
+    <string name="details">Dets</string>
+    <string name="error_details_title">Failots beloda</string>
+    <string name="error_summary">%1$d de %2$d püks lingavik peloadons</string>
+    <string name="error_all_ok">Püks lingavik valik peloadons benosegiko.</string>
+    <string name="error_partial">Püks lingavik semik no äkanons pagekön. Tapön «Dets» pro lised.</string>
+    <string name="error_total">No äkanon pagekön Vükipedi. Kontrolön lienami.</string>
+</resources>

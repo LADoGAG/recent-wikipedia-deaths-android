@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Recente sterfgevallen op Wikipedia</string>
+    <string name="wiki_sections">Wikipedia-taalversies</string>
+    <string name="all_languages">Alle talen</string>
+    <string name="langs_selected">%1$d van %2$d</string>
+    <string name="select_all">Alles selecteren</string>
+    <string name="done">Klaar</string>
+    <string name="timeframe">Tijdsperiode</string>
+    <string name="live_only">Sinds de app is geopend</string>
+    <string name="last_hours">Laatste X uur</string>
+    <string name="hours_value">%1$d u</string>
+    <string name="edit_by">Bewerking door %1$s</string>
+    <string name="no_description">Geen beschrijving beschikbaar.</string>
+    <string name="empty">Geen records voor de geselecteerde filters.</string>
+    <string name="settings">Instellingen</string>
+    <string name="back">Terug</string>
+    <string name="details">Details</string>
+    <string name="error_details_title">Verzoekfouten</string>
+    <string name="error_summary">%1$d van %2$d taalversies geladen</string>
+    <string name="error_all_ok">Alle taalversies zijn succesvol geladen.</string>
+    <string name="error_partial">Sommige taalversies konden niet worden bereikt. Tik op «Details» voor een lijst.</string>
+    <string name="error_total">Wikipedia kon helemaal niet worden bereikt. Controleer uw verbinding.</string>
+</resources>

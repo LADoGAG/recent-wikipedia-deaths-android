@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Nesenās nāves Vikipēdijā</string>
+    <string name="wiki_sections">Vikipēdijas valodu versijas</string>
+    <string name="all_languages">Visas valodas</string>
+    <string name="langs_selected">%1$d no %2$d</string>
+    <string name="select_all">Atlasīt visu</string>
+    <string name="done">Gatavs</string>
+    <string name="timeframe">Laika periods</string>
+    <string name="live_only">Kopš lietotnes atvēršanas</string>
+    <string name="last_hours">Pēdējās X stundas</string>
+    <string name="hours_value">%1$d st</string>
+    <string name="edit_by">%1$s labojums</string>
+    <string name="no_description">Apraksts nav pieejams.</string>
+    <string name="empty">Atlasītajiem filtriem nav ierakstu.</string>
+    <string name="settings">Iestatījumi</string>
+    <string name="back">Atpakaļ</string>
+    <string name="details">Detaļas</string>
+    <string name="error_details_title">Pieprasījumu kļūdas</string>
+    <string name="error_summary">Ielādēti %1$d no %2$d valodu versijām</string>
+    <string name="error_all_ok">Visi izdevumi ir veiksmīgi ielādēti.</string>
+    <string name="error_partial">Dažiem izdevumiem nevarēja piekļūt. Pieskarieties «Detaļas», lai skatītu sarakstu.</string>
+    <string name="error_total">Nevarēja izveidot savienojumu ar Vikipēdiju. Pārbaudiet savienojumu.</string>
+</resources>

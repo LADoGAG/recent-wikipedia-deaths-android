@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ވިކިޕީޑިއާގައި ފަހުގެ މަރުތައް</string>
+    <string name="wiki_sections">ވިކިޕީޑިއާ ބަސް އިޑިޝަންތައް</string>
+    <string name="all_languages">ހުރިހާ ބަހެއް</string>
+    <string name="langs_selected">%2$d ގެ %1$d</string>
+    <string name="select_all">ހުރިހާ އެއްޗެއް ހޮވާ</string>
+    <string name="done">ނިމިއްޖެ</string>
+    <string name="timeframe">މުއްދަތު</string>
+    <string name="live_only">އެޕް ހުޅުވި ވަގުތުން ފެށިގެން</string>
+    <string name="last_hours">ފާއިތުވި X ގަޑިއިރު</string>
+    <string name="hours_value">%1$d ގ</string>
+    <string name="edit_by">%1$s އިން އިސްލާހު</string>
+    <string name="no_description">ސިފަ ކުރުމެއް ނެތް.</string>
+    <string name="empty">ހޮވާފައިވާ ފިލްޓަރު ތަކަކަށް ރެކޯޑެއް ނެތް.</string>
+    <string name="settings">ސެޓިންގްސް</string>
+    <string name="back">ފަހަތަށް</string>
+    <string name="details">ތަފްސީލު</string>
+    <string name="error_details_title">އެދްރުކުމުގެ ނާކާމިޔާބީ</string>
+    <string name="error_summary">%2$d ބަސް އިޑިޝަންތަކުގެ ތެރެއިން %1$d ލޯޑް ވެއްޖެ</string>
+    <string name="error_all_ok">ހުރިހާ ބަސް އިޑިޝަންތައް ކާމިޔާބު ކަމާއެކު ލޯޑް ވެއްޖެ.</string>
+    <string name="error_partial">ބައެއް ބަސް އިޑިޝަންތަކަށް ވަނުމަށް ދަތިވެއްޖެ. ލިސްޓު ބެލުމަށް «ތަފްސީލު» އަށް ފިތާލާ.</string>
+    <string name="error_total">ވިކިޕީޑިއާ އަށް ގުޅުމެއް ނުވެއްޖެ. ކަނެކްޝަން ބައްލަވާ.</string>
+</resources>

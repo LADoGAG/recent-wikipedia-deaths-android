@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Môrts récints so Wikipedia</string>
+    <string name="wiki_sections">Modêyes di Wikipedia pa lingaedje</string>
+    <string name="all_languages">Tos les lingaedjes</string>
+    <string name="langs_selected">%1$d so %2$d</string>
+    <string name="select_all">Tchoezi totafwait</string>
+    <string name="done">Fwait</string>
+    <string name="timeframe">Termene</string>
+    <string name="live_only">Dispoy ki l\'app est drovowe</string>
+    <string name="last_hours">Dierinnes X eures</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Candjmint pa %1$s</string>
+    <string name="no_description">Nole discrijhaedje disponibe.</string>
+    <string name="empty">Nole registråcion po les tchuzes tchoezeyes.</string>
+    <string name="settings">Apontiaedjes</string>
+    <string name="back">En erî</string>
+    <string name="details">Detays</string>
+    <string name="error_details_title">Des failures di dmande</string>
+    <string name="error_summary">%1$d so %2$d modêyes di lingaedje tcherdjeyes</string>
+    <string name="error_all_ok">Totes les modêyes di lingaedje ont stî tcherdjeyes avou succès.</string>
+    <string name="error_partial">Sacwantès modêyes di lingaedje n\'ont nén polou esse aténzhûtes. Taper so «Detays» pol djivêye.</string>
+    <string name="error_total">On n\'a nén polou aténzhûte Wikipedia. Verifyîz vosse raloyaedje.</string>
+</resources>

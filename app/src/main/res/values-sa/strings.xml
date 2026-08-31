@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">विकिपीडियायां अलीकानि निधनानि</string>
+    <string name="wiki_sections">विकिपीडिया भाषा अनुवृत्तयः</string>
+    <string name="all_languages">सर्वाः भाषाः</string>
+    <string name="langs_selected">%2$d मध्ये %1$d</string>
+    <string name="select_all">सर्वाणि चिनुत</string>
+    <string name="done">सम्पूर्णम्</string>
+    <string name="timeframe">कालावधिः</string>
+    <string name="live_only">अनुप्रयोगस्य उद्घाटनात् प्राक्</string>
+    <string name="last_hours">गतानि X घण्टाः</string>
+    <string name="hours_value">%1$d घ</string>
+    <string name="edit_by">%1$s इत्यनेन सम्पादनम्</string>
+    <string name="no_description">वर्णनं नास्ति।</string>
+    <string name="empty">चयितेषु फिल्टरेषु अभिलेखाः न सन्ति।</string>
+    <string name="settings">सेटिंग्स्</string>
+    <string name="back">पृष्ठतः</string>
+    <string name="details">विवरणम्</string>
+    <string name="error_details_title">अनुरोधस्य विफलताः</string>
+    <string name="error_summary">%2$d भाषा अनुवृत्तिषु %1$d लोडिताः</string>
+    <string name="error_all_ok">सर्वाः भाषा अनुवृत्तयः सफलतया लोडिताः।</string>
+    <string name="error_partial">काश्चन भाषा अनुवृत्तयः प्राप्तुं न शक्यन्ते। सूचीं द्रष्टुं «विवरणम्» स्पृशतु।</string>
+    <string name="error_total">विकिपीडियां प्राप्तुं न शक्यते। स्वस्य संयोजनं परीक्षतु।</string>
+</resources>

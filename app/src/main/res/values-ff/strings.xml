@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Maayɓe ɓaawo e Wikipedia</string>
+    <string name="wiki_sections">Fannuuji ɗemngal Wikipedia</string>
+    <string name="all_languages">Ɗemɗe fof</string>
+    <string name="langs_selected">%1$d e %2$d</string>
+    <string name="select_all">Suɓo fof</string>
+    <string name="done">Gasii</string>
+    <string name="timeframe">Sahaa</string>
+    <string name="live_only">Gila nde app udditaa</string>
+    <string name="last_hours">Waktuuji X ɓennuɗi</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Baylugol e %1$s</string>
+    <string name="no_description">Alaa firo.</string>
+    <string name="empty">Alaa binndanɗe ngam ɗe cuɓi-ɗaa.</string>
+    <string name="settings">Teelte</string>
+    <string name="back">Rutto</string>
+    <string name="details">Cariiɗe</string>
+    <string name="error_details_title">Juuɓe naamne</string>
+    <string name="error_summary">%1$d e %2$d fannuuji ɗemngal loowaama</string>
+    <string name="error_all_ok">Fannuuji ɗemngal fof loowaama e moƴƴere.</string>
+    <string name="error_partial">Fannuuji goɗɗi mbaawaa yettaade. Ñoƴƴu «Cariiɗe» ngam doggol.</string>
+    <string name="error_total">Wikipedia waawaa yettaade. Ƴeew jokkondiral maa.</string>
+</resources>

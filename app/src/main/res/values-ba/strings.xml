@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Википедиялағы һуңғы үлемдәр</string>
+    <string name="wiki_sections">Википедия тел бүлектәре</string>
+    <string name="all_languages">Бөтә телдәр</string>
+    <string name="langs_selected">%2$d-ҙән %1$d</string>
+    <string name="select_all">Барыһын да һайлау</string>
+    <string name="done">Тамам</string>
+    <string name="timeframe">Ваҡыт аралығы</string>
+    <string name="live_only">Ҡушымта асылғандан бирле</string>
+    <string name="last_hours">Һуңғы X сәғәт</string>
+    <string name="hours_value">%1$d с</string>
+    <string name="edit_by">%1$s үҙгәртеүе</string>
+    <string name="no_description">Тасуирлама юҡ.</string>
+    <string name="empty">Һайланған фильтрҙар буйынса яҙмалар юҡ.</string>
+    <string name="settings">Көйләүҙәр</string>
+    <string name="back">Артҡа</string>
+    <string name="details">Тулыраҡ мәғлүмәт</string>
+    <string name="error_details_title">Һоратыу хаталары</string>
+    <string name="error_summary">%2$d тел бүлегенең %1$d йөкләнде</string>
+    <string name="error_all_ok">Бөтә бүлектәр уңышлы йөкләнде.</string>
+    <string name="error_partial">Ҡайһы бер бүлектәргә инеп булмай. Теҙмә өсөн «Тулыраҡ мәғлүмәт» төймәһенә баҫығыҙ.</string>
+    <string name="error_total">Википедияға бөтөнләй инеп булмай. Бәйләнеште тикшерегеҙ.</string>
+</resources>

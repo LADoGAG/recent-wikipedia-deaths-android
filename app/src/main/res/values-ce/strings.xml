@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Википедера тІаьхьлерачу деношкахь белларш</string>
+    <string name="wiki_sections">Википедин меттан дакъош</string>
+    <string name="all_languages">Дерриге меттанаш</string>
+    <string name="langs_selected">%2$d чуьра %1$d</string>
+    <string name="select_all">Дерриге харжа</string>
+    <string name="done">Кийча ду</string>
+    <string name="timeframe">Хан</string>
+    <string name="live_only">ТIетоьхна схьайиллинчуьра дуьйна</string>
+    <string name="last_hours">ТІаьхьара X сахьт</string>
+    <string name="hours_value">%1$d с</string>
+    <string name="edit_by">%1$s нисдар</string>
+    <string name="no_description">Цхьаьна хаамах лаьцна дац.</string>
+    <string name="empty">Хаьржинчу фильтрашкахь цхьаьна хӏума дац.</string>
+    <string name="settings">Нисдаран гІирс</string>
+    <string name="back">Юхьанца</string>
+    <string name="details">Ма-дарра</string>
+    <string name="error_details_title">Дехаран гІалаташ</string>
+    <string name="error_summary">%2$d меттан дакъош чуьра %1$d чудаьккхина</string>
+    <string name="error_all_ok">Дерриге дакъош кхиаме чудаьккхина.</string>
+    <string name="error_partial">Цхьайолчу дакъошка кхача ца ло. Тоьшалла «Ма-дарра» тІетаІае.</string>
+    <string name="error_total">Википедица цхьаьна хӏума ца ло. Зӏе хьажа.</string>
+</resources>

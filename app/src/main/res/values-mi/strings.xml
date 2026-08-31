@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ngā matenga tata ki Wikipedia</string>
+    <string name="wiki_sections">Ngā putanga reo o Wikipedia</string>
+    <string name="all_languages">Ngā reo katoa</string>
+    <string name="langs_selected">%1$d o %2$d</string>
+    <string name="select_all">Tīpakohia te katoa</string>
+    <string name="done">Kua oti</string>
+    <string name="timeframe">Wā</string>
+    <string name="live_only">Mai i te whakatuwheratanga o te taupānga</string>
+    <string name="last_hours">Ngā hāora X whakamutunga</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Whakatika e %1$s</string>
+    <string name="no_description">Kāore he whakamārama.</string>
+    <string name="empty">Kāore he pūkete mō ngā tātari i tīpakohia.</string>
+    <string name="settings">Ngā tautuhinga</string>
+    <string name="back">Hoki</string>
+    <string name="details">Ngā taipitopito</string>
+    <string name="error_details_title">Ngā hapa tono</string>
+    <string name="error_summary">%1$d o %2$d putanga reo kua utaina</string>
+    <string name="error_all_ok">Kua utaina pai ngā putanga katoa.</string>
+    <string name="error_partial">Kāore i taea te toro atu ki ētahi putanga. Pātō «Ngā taipitopito» mō te rārangi.</string>
+    <string name="error_total">Kāore i taea te toro atu ki Wikipedia. Tirohia tō hononga.</string>
+</resources>

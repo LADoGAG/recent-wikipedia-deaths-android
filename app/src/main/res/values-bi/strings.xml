@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ol ded we i jes hapen long Wikipedia</string>
+    <string name="wiki_sections">Lanwis edisen blong Wikipedia</string>
+    <string name="all_languages">Olgeta lanwis</string>
+    <string name="langs_selected">%1$d long %2$d</string>
+    <string name="select_all">Jusum olgeta</string>
+    <string name="done">Finis</string>
+    <string name="timeframe">Taem</string>
+    <string name="live_only">Stat taem app i open</string>
+    <string name="last_hours">Las X aoa</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Edisen blong %1$s</string>
+    <string name="no_description">I no gat deskripsen.</string>
+    <string name="empty">I no gat rikod blong ol filta we yu jusum.</string>
+    <string name="settings">Setings</string>
+    <string name="back">Gobak</string>
+    <string name="details">Ol ditel</string>
+    <string name="error_details_title">Ol rikwes we i foldaon</string>
+    <string name="error_summary">%1$d long %2$d lanwis edisen i lod</string>
+    <string name="error_all_ok">Olgeta edisen i lod gud.</string>
+    <string name="error_partial">Sam edisen yumi no save kasem. Presem «Ol ditel» blong lukim lis.</string>
+    <string name="error_total">Yumi no save kasem Wikipedia nating. Jekem koneksen blong yu.</string>
+</resources>

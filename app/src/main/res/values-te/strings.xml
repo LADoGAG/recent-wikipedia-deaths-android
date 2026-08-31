@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">వికీపీడియాలో ఇటీవలి మరణాలు</string>
+    <string name="wiki_sections">వికీపీడియా భాషా సంచికలు</string>
+    <string name="all_languages">అన్ని భాషలు</string>
+    <string name="langs_selected">%2$d లో %1$d</string>
+    <string name="select_all">అన్నీ ఎంచుకోండి</string>
+    <string name="done">పూర్తయింది</string>
+    <string name="timeframe">కాల వ్యవధి</string>
+    <string name="live_only">యాప్ తెరిచినప్పటి నుండి</string>
+    <string name="last_hours">గత X గంటలు</string>
+    <string name="hours_value">%1$d గం</string>
+    <string name="edit_by">%1$s ద్వారా సవరణ</string>
+    <string name="no_description">వివరణ అందుబాటులో లేదు.</string>
+    <string name="empty">ఎంచుకున్న ఫిల్టర్‌లకు రికార్డులు లేవు.</string>
+    <string name="settings">సెట్టింగ్‌లు</string>
+    <string name="back">వెనుకకు</string>
+    <string name="details">వివరాలు</string>
+    <string name="error_details_title">అభ్యర్థన వైఫల్యాలు</string>
+    <string name="error_summary">%2$d భాషా సంచికలలో %1$d లోడ్ అయ్యాయి</string>
+    <string name="error_all_ok">అన్ని భాషా సంచికలు విజయవంతంగా లోడ్ అయ్యాయి.</string>
+    <string name="error_partial">కొన్ని భాషా సంచికలను యాక్సెస్ చేయలేకపోయాము. జాబితా కోసం «వివరాలు» నొక్కండి.</string>
+    <string name="error_total">వికీపీడియాను అస్సలు యాక్సెస్ చేయలేకపోయాము. మీ కనెక్షన్‌ను తనిఖీ చేయండి.</string>
+</resources>

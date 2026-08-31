@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Decese recente pe Wikipedia</string>
+    <string name="wiki_sections">Versiuni lingvistice ale Wikipediei</string>
+    <string name="all_languages">Toate limbile</string>
+    <string name="langs_selected">%1$d din %2$d</string>
+    <string name="select_all">Selectează tot</string>
+    <string name="done">Terminat</string>
+    <string name="timeframe">Perioadă de timp</string>
+    <string name="live_only">De la deschiderea aplicației</string>
+    <string name="last_hours">Ultimele X ore</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Editare de %1$s</string>
+    <string name="no_description">Nicio descriere disponibilă.</string>
+    <string name="empty">Nu există înregistrări pentru filtrele selectate.</string>
+    <string name="settings">Setări</string>
+    <string name="back">Înapoi</string>
+    <string name="details">Detalii</string>
+    <string name="error_details_title">Eșecuri ale cererilor</string>
+    <string name="error_summary">%1$d din %2$d versiuni lingvistice încărcate</string>
+    <string name="error_all_ok">Toate versiunile lingvistice au fost încărcate cu succes.</string>
+    <string name="error_partial">Unele versiuni lingvistice nu au putut fi accesate. Atingeți «Detalii» pentru o listă.</string>
+    <string name="error_total">Nu s-a putut accesa Wikipedia deloc. Verificați conexiunea.</string>
+</resources>

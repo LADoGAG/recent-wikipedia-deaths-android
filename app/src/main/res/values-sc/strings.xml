@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mortes reghentes in Wikipedia</string>
+    <string name="wiki_sections">Editziones linguìsticas de Wikipedia</string>
+    <string name="all_languages">Totu sas limbas</string>
+    <string name="langs_selected">%1$d de %2$d</string>
+    <string name="select_all">Seletziona totu</string>
+    <string name="done">Fatu</string>
+    <string name="timeframe">Perìodu de tempus</string>
+    <string name="live_only">Dae s\'abertura de s\'aplicatzione</string>
+    <string name="last_hours">Ùrtimas X oras</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Editzione de %1$s</string>
+    <string name="no_description">Peruna descritzione disponìbile.</string>
+    <string name="empty">Perunu registru pro sos filtros seletzionados.</string>
+    <string name="settings">Cunfiguratziones</string>
+    <string name="back">In segus</string>
+    <string name="details">Detàllios</string>
+    <string name="error_details_title">Faddinas de rechesta</string>
+    <string name="error_summary">%1$d de %2$d editziones linguìsticas carrigadas</string>
+    <string name="error_all_ok">Totu sas editziones linguìsticas sunt istadas carrigadas cun sutzessu.</string>
+    <string name="error_partial">Carchi editzione linguìstica non est istada atzessìbile. Toca «Detàllios» pro sa lista.</string>
+    <string name="error_total">Non s\'est pòdidu atzèdere a Wikipedia. Controlla sa connessione tua.</string>
+</resources>

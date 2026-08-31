@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Wikiibíídiiya bikáa\'gi ániidídaaztsą́ą́gíídę́ę́\'</string>
+    <string name="wiki_sections">Wikiibíídiiya saad dabitsʼą́ą́dę́ę́ʼígíí</string>
+    <string name="all_languages">Saad tʼáá ałtso</string>
+    <string name="langs_selected">%1$d %2$d yiyiizį́į́\'</string>
+    <string name="select_all">Tʼáá ałtso hanihił</string>
+    <string name="done">Ályaa</string>
+    <string name="timeframe">Ahoolzhiizhígíí</string>
+    <string name="live_only">Béésh bee nitsékeesí kótʼéego iłtsą́ądą́ą́ʼ</string>
+    <string name="last_hours">Ahoolzhiizh dį́į́shjį́į́go %1$d ahééʼílkid</string>
+    <string name="hours_value">%1$d ahééʼílkid</string>
+    <string name="edit_by">%1$s łahgo áshilaa</string>
+    <string name="no_description">Doo baa haneʼ da.</string>
+    <string name="empty">Doo tʼáá kótʼéego dahólǫ́ǫ da.</string>
+    <string name="settings">Binaaltsoos hashtʼeelyaaígíí</string>
+    <string name="back">Kaaníigo</string>
+    <string name="details">Baa haneʼ tʼáá ałtso</string>
+    <string name="error_details_title">Béésh bee haneʼ doo yáʼátʼéeh da</string>
+    <string name="error_summary">%1$d %2$d saad yishchį́į́go haasttsod</string>
+    <string name="error_all_ok">Tʼáá ałtso yáʼátʼéehko haasttsod.</string>
+    <string name="error_partial">Łaʼ saad doo bikʼídiitʼáah da. «Baa haneʼ» bikáá\' adidilníihgo biniinaaígíí bidiitsʼį́į́ł.</string>
+    <string name="error_total">Wikiibíídiiya doo bikʼídiitʼáah da. Béésh bee haneʼ tʼáadoo leʼé baa níníłʼį́į́h.</string>
+</resources>

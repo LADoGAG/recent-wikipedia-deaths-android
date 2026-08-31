@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ۋىكىپېدىيەدىكى يېقىنقى ۋاپاتلار</string>
+    <string name="wiki_sections">ۋىكىپېدىيە تىل نەشرلىرى</string>
+    <string name="all_languages">بارلىق تىللار</string>
+    <string name="langs_selected">%2$d دىن %1$d</string>
+    <string name="select_all">ھەممىنى تاللاش</string>
+    <string name="done">تامام</string>
+    <string name="timeframe">ۋاقىت ئارالىقى</string>
+    <string name="live_only">ئەپ ئېچىلغاندىن بۇيان</string>
+    <string name="last_hours">ئاخىرقى X سائەت</string>
+    <string name="hours_value">%1$d س</string>
+    <string name="edit_by">%1$s تەھرىرلىگەن</string>
+    <string name="no_description">چۈشەندۈرۈش يوق.</string>
+    <string name="empty">تاللانغان سۈزگۈچلەر ئۈچۈن خاتىرە يوق.</string>
+    <string name="settings">تەڭشەكلەر</string>
+    <string name="back">قايتىش</string>
+    <string name="details">تەپسىلاتلار</string>
+    <string name="error_details_title">تەلەپ خاتالىقلىرى</string>
+    <string name="error_summary">%2$d تىل نەشرىدىن %1$d يۈكلەندى</string>
+    <string name="error_all_ok">بارلىق تىل نەشرلىرى مۇۋەپپەقىيەتلىك يۈكلەندى.</string>
+    <string name="error_partial">بەزى تىل نەشرلىرىگە كىرگىلى بولمىدى. تىزىملىك ئۈچۈن «تەپسىلاتلار» نى بېسىڭ.</string>
+    <string name="error_total">ۋىكىپېدىيەگە قەتئىي كىرگىلى بولمىدى. ئۇلىنىشىڭىزنى تەكشۈرۈڭ.</string>
+</resources>

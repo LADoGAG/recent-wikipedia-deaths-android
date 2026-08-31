@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Википедиа дахь саяхны нас баралтууд</string>
+    <string name="wiki_sections">Википедиа хэлний хувилбарууд</string>
+    <string name="all_languages">Бүх хэл</string>
+    <string name="langs_selected">%2$d-с %1$d</string>
+    <string name="select_all">Бүгдийг сонгох</string>
+    <string name="done">Дууссан</string>
+    <string name="timeframe">Хугацаа</string>
+    <string name="live_only">Апп нээгдсэнээс хойш</string>
+    <string name="last_hours">Сүүлийн X цаг</string>
+    <string name="hours_value">%1$d ц</string>
+    <string name="edit_by">%1$s-н засвар</string>
+    <string name="no_description">Тайлбар байхгүй.</string>
+    <string name="empty">Сонгосон шүүлтүүрт бүртгэл байхгүй.</string>
+    <string name="settings">Тохиргоо</string>
+    <string name="back">Буцах</string>
+    <string name="details">Дэлгэрэнгүй</string>
+    <string name="error_details_title">Хүсэлтийн алдаа</string>
+    <string name="error_summary">%2$d хэлний хувилбараас %1$d ачаалагдсан</string>
+    <string name="error_all_ok">Бүх хэлний хувилбарууд амжилттай ачаалагдлаа.</string>
+    <string name="error_partial">Зарим хэлний хувилбарт хандаж чадсангүй. Жагсаалтыг харахын тулд «Дэлгэрэнгүй»-г дарна уу.</string>
+    <string name="error_total">Википедиад огт хандаж чадсангүй. Холболтоо шалгана уу.</string>
+</resources>

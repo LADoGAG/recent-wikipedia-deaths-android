@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Dènye lanmò sou Wikipedia</string>
+    <string name="wiki_sections">Edisyon lang Wikipedia</string>
+    <string name="all_languages">Tout lang yo</string>
+    <string name="langs_selected">%1$d sou %2$d</string>
+    <string name="select_all">Chwazi tout</string>
+    <string name="done">Fè</string>
+    <string name="timeframe">Peryòd tan</string>
+    <string name="live_only">Depi app lan ouvri</string>
+    <string name="last_hours">Dènye X èdtan yo</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Edisyon pa %1$s</string>
+    <string name="no_description">Pa gen deskripsyon ki disponib.</string>
+    <string name="empty">Pa gen dosye pou filtè yo chwazi yo.</string>
+    <string name="settings">Paramèt</string>
+    <string name="back">Retounen</string>
+    <string name="details">Detay</string>
+    <string name="error_details_title">Erè nan demann</string>
+    <string name="error_summary">%1$d sou %2$d edisyon lang chaje</string>
+    <string name="error_all_ok">Tout edisyon yo chaje avèk siksè.</string>
+    <string name="error_partial">Kèk edisyon pa t ka jwenn. Tape «Detay» pou yon lis.</string>
+    <string name="error_total">Pa t ka rive sou Wikipedia ditou. Tcheke koneksyon ou.</string>
+</resources>

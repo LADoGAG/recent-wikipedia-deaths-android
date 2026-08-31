@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Morts recents a la Viquipèdia</string>
+    <string name="wiki_sections">Edicions lingüístiques de la Viquipèdia</string>
+    <string name="all_languages">Tots els idiomes</string>
+    <string name="langs_selected">%1$d de %2$d</string>
+    <string name="select_all">Selecciona-ho tot</string>
+    <string name="done">Fet</string>
+    <string name="timeframe">Període de temps</string>
+    <string name="live_only">Des que s\'ha obert l\'aplicació</string>
+    <string name="last_hours">Últimes X hores</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Edició per %1$s</string>
+    <string name="no_description">No hi ha descripció disponible.</string>
+    <string name="empty">No hi ha registres per als filtres seleccionats.</string>
+    <string name="settings">Configuració</string>
+    <string name="back">Enrere</string>
+    <string name="details">Detalls</string>
+    <string name="error_details_title">Errors de sol·licitud</string>
+    <string name="error_summary">%1$d de %2$d edicions lingüístiques carregades</string>
+    <string name="error_all_ok">Totes les edicions s\'han carregat correctament.</string>
+    <string name="error_partial">No s\'ha pogut accedir a algunes edicions. Toca «Detalls» per veure la llista.</string>
+    <string name="error_total">No s\'ha pogut contactar amb la Viquipèdia. Comprova la teva connexió.</string>
+</resources>

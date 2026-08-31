@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Marwolaethau Diweddar ar Wicipedia</string>
+    <string name="wiki_sections">Rhifynnau iaith Wicipedia</string>
+    <string name="all_languages">Pob iaith</string>
+    <string name="langs_selected">%1$d o %2$d</string>
+    <string name="select_all">Dewis popeth</string>
+    <string name="done">Gorffenwyd</string>
+    <string name="timeframe">Cyfnod amser</string>
+    <string name="live_only">Ers i\'r app gael ei agor</string>
+    <string name="last_hours">Y X awr diwethaf</string>
+    <string name="hours_value">%1$d awr</string>
+    <string name="edit_by">Golygiad gan %1$s</string>
+    <string name="no_description">Dim disgrifiad ar gael.</string>
+    <string name="empty">Dim cofnodion ar gyfer yr hidlyddion a ddewiswyd.</string>
+    <string name="settings">Gosodiadau</string>
+    <string name="back">Yn ôl</string>
+    <string name="details">Manylion</string>
+    <string name="error_details_title">Methiannau cais</string>
+    <string name="error_summary">%1$d o %2$d rhifyn iaith wedi\'u llwytho</string>
+    <string name="error_all_ok">Llwythwyd pob rhifyn yn llwyddiannus.</string>
+    <string name="error_partial">Nid oedd modd cyrraedd rhai rhifynnau. Tapiwch «Manylion» am restr.</string>
+    <string name="error_total">Methwyd â chyrraedd Wicipedia o gwbl. Gwiriwch eich cysylltiad.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mortes recente in Wikipedia</string>
+    <string name="wiki_sections">Editiones linguistic de Wikipedia</string>
+    <string name="all_languages">Tote le linguas</string>
+    <string name="langs_selected">%1$d de %2$d</string>
+    <string name="select_all">Seliger toto</string>
+    <string name="done">Facite</string>
+    <string name="timeframe">Periodo de tempore</string>
+    <string name="live_only">Depost le apertura del app</string>
+    <string name="last_hours">Ultime X horas</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Modification per %1$s</string>
+    <string name="no_description">Nulle description disponibile.</string>
+    <string name="empty">Nulle registros pro le filtros seligite.</string>
+    <string name="settings">Preferentias</string>
+    <string name="back">Retornar</string>
+    <string name="details">Detalios</string>
+    <string name="error_details_title">Fracassos del requestas</string>
+    <string name="error_summary">%1$d de %2$d editiones linguistic cargate</string>
+    <string name="error_all_ok">Tote le editiones linguistic ha essite cargate con successo.</string>
+    <string name="error_partial">Alcun editiones linguistic non poteva esser attingite. Tocca «Detalios» pro le lista.</string>
+    <string name="error_total">Non poteva attinger Wikipedia del toto. Verifica tu connexion.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ਵਿਕੀਪੀਡੀਆ \'ਤੇ ਹਾਲ ਹੀ ਵਿੱਚ ਮੌਤਾਂ</string>
+    <string name="wiki_sections">ਵਿਕੀਪੀਡੀਆ ਭਾਸ਼ਾ ਸੰਸਕਰਣ</string>
+    <string name="all_languages">ਸਾਰੀਆਂ ਭਾਸ਼ਾਵਾਂ</string>
+    <string name="langs_selected">%2$d ਵਿੱਚੋਂ %1$d</string>
+    <string name="select_all">ਸਭ ਚੁਣੋ</string>
+    <string name="done">ਹੋ ਗਿਆ</string>
+    <string name="timeframe">ਸਮਾਂ ਮਿਆਦ</string>
+    <string name="live_only">ਐਪ ਖੋਲ੍ਹਣ ਤੋਂ ਬਾਅਦ</string>
+    <string name="last_hours">ਪਿਛਲੇ X ਘੰਟੇ</string>
+    <string name="hours_value">%1$d ਘੰ</string>
+    <string name="edit_by">%1$s ਦੁਆਰਾ ਸੰਪਾਦਨ</string>
+    <string name="no_description">ਕੋਈ ਵੇਰਵਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।</string>
+    <string name="empty">ਚੁਣੇ ਫਿਲਟਰਾਂ ਲਈ ਕੋਈ ਰਿਕਾਰਡ ਨਹੀਂ ਹਨ।</string>
+    <string name="settings">ਸੈਟਿੰਗਾਂ</string>
+    <string name="back">ਪਿੱਛੇ</string>
+    <string name="details">ਵੇਰਵੇ</string>
+    <string name="error_details_title">ਬੇਨਤੀ ਅਸਫਲਤਾਵਾਂ</string>
+    <string name="error_summary">%2$d ਭਾਸ਼ਾ ਸੰਸਕਰਣਾਂ ਵਿੱਚੋਂ %1$d ਲੋਡ ਹੋਏ</string>
+    <string name="error_all_ok">ਸਾਰੇ ਭਾਸ਼ਾ ਸੰਸਕਰਣ ਸਫਲਤਾਪੂਰਵਕ ਲੋਡ ਹੋਏ ਹਨ।</string>
+    <string name="error_partial">ਕੁਝ ਭਾਸ਼ਾ ਸੰਸਕਰਣਾਂ ਤੱਕ ਪਹੁੰਚ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ। ਸੂਚੀ ਲਈ «ਵੇਰਵੇ» \'ਤੇ ਟੈਪ ਕਰੋ।</string>
+    <string name="error_total">ਵਿਕੀਪੀਡੀਆ ਤੱਕ ਬਿਲਕੁਲ ਪਹੁੰਚ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ। ਆਪਣਾ ਕਨੈਕਸ਼ਨ ਜਾਂਚੋ।</string>
+</resources>

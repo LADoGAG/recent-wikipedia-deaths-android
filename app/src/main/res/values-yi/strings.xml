@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">לעצטע טויטן אויף וויקיפעדיע</string>
+    <string name="wiki_sections">שפּראַך־אויסגאַבעס פֿון וויקיפעדיע</string>
+    <string name="all_languages">אַלע שפּראַכן</string>
+    <string name="langs_selected">%1$d פֿון %2$d</string>
+    <string name="select_all">אויסקלייַבן אַלע</string>
+    <string name="done">פֿאַרטיק</string>
+    <string name="timeframe">צײַט פּעריאָד</string>
+    <string name="live_only">זינט די אַפּ איז געעפֿנט</string>
+    <string name="last_hours">לעצטע X שעה</string>
+    <string name="hours_value">%1$d ש</string>
+    <string name="edit_by">רעדאַקטירט דורך %1$s</string>
+    <string name="no_description">קיין באַשרײַבונג איז נישט פֿאַראַן.</string>
+    <string name="empty">קיין רעקאָרדס פֿאַר די אויסגעקליבענע פֿילטערס.</string>
+    <string name="settings">אײַנשטעלונגען</string>
+    <string name="back">צוריק</string>
+    <string name="details">פּרטים</string>
+    <string name="error_details_title">בעטן דורכפֿאַלן</string>
+    <string name="error_summary">%1$d פֿון %2$d שפּראַך־אויסגאַבעס זענען געלאָדן</string>
+    <string name="error_all_ok">אַלע שפּראַך־אויסגאַבעס זענען הצלחה\'דיק געלאָדן.</string>
+    <string name="error_partial">עטלעכע שפּראַך־אויסגאַבעס האָט מען נישט געקענט דערגרייכן. קלאַפּט «פּרטים» פֿאַר אַ ליסטע.</string>
+    <string name="error_total">מען האָט אינגאַנצן נישט געקענט דערגרייכן וויקיפעדיע. קאָנטראָלירט אײַער פֿאַרבינדונג.</string>
+</resources>

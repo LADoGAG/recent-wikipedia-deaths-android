@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Уикипедиядағы соңғы қайтыс болғандар</string>
+    <string name="wiki_sections">Уикипедия тіл бөлімдері</string>
+    <string name="all_languages">Барлық тілдер</string>
+    <string name="langs_selected">%2$d ішінен %1$d</string>
+    <string name="select_all">Барлығын таңдау</string>
+    <string name="done">Дайын</string>
+    <string name="timeframe">Уақыт аралығы</string>
+    <string name="live_only">Қолданба ашылғалы бері</string>
+    <string name="last_hours">Соңғы X сағат</string>
+    <string name="hours_value">%1$d с</string>
+    <string name="edit_by">%1$s өңдеуі</string>
+    <string name="no_description">Сипаттама қолжетімді емес.</string>
+    <string name="empty">Таңдалған сүзгілер бойынша жазбалар жоқ.</string>
+    <string name="settings">Параметрлер</string>
+    <string name="back">Артқа</string>
+    <string name="details">Толығырақ</string>
+    <string name="error_details_title">Сұрау қателері</string>
+    <string name="error_summary">%2$d тіл бөлімінің %1$d жүктелді</string>
+    <string name="error_all_ok">Барлық нұсқалар сәтті жүктелді.</string>
+    <string name="error_partial">Кейбір нұсқаларға қол жеткізу мүмкін болмады. Тізім үшін «Толығырақ» басыңыз.</string>
+    <string name="error_total">Уикипедияға мүлдем қол жеткізу мүмкін болмады. Байланысты тексеріңіз.</string>
+</resources>

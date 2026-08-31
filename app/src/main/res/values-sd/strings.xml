@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">وڪيپيڊيا تي تازيون موتون</string>
+    <string name="wiki_sections">وڪيپيڊيا ٻوليءَ جا نسخا</string>
+    <string name="all_languages">سڀ ٻوليون</string>
+    <string name="langs_selected">%2$d مان %1$d</string>
+    <string name="select_all">سڀ چونڊيو</string>
+    <string name="done">ٿي ويو</string>
+    <string name="timeframe">وقت جو مدو</string>
+    <string name="live_only">ايپ کولڻ کانپوءِ</string>
+    <string name="last_hours">گذريل X ڪلاڪ</string>
+    <string name="hours_value">%1$d ڪ</string>
+    <string name="edit_by">%1$s طرفان سنوار</string>
+    <string name="no_description">ڪابه تفصيل موجود ناهي.</string>
+    <string name="empty">چونڊيل فلٽرن لاءِ ڪابه رڪارڊ ناهي.</string>
+    <string name="settings">سيٽنگون</string>
+    <string name="back">پوئتي</string>
+    <string name="details">تفصيل</string>
+    <string name="error_details_title">درخواست جون ناڪاميون</string>
+    <string name="error_summary">%2$d ٻولي نسخن مان %1$d لوڊ ٿيل</string>
+    <string name="error_all_ok">سڀ ٻولي نسخا ڪاميابيءَ سان لوڊ ٿيا.</string>
+    <string name="error_partial">ڪجھ ٻولي نسخن تائين پهچ نه ٿي سگھي. فهرست لاءِ «تفصيل» تي ٽيپ ڪريو.</string>
+    <string name="error_total">وڪيپيڊيا تائين بلڪل پهچ نه ٿي سگھي. پنھنجي ڪنيڪشن جي جانچ ڪريو.</string>
+</resources>

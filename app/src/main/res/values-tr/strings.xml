@@ -1,0 +1,23 @@
+<resources>
+ <string name="app_name">Wikipedia\'daki son vefatlar</string>
+ <string name="wiki_sections">Wikipedia dil sürümleri</string>
+ <string name="all_languages">Tüm diller</string>
+ <string name="langs_selected">%1$d / %2$d</string>
+ <string name="select_all">Tümünü seç</string>
+ <string name="done">Bitti</string>
+ <string name="timeframe">Zaman dilimi</string>
+ <string name="live_only">Uygulama açıldığından beri</string>
+ <string name="last_hours">Son X saat</string>
+ <string name="hours_value">%1$d sa</string>
+ <string name="edit_by">%1$s tarafından düzenlendi</string>
+ <string name="no_description">Açıklama mevcut değil.</string>
+ <string name="empty">Seçili filtreler için kayıt yok.</string>
+ <string name="settings">Ayarlar</string>
+ <string name="back">Geri</string>
+ <string name="details">Ayrıntılar</string>
+ <string name="error_details_title">İstek hataları</string>
+ <string name="error_summary">%1$d / %2$d dil sürümü yüklendi</string>
+ <string name="error_all_ok">Tüm dil sürümleri başarıyla yüklendi.</string>
+ <string name="error_partial">Bazı dil sürümlerine ulaşılamadı. Liste için «Ayrıntılar»a dokun.</string>
+ <string name="error_total">Wikipedia\'ya ulaşılamıyor. Bağlantınızı kontrol edin.</string>
+</resources>

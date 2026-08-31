@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Toqutut nutaat Wikipedia-mi</string>
+    <string name="wiki_sections">Wikipedia oqaatsinut immikkoortut</string>
+    <string name="all_languages">Oqaatsit tamarmik</string>
+    <string name="langs_selected">%1$d %2$d-imit</string>
+    <string name="select_all">Tamarmik toqqarlugit</string>
+    <string name="done">Naammassippoq</string>
+    <string name="timeframe">Piffissaq</string>
+    <string name="live_only">App ammarneqarneraniit</string>
+    <string name="last_hours">Siullermik X tiimit</string>
+    <string name="hours_value">%1$d t</string>
+    <string name="edit_by">%1$s-ip allanngortitaa</string>
+    <string name="no_description">Nassuiaatissaqanngilaq.</string>
+    <string name="empty">Toqqakkanut peqqussutissanut nalunaarsukkanik peqanngilaq.</string>
+    <string name="settings">Aaqqissuussinerit</string>
+    <string name="back">Uterit</string>
+    <string name="details">Paasissutissat</string>
+    <string name="error_details_title">Apeqqutit kukkussutaat</string>
+    <string name="error_summary">%2$d oqaatsinit %1$d ikineqarput</string>
+    <string name="error_all_ok">Oqaatsit tamarmik ikineqarluarput.</string>
+    <string name="error_partial">Oqaatsit ilaat tikinneqarsinnaanngillat. «Paasissutissat» tooruk.</string>
+    <string name="error_total">Wikipedia tikinneqarsinnaanngilaq. Attaveqaatit misissoruk.</string>
+</resources>

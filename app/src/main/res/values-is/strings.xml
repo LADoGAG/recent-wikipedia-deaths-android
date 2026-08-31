@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Nýleg andlát á Wikipedia</string>
+    <string name="wiki_sections">Wikipedia tungumálaútgáfur</string>
+    <string name="all_languages">Öll tungumál</string>
+    <string name="langs_selected">%1$d af %2$d</string>
+    <string name="select_all">Velja allt</string>
+    <string name="done">Lokið</string>
+    <string name="timeframe">Tímabil</string>
+    <string name="live_only">Síðan forritið var opnað</string>
+    <string name="last_hours">Síðustu X klukkustundir</string>
+    <string name="hours_value">%1$d klst</string>
+    <string name="edit_by">Breyting eftir %1$s</string>
+    <string name="no_description">Engin lýsing í boði.</string>
+    <string name="empty">Engar færslur fyrir valin síur.</string>
+    <string name="settings">Stillingar</string>
+    <string name="back">Til baka</string>
+    <string name="details">Upplýsingar</string>
+    <string name="error_details_title">Beiðnir mistókust</string>
+    <string name="error_summary">%1$d af %2$d tungumálaútgáfum hlaðið</string>
+    <string name="error_all_ok">Öllum útgáfum var hlaðið.</string>
+    <string name="error_partial">Ekki náðist í sumar útgáfur. Ýttu á «Upplýsingar» fyrir lista.</string>
+    <string name="error_total">Ekki náðist samband við Wikipedia. Athugaðu tenginguna.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Maliu talu ai nei i Wikipedia</string>
+    <string name="wiki_sections">Gagana Wikipedia</string>
+    <string name="all_languages">Gagana uma</string>
+    <string name="langs_selected">%1$d o %2$d</string>
+    <string name="select_all">Filifili uma</string>
+    <string name="done">Ua mae\'a</string>
+    <string name="timeframe">Vaitaimi</string>
+    <string name="live_only">Talu ona tatala le app</string>
+    <string name="last_hours">Itula mulimuli X</string>
+    <string name="hours_value">%1$d i</string>
+    <string name="edit_by">Teuteuga e %1$s</string>
+    <string name="no_description">Leai se fa\'amatalaga.</string>
+    <string name="empty">Leai ni fa\'amaumauga mo fa\'amama na filifilia.</string>
+    <string name="settings">Seti</string>
+    <string name="back">Toe fo\'i</string>
+    <string name="details">Fa\'amatalaga auiliili</string>
+    <string name="error_details_title">Le manuia o talosaga</string>
+    <string name="error_summary">%1$d o %2$d gagana na utaina</string>
+    <string name="error_all_ok">Ua utaina manuia gagana uma.</string>
+    <string name="error_partial">E le\'i mafai ona o\'o i nisi gagana. Tago «Fa\'amatalaga auiliili» mo le lisi.</string>
+    <string name="error_total">E le\'i mafai ona o\'o i Wikipedia. Siaki lau feso\'ota\'iga.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+ <string name="app_name">Décès récents sur Wikipédia</string>
+ <string name="wiki_sections">Éditions linguistiques de Wikipédia</string>
+ <string name="all_languages">Toutes les langues</string>
+ <string name="langs_selected">%1$d sur %2$d</string>
+ <string name="select_all">Tout sélectionner</string>
+ <string name="done">Terminé</string>
+ <string name="timeframe">Période</string>
+ <string name="live_only">Depuis l\'ouverture de l\'appli</string>
+ <string name="last_hours">X dernières heures</string>
+ <string name="hours_value">%1$d h</string>
+ <string name="edit_by">Modification par %1$s</string>
+ <string name="no_description">Aucune description disponible.</string>
+ <string name="empty">Aucun enregistrement pour les filtres sélectionnés.</string>
+ <string name="settings">Paramètres</string>
+ <string name="back">Retour</string>
+ <string name="details">Détails</string>
+ <string name="error_details_title">Échecs des requêtes</string>
+ <string name="error_summary">%1$d sur %2$d éditions linguistiques chargées</string>
+ <string name="error_all_ok">Toutes les éditions linguistiques ont été chargées avec succès.</string>
+ <string name="error_partial">Certaines éditions linguistiques sont inaccessibles. Voir les «Détails» pour la liste.</string>
+ <string name="error_total">Impossible de joindre Wikipédia. Vérifiez votre connexion.</string>
+</resources>

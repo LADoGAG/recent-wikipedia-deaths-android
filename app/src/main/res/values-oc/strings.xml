@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Decèsses recents sus Wikipèdia</string>
+    <string name="wiki_sections">Edicions linguisticas de Wikipèdia</string>
+    <string name="all_languages">Totas las lengas</string>
+    <string name="langs_selected">%1$d sus %2$d</string>
+    <string name="select_all">Seleccionar tot</string>
+    <string name="done">Acabat</string>
+    <string name="timeframe">Periòde</string>
+    <string name="live_only">Dempuèi que l\'aplicacion es dobèrta</string>
+    <string name="last_hours">X darrièras oras</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Modificacion per %1$s</string>
+    <string name="no_description">Cap de descripcion pas disponibla.</string>
+    <string name="empty">Cap d\'enregistrament pels filtres seleccionats.</string>
+    <string name="settings">Paramètres</string>
+    <string name="back">Retorn</string>
+    <string name="details">Detalhs</string>
+    <string name="error_details_title">Fracasses de las demandas</string>
+    <string name="error_summary">%1$d sus %2$d edicions linguisticas cargadas</string>
+    <string name="error_all_ok">Totas las edicions linguisticas son cargadas amb succès.</string>
+    <string name="error_partial">Qualques edicions linguisticas son pas accessiblas. Picatz «Detalhs» per la tièra.</string>
+    <string name="error_total">Impossible de contactar Wikipèdia. Verificatz vòstra connexion.</string>
+</resources>

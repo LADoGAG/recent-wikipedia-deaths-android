@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Baaseyn jesh er Wikipedia</string>
+    <string name="wiki_sections">Çhengey eddyraghey Wikipedia</string>
+    <string name="all_languages">Dy chooilleen çhengaghyn</string>
+    <string name="langs_selected">%1$d jeh %2$d</string>
+    <string name="select_all">Reih ooilley</string>
+    <string name="done">Jeant</string>
+    <string name="timeframe">Imbee traa</string>
+    <string name="live_only">Voish yn traa va\'n app foshlit</string>
+    <string name="last_hours">X ooraghyn jerrey</string>
+    <string name="hours_value">%1$d o</string>
+    <string name="edit_by">Caglit liorish %1$s</string>
+    <string name="no_description">Cha nel cooinaghtyn ayn.</string>
+    <string name="empty">Cha nel recortyssyn ayn son ny filteryn reihit.</string>
+    <string name="settings">Reihghyn</string>
+    <string name="back">Er-ash</string>
+    <string name="details">Mynchooidyn</string>
+    <string name="error_details_title">Caillee aghinyn</string>
+    <string name="error_summary">%1$d jeh %2$d çhengey laadit</string>
+    <string name="error_all_ok">Dy chooilleen çhengey laadit dy mie.</string>
+    <string name="error_partial">Cha row ad currit stiagh ayns cooid jeh ny çhengaghyn. Cur gu «Mynchooidyn».</string>
+    <string name="error_total">Cha row Wikipedia ry-gheddyn. Jeeagh er y chiangley ayd.</string>
+</resources>

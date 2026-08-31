@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Recente stèrfgavelle op Wikipedia</string>
+    <string name="wiki_sections">Wikipedia taaloetgaaves</string>
+    <string name="all_languages">Alle taole</string>
+    <string name="langs_selected">%1$d van %2$d</string>
+    <string name="select_all">Selecteer alle</string>
+    <string name="done">Klaor</string>
+    <string name="timeframe">Tiedperiek</string>
+    <string name="live_only">Sins dat de app geäöpend is</string>
+    <string name="last_hours">Lètste X oer</string>
+    <string name="hours_value">%1$d o</string>
+    <string name="edit_by">Bewèrking door %1$s</string>
+    <string name="no_description">Gein besjikbaar besjrieving.</string>
+    <string name="empty">Gein records veur de geselecteerde filters.</string>
+    <string name="settings">Insjtèllinge</string>
+    <string name="back">Trök</string>
+    <string name="details">Details</string>
+    <string name="error_details_title">Verzeukfoute</string>
+    <string name="error_summary">%1$d van %2$d taaloetgaaves gelaje</string>
+    <string name="error_all_ok">Alle taaloetgaaves zint succesvol gelaje.</string>
+    <string name="error_partial">Sommige taaloetgaaves kóste neet bereikt waere. Tik op «Details» veur \'n lies.</string>
+    <string name="error_total">Wikipedia kós gaaroet neet bereikt waere. Controleer dien verbinjing.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">មរណភាពថ្មីៗនៅលើវីគីភីឌា</string>
+    <string name="wiki_sections">កំណែភាសាវីគីភីឌា</string>
+    <string name="all_languages">គ្រប់ភាសា</string>
+    <string name="langs_selected">%1$d នៃ %2$d</string>
+    <string name="select_all">ជ្រើសរើសទាំងអស់</string>
+    <string name="done">រួចរាល់</string>
+    <string name="timeframe">រយៈពេល</string>
+    <string name="live_only">ចាប់តាំងពីបើកកម្មវិធី</string>
+    <string name="last_hours">X ម៉ោងចុងក្រោយ</string>
+    <string name="hours_value">%1$d ម</string>
+    <string name="edit_by">កែសម្រួលដោយ %1$s</string>
+    <string name="no_description">មិនមានការពិពណ៌នាទេ។</string>
+    <string name="empty">គ្មានកំណត់ត្រាសម្រាប់តម្រងដែលបានជ្រើសរើសទេ។</string>
+    <string name="settings">ការកំណត់</string>
+    <string name="back">ថយក្រោយ</string>
+    <string name="details">ព័ត៌មានលម្អិត</string>
+    <string name="error_details_title">កំហុសសំណើ</string>
+    <string name="error_summary">បានផ្ទុក %1$d នៃ %2$d កំណែភាសា</string>
+    <string name="error_all_ok">កំណែទាំងអស់ត្រូវបានផ្ទុកដោយជោគជ័យ។</string>
+    <string name="error_partial">កំណែមួយចំនួនមិនអាចចូលប្រើបានទេ។ ប៉ះ «ព័ត៌មានលម្អិត» សម្រាប់បញ្ជី។</string>
+    <string name="error_total">មិនអាចចូលប្រើវីគីភីឌាសោះ។ សូមពិនិត្យការតភ្ជាប់របស់អ្នក។</string>
+</resources>

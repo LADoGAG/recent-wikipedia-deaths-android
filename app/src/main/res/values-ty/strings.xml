@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Te mau pohe i Wikipedia</string>
+    <string name="wiki_sections">Reo o Wikipedia</string>
+    <string name="all_languages">Te mau reo ato\'a</string>
+    <string name="langs_selected">%1$d o %2$d</string>
+    <string name="select_all">Ma\'iti ato\'a</string>
+    <string name="done">Oti</string>
+    <string name="timeframe">Taime</string>
+    <string name="live_only">Mai te vahiraa o te app</string>
+    <string name="last_hours">X hora hopea</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Hohoa na %1$s</string>
+    <string name="no_description">Aita e faataaraa.</string>
+    <string name="empty">Aita e parau no te mau tapa\'o i ma\'itihia.</string>
+    <string name="settings">Faatanoraa</string>
+    <string name="back">Ho\'i</string>
+    <string name="details">Te mau faataaraa</string>
+    <string name="error_details_title">Hape i te aniraa</string>
+    <string name="error_summary">%1$d o %2$d reo i uta</string>
+    <string name="error_all_ok">Te mau reo ato\'a i uta ma te maitai.</string>
+    <string name="error_partial">Aita e taea ia tae i te tahi mau reo. «Te mau faataaraa» no te tapao.</string>
+    <string name="error_total">Aita e taea ia tae i Wikipedia. A hi\'o i ta outou hono.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">په ویکیپیډیا کې وروستۍ مړینې</string>
+    <string name="wiki_sections">د ويکيپېډيا ژبې نسخې</string>
+    <string name="all_languages">ټولې ژبې</string>
+    <string name="langs_selected">له %2$d څخه %1$d</string>
+    <string name="select_all">ټول وټاکئ</string>
+    <string name="done">بشپړ</string>
+    <string name="timeframe">وخت موده</string>
+    <string name="live_only">له کله چې اپلیکیشن پرانیستل شو</string>
+    <string name="last_hours">وروستي X ساعته</string>
+    <string name="hours_value">%1$d س</string>
+    <string name="edit_by">د %1$s لخوا سمون</string>
+    <string name="no_description">تشریح نشته.</string>
+    <string name="empty">د ټاکل شویو فلټرونو لپاره ریکارډ نشته.</string>
+    <string name="settings">ترتیبات</string>
+    <string name="back">شاته</string>
+    <string name="details">جزئیات</string>
+    <string name="error_details_title">د غوښتنې ناکامۍ</string>
+    <string name="error_summary">د ويکيپېډيا %2$d ژبو نسخو څخه %1$d پورته شول</string>
+    <string name="error_all_ok">ټولې ژبې نسخې په بریالیتوب سره پورته شوې.</string>
+    <string name="error_partial">ځینې ژبې نسخو ته لاسرسی ممکن نه و. د لیست لپاره «جزئیات» فشار کړئ.</string>
+    <string name="error_total">ویکیپیډیا ته هیڅکله لاسرسی ممکن نه و. خپل پیوستون وګورئ.</string>
+</resources>

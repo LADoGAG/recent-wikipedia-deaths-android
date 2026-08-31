@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Wong mati anyar ing Wikipedia</string>
+    <string name="wiki_sections">Èdhis basa Wikipedia</string>
+    <string name="all_languages">Kabèh basa</string>
+    <string name="langs_selected">%1$d saka %2$d</string>
+    <string name="select_all">Pilih kabèh</string>
+    <string name="done">Rampung</string>
+    <string name="timeframe">Wektu</string>
+    <string name="live_only">Wiwit app dibukak</string>
+    <string name="last_hours">X jam pungkasan</string>
+    <string name="hours_value">%1$d j</string>
+    <string name="edit_by">Besutan dening %1$s</string>
+    <string name="no_description">Ora ana katrangan.</string>
+    <string name="empty">Ora ana cathetan kanggo saringan sing dipilih.</string>
+    <string name="settings">Setelan</string>
+    <string name="back">Mbalik</string>
+    <string name="details">Rincian</string>
+    <string name="error_details_title">Kasalahan panjaluk</string>
+    <string name="error_summary">%1$d saka %2$d èdhis basa wis dimot</string>
+    <string name="error_all_ok">Kabèh èdhis basa wis kasil dimot.</string>
+    <string name="error_partial">Sawetara èdhis basa ora bisa diakses. Tutul «Rincian» kanggo dhaptar.</string>
+    <string name="error_total">Ora bisa nggayuh Wikipedia. Priksa sambungan sampeyan.</string>
+</resources>

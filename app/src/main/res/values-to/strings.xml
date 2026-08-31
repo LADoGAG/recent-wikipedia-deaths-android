@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ngaahi mate fakamuimuitaha \'i he Wikipedia</string>
+    <string name="wiki_sections">Ngaahi lea fakafonua ʻo Wikipedia</string>
+    <string name="all_languages">Ngaahi lea kotoa</string>
+    <string name="langs_selected">%1$d mei he %2$d</string>
+    <string name="select_all">Fili kotoa</string>
+    <string name="done">Faka\'osi</string>
+    <string name="timeframe">Taimi</string>
+    <string name="live_only">Talu mei hono fakaava \'o e app</string>
+    <string name="last_hours">Ngaahi houa \'e X kimu\'a</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Fakatonutonu \'e %1$s</string>
+    <string name="no_description">\'Ikai ha fakamatala.</string>
+    <string name="empty">\'Ikai ha lekooti ki he ngaahi fiulita kuo fili.</string>
+    <string name="settings">Ngaahi fokotu\'utu\'u</string>
+    <string name="back">Foki ki mui</string>
+    <string name="details">Ngaahi fakaikiiki</string>
+    <string name="error_details_title">Ngaahi faingata\'a \'o e kole</string>
+    <string name="error_summary">%1$d mei he %2$d ngaahi lea kuo uta</string>
+    <string name="error_all_ok">Ngaahi lea kotoa kuo uta lelei.</string>
+    <string name="error_partial">Na\'e \'ikai lava ke a\'usia ha ngaahi lea. Tapa «Ngaahi fakaikiiki» ki he lisi.</string>
+    <string name="error_total">Na\'e \'ikai lava ke a\'usia \'a e Wikipedia. Sivi\'i ho fehokotaki.</string>
+</resources>

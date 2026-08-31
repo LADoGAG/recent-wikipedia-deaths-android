@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Wikipediako heriotza berriak</string>
+    <string name="wiki_sections">Wikipediaren hizkuntza-edizioak</string>
+    <string name="all_languages">Hizkuntza guztiak</string>
+    <string name="langs_selected">%1$d / %2$d</string>
+    <string name="select_all">Hautatu guztiak</string>
+    <string name="done">Eginda</string>
+    <string name="timeframe">Denbora-tartea</string>
+    <string name="live_only">Aplikazioa ireki zenetik</string>
+    <string name="last_hours">Azken X orduak</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">%1$s erabiltzailearen edizioa</string>
+    <string name="no_description">Ez dago deskribapenik erabilgarri.</string>
+    <string name="empty">Ez dago erregistrorik hautatutako iragazkietarako.</string>
+    <string name="settings">Ezarpenak</string>
+    <string name="back">Atzera</string>
+    <string name="details">Xehetasunak</string>
+    <string name="error_details_title">Eskaera-erroreak</string>
+    <string name="error_summary">%2$d hizkuntza-ediziotik %1$d kargatu dira</string>
+    <string name="error_all_ok">Edizio guztiak behar bezala kargatu dira.</string>
+    <string name="error_partial">Ezin izan da edizio batzuetara sartu. Sakatu «Xehetasunak» zerrenda ikusteko.</string>
+    <string name="error_total">Ezin izan da Wikipediarekin konektatu. Egiaztatu konexioa.</string>
+</resources>

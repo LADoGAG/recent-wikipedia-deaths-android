@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Wikipedia аҿы аԥсрақәа</string>
+    <string name="wiki_sections">Wikipedia абызшәатә хкқәа</string>
+    <string name="all_languages">Абызшәақәа зегьы</string>
+    <string name="langs_selected">%2$d аҟынтә %1$d</string>
+    <string name="select_all">Зегьы алхра</string>
+    <string name="done">Ахианыҵ</string>
+    <string name="timeframe">Аамҭа</string>
+    <string name="live_only">Апп анааура инаркны</string>
+    <string name="last_hours">Аахыстәи асааҭқәа</string>
+    <string name="hours_value">%1$d с</string>
+    <string name="edit_by">%1$s ариашамҭа</string>
+    <string name="no_description">Ахцәажәара ыҟам.</string>
+    <string name="empty">Алкаақәа рыла адырқәа ыҟам.</string>
+    <string name="settings">Архиарақәа</string>
+    <string name="back">Шьҭахьҟа</string>
+    <string name="details">Аидыркаара</string>
+    <string name="error_details_title">Адҵақәа рыгәаҭарақәа</string>
+    <string name="error_summary">%2$d абызшәатә хкқәа рҟынтә %1$d</string>
+    <string name="error_all_ok">Ахкқәа зегьы ирықәыртәуп.</string>
+    <string name="error_partial">Шьақәыртәу ахкқәа ыҟоуп. «Аидыркаара» шәахәаԥш.</string>
+    <string name="error_total">Wikipedia аҟынӡа аиашьара залшом.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">विकिपिडियामा हालैका मृत्युहरू</string>
+    <string name="wiki_sections">विकिपिडिया भाषा संस्करणहरू</string>
+    <string name="all_languages">सबै भाषाहरू</string>
+    <string name="langs_selected">%2$d मध्ये %1$d</string>
+    <string name="select_all">सबै छान्नुहोस्</string>
+    <string name="done">भयो</string>
+    <string name="timeframe">समयावधि</string>
+    <string name="live_only">एप खोलेदेखि</string>
+    <string name="last_hours">अन्तिम X घण्टा</string>
+    <string name="hours_value">%1$d घ</string>
+    <string name="edit_by">%1$s द्वारा सम्पादन</string>
+    <string name="no_description">कुनै वर्णन उपलब्ध छैन।</string>
+    <string name="empty">चयन गरिएका फिल्टरहरूका लागि कुनै रेकर्ड छैन।</string>
+    <string name="settings">सेटिङहरू</string>
+    <string name="back">पछाडि</string>
+    <string name="details">विवरणहरू</string>
+    <string name="error_details_title">अनुरोध असफलताहरू</string>
+    <string name="error_summary">%2$d भाषा संस्करणहरू मध्ये %1$d लोड भयो</string>
+    <string name="error_all_ok">सबै भाषा संस्करणहरू सफलतापूर्वक लोड भए।</string>
+    <string name="error_partial">केही भाषा संस्करणहरूमा पहुँच गर्न सकिएन। सूचीको लागि «विवरणहरू» मा ट्याप गर्नुहोस्।</string>
+    <string name="error_total">विकिपिडियामा बिल्कुलै पहुँच गर्न सकिएन। आफ्नो जडान जाँच गर्नुहोस्।</string>
+</resources>

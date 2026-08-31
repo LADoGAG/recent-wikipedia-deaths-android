@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Wikipedia saya minnu kɛra kokura</string>
+    <string name="wiki_sections">Wikipedia kan labɛnw</string>
+    <string name="all_languages">Kanw bɛɛ</string>
+    <string name="langs_selected">%1$d kɛra %2$d la</string>
+    <string name="select_all">A bɛɛ sugandi</string>
+    <string name="done">A dafa</string>
+    <string name="timeframe">Waati</string>
+    <string name="live_only">App dayɛlɛlen kɔ</string>
+    <string name="last_hours">Lɔri X tɛmɛnenw</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">%1$s ka kɛnɛ</string>
+    <string name="no_description">Kunnafoni t\'a la.</string>
+    <string name="empty">Kunnafoni tɛ filɛtɛrɛ sugandilenw kɔnɔ.</string>
+    <string name="settings">Seginna</string>
+    <string name="back">Kɔsegi</string>
+    <string name="details">Kunnafoni caman</string>
+    <string name="error_details_title">Ɲinini fili</string>
+    <string name="error_summary">%1$d kɛra %2$d kan labɛn na</string>
+    <string name="error_all_ok">Kan labɛnw bɛɛ kɛra hɛɛrɛ sira fɛ.</string>
+    <string name="error_partial">Kan labɛn dɔw tɛ sɔrɔ. A digi «Kunnafoni caman» kan walasa k\'a lisiti ye.</string>
+    <string name="error_total">Wikipedia tɛ sɔrɔ fɔyikɔnɔ. I ka konekison kontrola.</string>
+</resources>

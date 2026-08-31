@@ -1,0 +1,23 @@
+<resources>
+ <string name="app_name">Fallecimientos recientes en Wikipedia</string>
+ <string name="wiki_sections">Ediciones idiomáticas de Wikipedia</string>
+ <string name="all_languages">Todos los idiomas</string>
+ <string name="langs_selected">%1$d de %2$d</string>
+ <string name="select_all">Seleccionar todo</string>
+ <string name="done">Listo</string>
+ <string name="timeframe">Periodo</string>
+ <string name="live_only">Desde que se abrió la app</string>
+ <string name="last_hours">Últimas X horas</string>
+ <string name="hours_value">%1$d h</string>
+ <string name="edit_by">Edición por %1$s</string>
+ <string name="no_description">Sin descripción disponible.</string>
+ <string name="empty">No hay registros para los filtros seleccionados.</string>
+ <string name="settings">Ajustes</string>
+ <string name="back">Atrás</string>
+ <string name="details">Detalles</string>
+ <string name="error_details_title">Errores de solicitud</string>
+ <string name="error_summary">Se cargaron %1$d de %2$d ediciones idiomáticas</string>
+ <string name="error_all_ok">Todas las ediciones idiomáticas se cargaron correctamente.</string>
+ <string name="error_partial">No se pudo acceder a algunas ediciones idiomáticas. Toca «Detalles» para ver la lista.</string>
+ <string name="error_total">No se puede conectar a Wikipedia. Revisa tu conexión.</string>
+</resources>

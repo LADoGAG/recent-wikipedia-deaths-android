@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Наскоро починали в Уикипедия</string>
+    <string name="wiki_sections">Езикови издания на Уикипедия</string>
+    <string name="all_languages">Всички езици</string>
+    <string name="langs_selected">%1$d от %2$d</string>
+    <string name="select_all">Избери всички</string>
+    <string name="done">Готово</string>
+    <string name="timeframe">Период от време</string>
+    <string name="live_only">От отварянето на приложението</string>
+    <string name="last_hours">Последните X часа</string>
+    <string name="hours_value">%1$d ч</string>
+    <string name="edit_by">Редакция от %1$s</string>
+    <string name="no_description">Няма налично описание.</string>
+    <string name="empty">Няма записи за избраните филтри.</string>
+    <string name="settings">Настройки</string>
+    <string name="back">Назад</string>
+    <string name="details">Подробности</string>
+    <string name="error_details_title">Грешки при заявки</string>
+    <string name="error_summary">Заредени са %1$d от %2$d езикови издания</string>
+    <string name="error_all_ok">Всички езикови издания са заредени успешно.</string>
+    <string name="error_partial">До някои езикови издания не можа да се достигне. Докоснете «Подробности».</string>
+    <string name="error_total">Изобщо не можа да се достигне до Уикипедия. Проверете връзката си.</string>
+</resources>

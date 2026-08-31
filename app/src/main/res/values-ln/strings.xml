@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bawei ya sika na Wikipedia</string>
+    <string name="wiki_sections">Bakomi ya Wikipedia na minɔkɔ</string>
+    <string name="all_languages">Minɔkɔ nyonso</string>
+    <string name="langs_selected">%1$d ya %2$d</string>
+    <string name="select_all">Pona nyonso</string>
+    <string name="done">Esili</string>
+    <string name="timeframe">Ntango</string>
+    <string name="live_only">Banda tango app efungolamaki</string>
+    <string name="last_hours">Ngonga X oyo eleki</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Bobongisi na %1$s</string>
+    <string name="no_description">Ndimbola ezali te.</string>
+    <string name="empty">Makomi ezali te mpo na biloko oponaki.</string>
+    <string name="settings">Mibeko</string>
+    <string name="back">Zonga</string>
+    <string name="details">Makambo mosusu</string>
+    <string name="error_details_title">Mabunga ya bosenga</string>
+    <string name="error_summary">%1$d ya %2$d bakomi ya minɔkɔ ezwi charge</string>
+    <string name="error_all_ok">Bakomi nyonso ya minɔkɔ ezwi charge malamu.</string>
+    <string name="error_partial">Bakomi mosusu ya minɔkɔ ekokaki kozwama te. Finá «Makambo mosusu» mpo na liste.</string>
+    <string name="error_total">Wikipedia ekokaki kozwama ata moke te. Talá connexion na yo.</string>
+</resources>

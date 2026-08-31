@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Falecementos recentes na Wikipedia</string>
+    <string name="wiki_sections">Edicións lingüísticas da Wikipedia</string>
+    <string name="all_languages">Todos os idiomas</string>
+    <string name="langs_selected">%1$d de %2$d</string>
+    <string name="select_all">Seleccionar todo</string>
+    <string name="done">Feito</string>
+    <string name="timeframe">Período de tempo</string>
+    <string name="live_only">Desde que se abriu a aplicación</string>
+    <string name="last_hours">Últimas X horas</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Edición por %1$s</string>
+    <string name="no_description">Non hai descrición dispoñible.</string>
+    <string name="empty">Non hai rexistros para os filtros seleccionados.</string>
+    <string name="settings">Axustes</string>
+    <string name="back">Atrás</string>
+    <string name="details">Detalles</string>
+    <string name="error_details_title">Erros de solicitude</string>
+    <string name="error_summary">Cargáronse %1$d de %2$d edicións lingüísticas</string>
+    <string name="error_all_ok">Todas as edicións cargáronse correctamente.</string>
+    <string name="error_partial">Non se puido acceder a algunhas edicións. Toca «Detalles» para ver a lista.</string>
+    <string name="error_total">Non se puido contactar coa Wikipedia. Comproba a túa conexión.</string>
+</resources>

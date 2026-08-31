@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Morte ricente nant\'à Wikipedia</string>
+    <string name="wiki_sections">Edizione linguistiche di Wikipedia</string>
+    <string name="all_languages">Tutte e lingue</string>
+    <string name="langs_selected">%1$d di %2$d</string>
+    <string name="select_all">Selezziunà tuttu</string>
+    <string name="done">Fatta</string>
+    <string name="timeframe">Periudu di tempu</string>
+    <string name="live_only">Dapoi chì l\'app hè stata aperta</string>
+    <string name="last_hours">Ultime X ore</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Edizione da %1$s</string>
+    <string name="no_description">Ùn ci hè descrizzione dispunibile.</string>
+    <string name="empty">Ùn ci hè registri per i filtri selezziunati.</string>
+    <string name="settings">Paràmetri</string>
+    <string name="back">Daretu</string>
+    <string name="details">Detaglii</string>
+    <string name="error_details_title">Sbaglii di richieste</string>
+    <string name="error_summary">%1$d di %2$d edizioni caricate</string>
+    <string name="error_all_ok">Tutte l\'edizioni sò state caricate cù successu.</string>
+    <string name="error_partial">Ùn si pò ghjunghje à certe edizioni. Cliccate nant\'à «Detaglii» per vede a lista.</string>
+    <string name="error_total">Ùn si pò ghjunghje à Wikipedia. Verificate a vostra cunnessione.</string>
+</resources>

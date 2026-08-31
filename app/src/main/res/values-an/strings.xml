@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Muertes recients en Wikipedia</string>
+    <string name="wiki_sections">Edicions linguisticas de Wikipedia</string>
+    <string name="all_languages">Todas as luengas</string>
+    <string name="langs_selected">%1$d de %2$d</string>
+    <string name="select_all">Seleccionar tot</string>
+    <string name="done">Feito</string>
+    <string name="timeframe">Periodo de tiempo</string>
+    <string name="live_only">Dende que s\'ubrió l\'app</string>
+    <string name="last_hours">Zaguers X oras</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Edición por %1$s</string>
+    <string name="no_description">No i hai descripción disponible.</string>
+    <string name="empty">No i hai rechistros ta os filtros seleccionaus.</string>
+    <string name="settings">Achustes</string>
+    <string name="back">Enta zaga</string>
+    <string name="details">Detalles</string>
+    <string name="error_details_title">Fallos de petición</string>
+    <string name="error_summary">%1$d de %2$d edicions linguisticas cargadas</string>
+    <string name="error_all_ok">Todas as edicions cargadas con exito.</string>
+    <string name="error_partial">No s\'ha puesto acceder a bellas edicions. Toca «Detalles» ta veyer a lista.</string>
+    <string name="error_total">No s\'ha puesto contactar con Wikipedia. Revisa a tuya connexión.</string>
+</resources>

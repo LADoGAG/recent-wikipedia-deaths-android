@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Akûâ tî lêgë tî Wikipedia</string>
+    <string name="wiki_sections">Mbeti tî Wikipedia na yângâ</string>
+    <string name="all_languages">Yângâ kôdrô kûê</string>
+    <string name="langs_selected">%1$d na %2$d</string>
+    <string name="select_all">Söro kûê</string>
+    <string name="done">Awe</string>
+    <string name="timeframe">Ngoi</string>
+    <string name="live_only">Depuis l\'ouverture de l\'app</string>
+    <string name="last_hours">Lângö X sï na pekô</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Lëkërëngö na %1$s</string>
+    <string name="no_description">Mbëtî tënë ayeke dä pëpe.</string>
+    <string name="empty">Mbëtî tënë ayeke dä pëpe tî filîre sï soro.</string>
+    <string name="settings">Lëkïsängö</string>
+    <string name="back">Kötä na pekô</string>
+    <string name="details">Tënë tî mbëtî</string>
+    <string name="error_details_title">Fä tënë tî hïängö</string>
+    <string name="error_summary">%1$d na %2$d mbeti tî yângâ a zîa na lêgë</string>
+    <string name="error_all_ok">Mbeti tî yângâ kûê a zîa na lêgë nzönî.</string>
+    <string name="error_partial">Âmbëtî tî yângâ sï kûê a lîngbi tî wara pëpe. Gbôto «Tënë tî mbëtî» tî lêmbëtî.</string>
+    <string name="error_total">A lîngbi tî wara Wikipedia pëpe. Gbôto lêkïsängö tî mo.</string>
+</resources>

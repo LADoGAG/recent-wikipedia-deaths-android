@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Википедиядагы жакында каза болгондор</string>
+    <string name="wiki_sections">Википедиянын тил бөлүмдөрү</string>
+    <string name="all_languages">Бардык тилдер</string>
+    <string name="langs_selected">%2$d ичинен %1$d</string>
+    <string name="select_all">Баарын тандоо</string>
+    <string name="done">Бүттү</string>
+    <string name="timeframe">Убакыт аралыгы</string>
+    <string name="live_only">Колдонмо ачылгандан бери</string>
+    <string name="last_hours">Акыркы X саат</string>
+    <string name="hours_value">%1$d с</string>
+    <string name="edit_by">%1$s тарабынан түзөтүү</string>
+    <string name="no_description">Сүрөттөмө жок.</string>
+    <string name="empty">Тандалган чыпкалар үчүн жазуулар жок.</string>
+    <string name="settings">Орнотуулар</string>
+    <string name="back">Артка</string>
+    <string name="details">Толук маалымат</string>
+    <string name="error_details_title">Сурам каталары</string>
+    <string name="error_summary">%2$d тил бөлүмүнүн %1$d жүктөлдү</string>
+    <string name="error_all_ok">Бардык тил бөлүмдөрү ийгиликтүү жүктөлдү.</string>
+    <string name="error_partial">Айрым тил бөлүмдөрүнө жетүү мүмкүн болбоду. Тизме үчүн «Толук маалымат» басыңыз.</string>
+    <string name="error_total">Википедияга такыр жетүү мүмкүн болбоду. Байланышыңызды текшериңиз.</string>
+</resources>

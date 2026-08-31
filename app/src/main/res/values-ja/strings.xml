@@ -1,0 +1,23 @@
+<resources>
+ <string name="app_name">Wikipedia 最近の死去</string>
+ <string name="wiki_sections">Wikipedia 言語版</string>
+ <string name="all_languages">すべての言語</string>
+ <string name="langs_selected">%1$d / %2$d</string>
+ <string name="select_all">すべて選択</string>
+ <string name="done">完了</string>
+ <string name="timeframe">期間</string>
+ <string name="live_only">アプリ起動以降</string>
+ <string name="last_hours">過去 X 時間</string>
+ <string name="hours_value">%1$d 時間</string>
+ <string name="edit_by">%1$s による編集</string>
+ <string name="no_description">説明はありません。</string>
+ <string name="empty">選択したフィルターに一致する記録がありません。</string>
+ <string name="settings">設定</string>
+ <string name="back">戻る</string>
+ <string name="details">詳細</string>
+ <string name="error_details_title">リクエストエラー</string>
+ <string name="error_summary">%2$d 言語版中 %1$d を読み込みました</string>
+ <string name="error_all_ok">すべての言語版が正常に読み込まれました。</string>
+ <string name="error_partial">一部の言語版にアクセスできませんでした。リストは「詳細」をタップ。</string>
+ <string name="error_total">Wikipedia にアクセスできません。接続を確認してください。</string>
+</resources>

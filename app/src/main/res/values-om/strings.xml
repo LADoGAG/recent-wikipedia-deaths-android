@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Du\'a dhiyoo Wikipedia irratti</string>
+    <string name="wiki_sections">Maxxansaa Afaan Wikipedia</string>
+    <string name="all_languages">Afaanota hunda</string>
+    <string name="langs_selected">%2$d keessaa %1$d</string>
+    <string name="select_all">Hunda filadhu</string>
+    <string name="done">Xumurame</string>
+    <string name="timeframe">Yeroo</string>
+    <string name="live_only">Erga appiin banamee</string>
+    <string name="last_hours">Sa\'aatii X darbaniif</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Gulaalli %1$s</string>
+    <string name="no_description">Ibsi hin jiru.</string>
+    <string name="empty">Galmee fiiltaroota filatamaniif hin jiru.</string>
+    <string name="settings">Qindaa\'inoota</string>
+    <string name="back">Duubatti</string>
+    <string name="details">Bal\'ina</string>
+    <string name="error_details_title">Dogoggora gaaffii</string>
+    <string name="error_summary">%1$d keessaa %2$d maxxansaa afaanii fe\'ame</string>
+    <string name="error_all_ok">Maxxansaa afaanii hundi milkaa\'inaan fe\'ame.</string>
+    <string name="error_partial">Maxxansaa afaanii tokko tokko argamuu hin dandeenye. Tarreef «Bal\'ina» tuqi.</string>
+    <string name="error_total">Wikipedia argachuu hin dandeenye. Walqunnamtii kee ilaali.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ruufih Yohdacce Wikipedia</string>
+    <string name="wiki_sections">Wikipedia addattih</string>
+    <string name="all_languages">Inkih addatitte</string>
+    <string name="langs_selected">%1$d kee %2$d</string>
+    <string name="select_all">Inkih dooro</string>
+    <string name="done">Gaba</string>
+    <string name="timeframe">Waqtih dadda</string>
+    <string name="live_only">App faruh wayta</string>
+    <string name="last_hours">Qaddos saacatih</string>
+    <string name="hours_value">%1$d s</string>
+    <string name="edit_by">%1$s edih</string>
+    <string name="no_description">Fanaxxa mabina.</string>
+    <string name="empty">Filteh inkih adda mala.</string>
+    <string name="settings">Massosah</string>
+    <string name="back">Yanin</string>
+    <string name="details">Addattah</string>
+    <string name="error_details_title">Dacalsitte wayteh</string>
+    <string name="error_summary">%1$d kee %2$d addatitte faxa</string>
+    <string name="error_all_ok">Inkih addatitte faxam.</string>
+    <string name="error_partial">Addatitte gexih mabina. «Addattah» tabis.</string>
+    <string name="error_total">Wikipedia gexih mabina.</string>
+</resources>

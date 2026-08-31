@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Wikipedia ukan jichha uru jiwinaka</string>
+    <string name="wiki_sections">Wikipedia aru uñstayawinaka</string>
+    <string name="all_languages">Taqpach arunaka</string>
+    <string name="langs_selected">%2$d ukat %1$d</string>
+    <string name="select_all">Taqpach ajlliña</string>
+    <string name="done">Tukt\'ata</string>
+    <string name="timeframe">Pacha</string>
+    <string name="live_only">App jist\'aratpacha</string>
+    <string name="last_hours">Qhipa X horas</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">%1$s ukat lurata</string>
+    <string name="no_description">Janiw yatiyawi utjkiti.</string>
+    <string name="empty">Janiw ajllir chiqanakan yatiyawinakax utjkiti.</string>
+    <string name="settings">Wakichawinaka</string>
+    <string name="back">Qhiparu</string>
+    <string name="details">Yatiyawinaka</string>
+    <string name="error_details_title">Mayiwinakan pantjatawa</string>
+    <string name="error_summary">%1$d ukat %2$d aru uñstayawinak apkatata</string>
+    <string name="error_all_ok">Taqpach uñstayawinak wali sum apkatata.</string>
+    <string name="error_partial">Yaqha uñstayawinakarux janipuniw purkiti. «Yatiyawinaka» uka ch\'iqt\'am.</string>
+    <string name="error_total">Wikipediarux janipuniw purkiti. Conexión uka uñjaña.</string>
+</resources>

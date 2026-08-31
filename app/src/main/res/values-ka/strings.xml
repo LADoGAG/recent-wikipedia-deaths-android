@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ბოლო დროინდელი გარდაცვალებები ვიკიპედიაში</string>
+    <string name="wiki_sections">ვიკიპედიის ენობრივი გამოცემები</string>
+    <string name="all_languages">ყველა ენა</string>
+    <string name="langs_selected">%1$d %2$d-დან</string>
+    <string name="select_all">ყველას მონიშვნა</string>
+    <string name="done">მზადაა</string>
+    <string name="timeframe">დროის პერიოდი</string>
+    <string name="live_only">აპლიკაციის გახსნის მომენტიდან</string>
+    <string name="last_hours">ბოლო X საათი</string>
+    <string name="hours_value">%1$d სთ</string>
+    <string name="edit_by">რედაქტირება %1$s-ის მიერ</string>
+    <string name="no_description">აღწერა მიუწვდომელია.</string>
+    <string name="empty">არჩეული ფილტრებისთვის ჩანაწერები არ მოიძებნა.</string>
+    <string name="settings">პარამეტრები</string>
+    <string name="back">უკან</string>
+    <string name="details">დეტალები</string>
+    <string name="error_details_title">მოთხოვნის შეცდომები</string>
+    <string name="error_summary">ჩატვირთულია %1$d %2$d ენობრივი გამოცემიდან</string>
+    <string name="error_all_ok">ყველა გამოცემა წარმატებით ჩაიტვირთა.</string>
+    <string name="error_partial">ზოგიერთ გამოცემასთან წვდომა ვერ მოხერხდა. სიისთვის დააჭირეთ «დეტალები»-ს.</string>
+    <string name="error_total">ვიკიპედიასთან დაკავშირება საერთოდ ვერ მოხერხდა. შეამოწმეთ კავშირი.</string>
+</resources>

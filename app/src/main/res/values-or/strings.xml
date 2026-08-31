@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ଉଇକିପିଡ଼ିଆରେ ସାମ୍ପ୍ରତିକ ମୃତ୍ୟୁ</string>
+    <string name="wiki_sections">ଉଇକିପିଡ଼ିଆ ଭାଷା ସଂସ୍କରଣ</string>
+    <string name="all_languages">ସମସ୍ତ ଭାଷା</string>
+    <string name="langs_selected">%2$d ରୁ %1$d</string>
+    <string name="select_all">ସମସ୍ତ ଚୟନ କରନ୍ତୁ</string>
+    <string name="done">ସମାପ୍ତ</string>
+    <string name="timeframe">ସମୟ ଅବଧି</string>
+    <string name="live_only">ଆପ୍ ଖୋଲିବା ପରଠାରୁ</string>
+    <string name="last_hours">ଗତ X ଘଣ୍ଟା</string>
+    <string name="hours_value">%1$d ଘ</string>
+    <string name="edit_by">%1$s ଦ୍ୱାରା ସମ୍ପାଦନା</string>
+    <string name="no_description">କୌଣସି ବର୍ଣ୍ଣନା ଉପಲବ୍ଧ ନାହିଁ।</string>
+    <string name="empty">ଚୟନିତ ଫିଲ୍ଟର ପାଇଁ କୌଣସି ରେକର୍ଡ ନାହିଁ।</string>
+    <string name="settings">ସେଟିଂ</string>
+    <string name="back">ପଛକୁ</string>
+    <string name="details">ବିବରଣୀ</string>
+    <string name="error_details_title">ଅନୁରୋଧ ବିଫଳତା</string>
+    <string name="error_summary">%2$d ଭାଷା ସଂସ୍କରଣ ମଧ୍ୟରୁ %1$d ଲୋଡ୍ ହୋଇଛି</string>
+    <string name="error_all_ok">ସମସ୍ତ ଭାଷା ସଂସ୍କରଣ ସଫଳତାର ସହ ଲୋଡ୍ ହୋଇଛି।</string>
+    <string name="error_partial">କେତେକ ଭାଷା ସଂସ୍କରଣରେ ପ୍ରବେଶ କରାଯାଇପାରିଲା ନାହିଁ। ତାଲିକା ପାଇଁ «ବିବରଣୀ» ଟ୍ୟାପ୍ କରନ୍ତୁ।</string>
+    <string name="error_total">ଉଇକିପିଡ଼ିଆରେ ଆଦୌ ପ୍ରବେଶ କରାଯାଇପାରିଲା ନାହିଁ। ଆପଣଙ୍କ ସଂଯୋଗ ଯାଞ୍ଚ କରନ୍ତୁ।</string>
+</resources>

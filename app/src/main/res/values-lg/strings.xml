@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Abaafa mu bunnambaga ku Wikipedia</string>
+    <string name="wiki_sections">Enkyusa z\'ennimi za Wikipedia</string>
+    <string name="all_languages">Ennimi zonna</string>
+    <string name="langs_selected">%1$d ku %2$d</string>
+    <string name="select_all">Londa zonna</string>
+    <string name="done">Biwedde</string>
+    <string name="timeframe">Ekiseera</string>
+    <string name="live_only">Okuva app lwe yaggulwawo</string>
+    <string name="last_hours">Essaawa X ezayise</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Okukyuusa kwa %1$s</string>
+    <string name="no_description">Tewali nnyonyola.</string>
+    <string name="empty">Tewali biwandiiko ku bizibu by\'olonze.</string>
+    <string name="settings">Entegeka</string>
+    <string name="back">Emabega</string>
+    <string name="details">Ebikwata ku</string>
+    <string name="error_details_title">Ensobi z\'okusaba</string>
+    <string name="error_summary">%1$d ku %2$d enkyusa z\'ennimi zitikkiddwa</string>
+    <string name="error_all_ok">Enkyusa zonna z\'ennimi zitikkiddwa bulungi.</string>
+    <string name="error_partial">Enkyusa ezimu z\'ennimi tezisobodde kutuukibwako. Kuba «Ebikwata ku» okulaba olukalala.</string>
+    <string name="error_total">Wikipedia tesoboddwe kutuukibwako. Kebera mukutu gwo.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Nylige dødsfall på Wikipedia</string>
+    <string name="wiki_sections">Wikipedia-språkversjoner</string>
+    <string name="all_languages">Alle språk</string>
+    <string name="langs_selected">%1$d av %2$d</string>
+    <string name="select_all">Velg alle</string>
+    <string name="done">Ferdig</string>
+    <string name="timeframe">Tidsperiode</string>
+    <string name="live_only">Siden appen ble åpnet</string>
+    <string name="last_hours">Siste X timer</string>
+    <string name="hours_value">%1$d t</string>
+    <string name="edit_by">Redigering av %1$s</string>
+    <string name="no_description">Ingen beskrivelse tilgjengelig.</string>
+    <string name="empty">Ingen poster for de valgte filtrene.</string>
+    <string name="settings">Innstillinger</string>
+    <string name="back">Tilbake</string>
+    <string name="details">Detaljer</string>
+    <string name="error_details_title">Forespørselsfeil</string>
+    <string name="error_summary">%1$d av %2$d språkversjoner lastet</string>
+    <string name="error_all_ok">Alle språkversjoner er lastet inn.</string>
+    <string name="error_partial">Noen språkversjoner kunne ikke nås. Trykk på «Detaljer» for en liste.</string>
+    <string name="error_total">Kunne ikke nå Wikipedia i det hele tatt. Sjekk tilkoblingen.</string>
+</resources>

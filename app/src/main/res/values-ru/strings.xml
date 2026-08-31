@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Recent Wikipedia Deaths</string>
+    <string name="wiki_sections">Разделы Википедии</string>
+    <string name="all_languages">Все языки</string>
+    <string name="langs_selected">%1$d из %2$d</string>
+    <string name="select_all">Выбрать все</string>
+    <string name="done">Готово</string>
+    <string name="timeframe">Период времени</string>
+    <string name="live_only">С момента открытия</string>
+    <string name="last_hours">За X часов</string>
+    <string name="hours_value">%1$d ч</string>
+    <string name="edit_by">Правка от %1$s</string>
+    <string name="no_description">Описание отсутствует.</string>
+    <string name="empty">Записей по выбранным фильтрам не найдено.</string>
+    <string name="settings">Настройки</string>
+    <string name="back">Назад</string>
+    <string name="details">Подробности</string>
+    <string name="error_details_title">Ошибки запросов</string>
+    <string name="error_summary">Загружено %1$d из %2$d разделов</string>
+    <string name="error_all_ok">Все разделы успешно загружены.</string>
+    <string name="error_partial">Некоторые разделы недоступны. Нажмите «Подробности».</string>
+    <string name="error_total">Не удаётся связаться с Википедией. Проверьте подключение.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Википедиядәге соңгы үлемнәр</string>
+    <string name="wiki_sections">Википедия тел бүлекләре</string>
+    <string name="all_languages">Барлык телләр</string>
+    <string name="langs_selected">%2$d-дән %1$d</string>
+    <string name="select_all">Барлыгын сайла</string>
+    <string name="done">Әзер</string>
+    <string name="timeframe">Вакыт аралыгы</string>
+    <string name="live_only">Кушымта ачылганнан бирле</string>
+    <string name="last_hours">Соңгы X сәгать</string>
+    <string name="hours_value">%1$d с</string>
+    <string name="edit_by">%1$s үзгәртүе</string>
+    <string name="no_description">Тасвирлама юк.</string>
+    <string name="empty">Сайланган фильтрлар өчен язмалар юк.</string>
+    <string name="settings">Көйләүләр</string>
+    <string name="back">Артка</string>
+    <string name="details">Тулырак мәгълүмат</string>
+    <string name="error_details_title">Сорау хаталары</string>
+    <string name="error_summary">%2$d тел бүлегеннән %1$d йөкләнде</string>
+    <string name="error_all_ok">Барлык тел бүлекләре уңышлы йөкләнде.</string>
+    <string name="error_partial">Кайбер тел бүлекләренә кереп булмый. Исемлек өчен «Тулырак мәгълүмат» төймәсенә басыгыз.</string>
+    <string name="error_total">Википедиягә бөтенләй кереп булмый. Тоташуны тикшерегез.</string>
+</resources>

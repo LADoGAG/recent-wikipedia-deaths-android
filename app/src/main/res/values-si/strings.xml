@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">විකිපීඩියාවේ මෑත මරණ</string>
+    <string name="wiki_sections">විකිපීඩියා භාෂා අනුවාද</string>
+    <string name="all_languages">සියලු භාෂා</string>
+    <string name="langs_selected">%2$d න් %1$d</string>
+    <string name="select_all">සියල්ල තෝරන්න</string>
+    <string name="done">අවසානයි</string>
+    <string name="timeframe">කාල පරිච්ඡේදය</string>
+    <string name="live_only">යෙදුම විවෘත කිරීමෙන් පසු</string>
+    <string name="last_hours">පසුගිය පැය X</string>
+    <string name="hours_value">%1$d පැ</string>
+    <string name="edit_by">%1$s විසින් සංස්කරණය</string>
+    <string name="no_description">විස්තරයක් නැත.</string>
+    <string name="empty">තෝරාගත් පෙරහන් සඳහා වාර්තා නැත.</string>
+    <string name="settings">සැකසුම්</string>
+    <string name="back">ආපසු</string>
+    <string name="details">විස්තර</string>
+    <string name="error_details_title">ඉල්ලීම් අසාර්ථක වීම්</string>
+    <string name="error_summary">භාෂා අනුවාද %2$d න් %1$d පූරණය විය</string>
+    <string name="error_all_ok">සියලුම භාෂා අනුවාද සාර්ථකව පූරණය විය.</string>
+    <string name="error_partial">සමහර භාෂා අනුවාද වෙත ළඟා විය නොහැක. ලැයිස්තුව සඳහා «විස්තර» ඔබන්න.</string>
+    <string name="error_total">විකිපීඩියාවට ළඟා විය නොහැකිය. ඔබේ සම්බන්ධතාව පරීක්ෂා කරන්න.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Vakafa nguva pfupi yadarika paWikipedia</string>
+    <string name="wiki_sections">Mhando dzemutauro weWikipedia</string>
+    <string name="all_languages">Mitauro yese</string>
+    <string name="langs_selected">%1$d kubva %2$d</string>
+    <string name="select_all">Sarudza zvese</string>
+    <string name="done">Zvapera</string>
+    <string name="timeframe">Nguva</string>
+    <string name="live_only">Kubva pakavhurwa app</string>
+    <string name="last_hours">Maawa X apfuura</string>
+    <string name="hours_value">%1$d ma</string>
+    <string name="edit_by">Kugadzirisa na %1$s</string>
+    <string name="no_description">Hapana tsanangudzo iripo.</string>
+    <string name="empty">Hapana zvinyorwa zvemafirita akasarudzwa.</string>
+    <string name="settings">Zvigadziriso</string>
+    <string name="back">Dzoka</string>
+    <string name="details">Zvinyorwa zvakadzama</string>
+    <string name="error_details_title">Zvikanganiso zvezvikumbiro</string>
+    <string name="error_summary">%1$d kubva %2$d mitauro yakatorwa</string>
+    <string name="error_all_ok">Mitauro yese yakatorwa zvakanaka.</string>
+    <string name="error_partial">Mimwe mitauro haina kuwanikwa. Bata «Zvinyorwa zvakadzama» kuti uwone rondedzero.</string>
+    <string name="error_total">Wikipedia haina kuwanikwa zvachose. Tarisa kubatana kwako.</string>
+</resources>

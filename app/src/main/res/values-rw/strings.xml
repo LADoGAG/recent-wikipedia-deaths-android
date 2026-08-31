@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Impfu ziheruka kuri Wikipedia</string>
+    <string name="wiki_sections">Amatangazo y\'indimi za Wikipedia</string>
+    <string name="all_languages">Indimi zose</string>
+    <string name="langs_selected">%1$d kuri %2$d</string>
+    <string name="select_all">Hitamo zose</string>
+    <string name="done">Byarangiye</string>
+    <string name="timeframe">Igihe</string>
+    <string name="live_only">Kuva app ifunguwe</string>
+    <string name="last_hours">Amasaha X ashize</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Guhindura na %1$s</string>
+    <string name="no_description">Nta nsobanuro iriho.</string>
+    <string name="empty">Nta nyandiko ziriho ku bihitiwemo.</string>
+    <string name="settings">Igenamiterere</string>
+    <string name="back">Subira inyuma</string>
+    <string name="details">Ibisobanuro birambuye</string>
+    <string name="error_details_title">Amakosa y\'ubusabe</string>
+    <string name="error_summary">%1$d kuri %2$d z\'indimi zatanzwe</string>
+    <string name="error_all_ok">Indimi zose zatanzwe neza.</string>
+    <string name="error_partial">Zimwe ntizashoboye kugerwaho. Kanda «Ibisobanuro birambuye» kugira ngo ubone urutonde.</string>
+    <string name="error_total">Ntibishoboka kugeraho kuri Wikipedia. Reba umuyoboro wawe.</string>
+</resources>

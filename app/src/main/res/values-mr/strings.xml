@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">विकिपीडियावरील अलीकडील मृत्यू</string>
+    <string name="wiki_sections">विकिपीडिया भाषा आवृत्त्या</string>
+    <string name="all_languages">सर्व भाषा</string>
+    <string name="langs_selected">%2$d पैकी %1$d</string>
+    <string name="select_all">सर्व निवडा</string>
+    <string name="done">झाले</string>
+    <string name="timeframe">कालावधी</string>
+    <string name="live_only">अॅप उघडल्यापासून</string>
+    <string name="last_hours">मागील X तास</string>
+    <string name="hours_value">%1$d ता</string>
+    <string name="edit_by">%1$s कडून संपादन</string>
+    <string name="no_description">वर्णन उपलब्ध नाही.</string>
+    <string name="empty">निवडलेल्या फिल्टर्ससाठी रेकॉर्ड नाहीत.</string>
+    <string name="settings">सेटिंग्ज</string>
+    <string name="back">मागे</string>
+    <string name="details">तपशील</string>
+    <string name="error_details_title">विनंती अपयशी</string>
+    <string name="error_summary">%2$d भाषा आवृत्त्यांपैकी %1$d लोड झाल्या</string>
+    <string name="error_all_ok">सर्व भाषा आवृत्त्या यशस्वीरित्या लोड झाल्या.</string>
+    <string name="error_partial">काही भाषा आवृत्त्यांमध्ये प्रवेश करता आला नाही. यादीसाठी «तपशील» वर टॅप करा.</string>
+    <string name="error_total">विकिपीडियामध्ये अजिबात प्रवेश करता आला नाही. तुमचे कनेक्शन तपासा.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Wikipedia ođasmahtton jápminat</string>
+    <string name="wiki_sections">Wikipedia giellaversuvnnat</string>
+    <string name="all_languages">Buot gielat</string>
+    <string name="langs_selected">%1$d / %2$d</string>
+    <string name="select_all">Vállje buot</string>
+    <string name="done">Geargan</string>
+    <string name="timeframe">Áigodat</string>
+    <string name="live_only">Aplikáhuva rahpana rájes</string>
+    <string name="last_hours">Maŋimus X diimmu</string>
+    <string name="hours_value">%1$d d</string>
+    <string name="edit_by">%1$s rievdadeapmi</string>
+    <string name="no_description">Ii leat čilgehus olámuttus.</string>
+    <string name="empty">Eai leat čállosat válljejuvvon filteriidda.</string>
+    <string name="settings">Heivehusat</string>
+    <string name="back">Ruovttoluotta</string>
+    <string name="details">Dieđut</string>
+    <string name="error_details_title">Jearaldagaid meattáhusat</string>
+    <string name="error_summary">%1$d / %2$d giellaversuvnnas vižžon</string>
+    <string name="error_all_ok">Buot giellaversuvnnat leat vižžon lihkostuvvan.</string>
+    <string name="error_partial">Muhtun giellaversuvnnaide ii lean vejolaš beassat. Deaddil «Dieđut» listtuid oaidnimii.</string>
+    <string name="error_total">Wikipedian ii lean vejolaš beassat. Dárkkis oktavuođa.</string>
+</resources>

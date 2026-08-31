@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Nedavne smrti na Wikipediji</string>
+    <string name="wiki_sections">Jezikovne različice Wikipedije</string>
+    <string name="all_languages">Vsi jeziki</string>
+    <string name="langs_selected">%1$d od %2$d</string>
+    <string name="select_all">Izberi vse</string>
+    <string name="done">Končano</string>
+    <string name="timeframe">Časovno obdobje</string>
+    <string name="live_only">Od odprtja aplikacije</string>
+    <string name="last_hours">Zadnjih X ur</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Urejanje od %1$s</string>
+    <string name="no_description">Opis ni na voljo.</string>
+    <string name="empty">Ni zapisov za izbrane filtre.</string>
+    <string name="settings">Nastavitve</string>
+    <string name="back">Nazaj</string>
+    <string name="details">Podrobnosti</string>
+    <string name="error_details_title">Napake zahtevkov</string>
+    <string name="error_summary">Naloženih %1$d od %2$d jezikovnih različic</string>
+    <string name="error_all_ok">Vse jezikovne različice so bile uspešno naložene.</string>
+    <string name="error_partial">Do nekaterih jezikovnih različic ni bilo mogoče dostopati. Tapnite «Podrobnosti» za seznam.</string>
+    <string name="error_total">Do Wikipedije sploh ni bilo mogoče dostopati. Preverite povezavo.</string>
+</resources>

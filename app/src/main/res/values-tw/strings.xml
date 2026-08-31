@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Nnipa a wɔawu nnansa yi wɔ Wikipedia so</string>
+    <string name="wiki_sections">Wikipedia kasa ahorow nkyerɛaseɛ</string>
+    <string name="all_languages">Kasa ahorow nyinaa</string>
+    <string name="langs_selected">%1$d firi %2$d mu</string>
+    <string name="select_all">Yi ne nyinaa</string>
+    <string name="done">Awie</string>
+    <string name="timeframe">Berɛ tenten</string>
+    <string name="live_only">Ɛfiri sɛ wɔbuee app no</string>
+    <string name="last_hours">Nnɔnhwerew X a atwam no</string>
+    <string name="hours_value">%1$d n</string>
+    <string name="edit_by">%1$s na ɔsesaeɛ</string>
+    <string name="no_description">Nkyerɛkyerɛmu biara nni hɔ.</string>
+    <string name="empty">Nsɛm biara nni hɔ ama nhwehwɛmu a wɔayi no.</string>
+    <string name="settings">Nhyehyɛeɛ</string>
+    <string name="back">Akyi</string>
+    <string name="details">Nkyerɛkyerɛmu</string>
+    <string name="error_details_title">Mfomsoɔ wɔ adesrɛdeɛ mu</string>
+    <string name="error_summary">Wɔde %1$d a ɛfiri %2$d nkyerɛaseɛ ahyɛ mu</string>
+    <string name="error_all_ok">Wɔde nkyerɛaseɛ nyinaa ahyɛ mu yie.</string>
+    <string name="error_partial">Wɔantumi nkɔ nkyerɛaseɛ bi so. Fa wo nsateaa gu «Nkyerɛkyerɛmu» so na hwɛ din no.</string>
+    <string name="error_total">Wɔantumi nkɔ Wikipedia so koraa. Hwɛ wo nkitahodiɛ.</string>
+</resources>

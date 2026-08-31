@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Fahafatesana vao tsy ela ao amin\'ny Wikipedia</string>
+    <string name="wiki_sections">Dikan-teny Wikipedia</string>
+    <string name="all_languages">Ny fiteny rehetra</string>
+    <string name="langs_selected">%1$d amin\'ny %2$d</string>
+    <string name="select_all">Safidio daholo</string>
+    <string name="done">Vita</string>
+    <string name="timeframe">Fotoana</string>
+    <string name="live_only">Nanomboka teo am-pisokafana ny app</string>
+    <string name="last_hours">Ora X farany</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Fanovan\'i %1$s</string>
+    <string name="no_description">Tsy misy fanazavana.</string>
+    <string name="empty">Tsy misy firaketana ho an\'ny sivana voafidy.</string>
+    <string name="settings">Fandrindrana</string>
+    <string name="back">Miverina</string>
+    <string name="details">Antsipirihany</string>
+    <string name="error_details_title">Fahadisoana tamin\'ny fangatahana</string>
+    <string name="error_summary">%1$d amin\'ny dikan-teny %2$d voaload</string>
+    <string name="error_all_ok">Voaload soa aman-tsara ny dika rehetra.</string>
+    <string name="error_partial">Tsy afaka niditra tamin\'ny dika sasany. Tsindrio «Antsipirihany» hahitana ny lisitra.</string>
+    <string name="error_total">Tsy afaka niditra tamin\'ny Wikipedia mihitsy. Jereo ny fifandraisanao.</string>
+</resources>

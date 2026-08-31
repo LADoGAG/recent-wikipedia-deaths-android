@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">উইকিপিডিয়ায় সাম্প্রতিক মৃত্যু</string>
+    <string name="wiki_sections">উইকিপিডিয়া ভাষা সংস্করণ</string>
+    <string name="all_languages">সমস্ত ভাষা</string>
+    <string name="langs_selected">%2$d এর মধ্যে %1$d</string>
+    <string name="select_all">সব নির্বাচন করুন</string>
+    <string name="done">সম্পন্ন</string>
+    <string name="timeframe">সময়কাল</string>
+    <string name="live_only">অ্যাপ খোলার পর থেকে</string>
+    <string name="last_hours">গত X ঘন্টা</string>
+    <string name="hours_value">%1$d ঘ</string>
+    <string name="edit_by">%1$s দ্বারা সম্পাদনা</string>
+    <string name="no_description">কোনো বিবরণ উপলব্ধ নেই।</string>
+    <string name="empty">নির্বাচিত ফিল্টারগুলির জন্য কোনো রেকর্ড নেই।</string>
+    <string name="settings">সেটিংস</string>
+    <string name="back">পিছনে</string>
+    <string name="details">বিবরণ</string>
+    <string name="error_details_title">অনুরোধ ব্যর্থতা</string>
+    <string name="error_summary">%2$d ভাষা সংস্করণের মধ্যে %1$d লোড হয়েছে</string>
+    <string name="error_all_ok">সমস্ত সংস্করণ সফলভাবে লোড হয়েছে।</string>
+    <string name="error_partial">কিছু সংস্করণে পৌঁছানো যায়নি। তালিকার জন্য «বিবরণ» এ ট্যাপ করুন।</string>
+    <string name="error_total">উইকিপিডিয়াতে একেবারেই পৌঁছানো যায়নি। আপনার সংযোগ পরীক্ষা করুন।</string>
+</resources>

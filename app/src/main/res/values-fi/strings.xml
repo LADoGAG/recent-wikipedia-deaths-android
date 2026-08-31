@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Viimeisimmät kuolemantapaukset Wikipediassa</string>
+    <string name="wiki_sections">Wikipedian kieliversiot</string>
+    <string name="all_languages">Kaikki kielet</string>
+    <string name="langs_selected">%1$d / %2$d</string>
+    <string name="select_all">Valitse kaikki</string>
+    <string name="done">Valmis</string>
+    <string name="timeframe">Aikajakso</string>
+    <string name="live_only">Sovelluksen avaamisesta lähtien</string>
+    <string name="last_hours">Viimeiset X tuntia</string>
+    <string name="hours_value">%1$d t</string>
+    <string name="edit_by">Muokkaaja: %1$s</string>
+    <string name="no_description">Kuvausta ei ole saatavilla.</string>
+    <string name="empty">Ei tietueita valituille suodattimille.</string>
+    <string name="settings">Asetukset</string>
+    <string name="back">Takaisin</string>
+    <string name="details">Tiedot</string>
+    <string name="error_details_title">Pyyntövirheet</string>
+    <string name="error_summary">%1$d / %2$d kieliversiosta ladattu</string>
+    <string name="error_all_ok">Kaikki kieliversiot ladattu onnistuneesti.</string>
+    <string name="error_partial">Joitakin kieliversioita ei tavoitettu. Napauta «Tiedot» nähdäksesi listan.</string>
+    <string name="error_total">Wikipediaan ei saatu yhteyttä. Tarkista verkkoyhteys.</string>
+</resources>

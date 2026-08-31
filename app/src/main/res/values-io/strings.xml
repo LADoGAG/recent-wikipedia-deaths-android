@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Recenta morti en Wikipedia</string>
+    <string name="wiki_sections">Linguo-edicioni di Wikipedia</string>
+    <string name="all_languages">Omna lingui</string>
+    <string name="langs_selected">%1$d de %2$d</string>
+    <string name="select_all">Selektar omno</string>
+    <string name="done">Facita</string>
+    <string name="timeframe">Tempo-periodo</string>
+    <string name="live_only">Depos ke l\'aplikuro apertesis</string>
+    <string name="last_hours">Lasta X hori</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Redakto da %1$s</string>
+    <string name="no_description">Nula deskripto disponebla.</string>
+    <string name="empty">Nula enrejistruro por la selektita filtrili.</string>
+    <string name="settings">Parametri</string>
+    <string name="back">Retro</string>
+    <string name="details">Detali</string>
+    <string name="error_details_title">Fali di demandi</string>
+    <string name="error_summary">%1$d de %2$d linguo-edicioni charjita</string>
+    <string name="error_all_ok">Omna linguo-edicioni charjesis sucesoze.</string>
+    <string name="error_partial">Kelka linguo-edicioni ne povis esar atingita. Tushar «Detali» por la listo.</string>
+    <string name="error_total">Ne povis atingar Wikipedia. Kontrolez vua konekto.</string>
+</resources>

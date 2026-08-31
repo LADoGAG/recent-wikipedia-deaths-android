@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Апошнія смерці ў Вікіпедыі</string>
+    <string name="wiki_sections">Моўныя раздзелы Вікіпедыі</string>
+    <string name="all_languages">Усе мовы</string>
+    <string name="langs_selected">%1$d з %2$d</string>
+    <string name="select_all">Выбраць усё</string>
+    <string name="done">Гатова</string>
+    <string name="timeframe">Перыяд часу</string>
+    <string name="live_only">З моманту адкрыцця праграмы</string>
+    <string name="last_hours">За апошнія X гадзін</string>
+    <string name="hours_value">%1$d г</string>
+    <string name="edit_by">Рэдагаванне ад %1$s</string>
+    <string name="no_description">Апісанне адсутнічае.</string>
+    <string name="empty">Няма запісаў для выбраных фільтраў.</string>
+    <string name="settings">Налады</string>
+    <string name="back">Назад</string>
+    <string name="details">Падрабязнасці</string>
+    <string name="error_details_title">Памылкі запытаў</string>
+    <string name="error_summary">Загружана %1$d з %2$d моўных раздзелаў</string>
+    <string name="error_all_ok">Усе моўныя раздзелы паспяхова загружаны.</string>
+    <string name="error_partial">Некаторыя моўныя раздзелы недаступныя. Націсніце «Падрабязнасці».</string>
+    <string name="error_total">Немагчыма звязацца з Вікіпедыяй. Праверце падлучэнне.</string>
+</resources>

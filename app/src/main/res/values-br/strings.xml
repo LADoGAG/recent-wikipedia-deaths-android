@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Marvioù nevez war Wikipedia</string>
+    <string name="wiki_sections">Embannadurioù yezhel Wikipedia</string>
+    <string name="all_languages">An holl yezhoù</string>
+    <string name="langs_selected">%1$d diwar %2$d</string>
+    <string name="select_all">Diuzañ an holl</string>
+    <string name="done">Graet</string>
+    <string name="timeframe">Padelezh</string>
+    <string name="live_only">Abaoe m\'eo bet digoret an arload</string>
+    <string name="last_hours">An X eur diwezhañ</string>
+    <string name="hours_value">%1$d e</string>
+    <string name="edit_by">Embannet gant %1$s</string>
+    <string name="no_description">Deskrivadur ebet da gaout.</string>
+    <string name="empty">Enrolladenn ebet evit ar siloù diuzet.</string>
+    <string name="settings">Arventennoù</string>
+    <string name="back">Distreiñ</string>
+    <string name="details">Munudoù</string>
+    <string name="error_details_title">C\'hwitadennoù ar goulennoù</string>
+    <string name="error_summary">%1$d embannadur yezhel karget diwar %2$d</string>
+    <string name="error_all_ok">Karget eo bet an holl embannadurioù gant berzh.</string>
+    <string name="error_partial">N\'eus ket bet gallet tizhout embannadurioù zo. Pouezit war «Munudoù» evit gwelout al listenn.</string>
+    <string name="error_total">N\'eus ket bet gallet tizhout Wikipedia tamm ebet. Gwiriit ho kennask.</string>
+</resources>

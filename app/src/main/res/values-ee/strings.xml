@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ame siwo ku nyitsɔ laa le Wikipedia dzi</string>
+    <string name="wiki_sections">Wikipedia gbewo</string>
+    <string name="all_languages">Gbeawo katã</string>
+    <string name="langs_selected">%1$d le %2$d me</string>
+    <string name="select_all">Tia wo katã</string>
+    <string name="done">Ewu enu</string>
+    <string name="timeframe">Ɣeyiɣi</string>
+    <string name="live_only">Tso esime woʋu app la</string>
+    <string name="last_hours">Gaƒoƒo X siwo va yi</string>
+    <string name="hours_value">%1$d g</string>
+    <string name="edit_by">%1$s ƒe trɔtrɔ</string>
+    <string name="no_description">Numeɖeɖe aɖeke meli o.</string>
+    <string name="empty">Ŋɔŋlɔɖi aɖeke meli na nu siwo nètia o.</string>
+    <string name="settings">Ðoɖowo</string>
+    <string name="back">Megbe</string>
+    <string name="details">Ŋutiɖeɖe</string>
+    <string name="error_details_title">Biabia ƒe vodadawo</string>
+    <string name="error_summary">%1$d le %2$d gbe me woɖo ɖe wò ŋu</string>
+    <string name="error_all_ok">Wo katã woɖo ɖe wò ŋu nyuie.</string>
+    <string name="error_partial">Mete ŋu ɖo ɖe gbe aɖewo ŋu o. Zi «Ŋutiɖeɖe» dzi be nàkpɔ xexlẽdzesiawo.</string>
+    <string name="error_total">Mete ŋu ɖo ɖe Wikipedia ŋu kura o. Kpɔ wò kadodo ŋu.</string>
+</resources>

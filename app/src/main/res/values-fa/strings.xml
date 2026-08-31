@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">درگذشتگان اخیر در ویکی‌پدیا</string>
+    <string name="wiki_sections">نسخه‌های زبانی ویکی‌پدیا</string>
+    <string name="all_languages">همه زبان‌ها</string>
+    <string name="langs_selected">%1$d از %2$d</string>
+    <string name="select_all">انتخاب همه</string>
+    <string name="done">پایان</string>
+    <string name="timeframe">بازه زمانی</string>
+    <string name="live_only">از زمان باز شدن برنامه</string>
+    <string name="last_hours">X ساعت گذشته</string>
+    <string name="hours_value">%1$d س</string>
+    <string name="edit_by">ویرایش توسط %1$s</string>
+    <string name="no_description">توضیحاتی در دسترس نیست.</string>
+    <string name="empty">هیچ رکوردی برای فیلترهای انتخاب‌شده یافت نشد.</string>
+    <string name="settings">تنظیمات</string>
+    <string name="back">بازگشت</string>
+    <string name="details">جزئیات</string>
+    <string name="error_details_title">خطاهای درخواست</string>
+    <string name="error_summary">%1$d از %2$d نسخه زبانی بارگذاری شد</string>
+    <string name="error_all_ok">همه نسخه‌ها با موفقیت بارگذاری شدند.</string>
+    <string name="error_partial">دسترسی به برخی نسخه‌ها امکان‌پذیر نبود. برای مشاهده فهرست روی «جزئیات» ضربه بزنید.</string>
+    <string name="error_total">اصلاً نتوانستیم به ویکی‌پدیا متصل شویم. اتصال خود را بررسی کنید.</string>
+</resources>

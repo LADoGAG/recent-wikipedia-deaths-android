@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Dintsho tsa bosheng mo Wikipedia</string>
+    <string name="wiki_sections">Diphetolelo tsa puo tsa Wikipedia</string>
+    <string name="all_languages">Dipuo tsotlhe</string>
+    <string name="langs_selected">%1$d go tswa go %2$d</string>
+    <string name="select_all">Tlhopha tsotlhe</string>
+    <string name="done">Go feditswe</string>
+    <string name="timeframe">Nako</string>
+    <string name="live_only">Go tswa fa app e butswe</string>
+    <string name="last_hours">Diura tse X tse di fetileng</string>
+    <string name="hours_value">%1$d d</string>
+    <string name="edit_by">Go fetola ke %1$s</string>
+    <string name="no_description">Ga go na tlhaloso e e leng teng.</string>
+    <string name="empty">Ga go na direkoto tsa difilthara tse di tlhophilweng.</string>
+    <string name="settings">Ditlhophiso</string>
+    <string name="back">Boela morago</string>
+    <string name="details">Dintlha</string>
+    <string name="error_details_title">Go palelwa ga dikopo</string>
+    <string name="error_summary">%1$d go tswa go %2$d diphetolelo tsa puo di laodilwe</string>
+    <string name="error_all_ok">Diphetolelo tsotlhe tsa puo di laodilwe ka katlego.</string>
+    <string name="error_partial">Diphetolelo dingwe tsa puo ga di a ka tsa fitlhelelwa. Tobetsa «Dintlha» go bona lenaneo.</string>
+    <string name="error_total">Ga go a ka ga kgonega go fitlhelela Wikipedia. Tlhatlhoba kgolagano ya gago.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Rezent Doudesfäll op Wikipedia</string>
+    <string name="wiki_sections">Wikipedia-Sproochversinnen</string>
+    <string name="all_languages">All Sproochen</string>
+    <string name="langs_selected">%1$d vun %2$d</string>
+    <string name="select_all">Alles auswielen</string>
+    <string name="done">Fäerdeg</string>
+    <string name="timeframe">Zäitraum</string>
+    <string name="live_only">Zënter d\'App op ass</string>
+    <string name="last_hours">Lescht X Stonnen</string>
+    <string name="hours_value">%1$d St</string>
+    <string name="edit_by">Ännerung vum %1$s</string>
+    <string name="no_description">Keng Beschreiwung verfügbar.</string>
+    <string name="empty">Keng Entréeë fir déi gewielt Filteren.</string>
+    <string name="settings">Astellungen</string>
+    <string name="back">Zeréck</string>
+    <string name="details">Detailer</string>
+    <string name="error_details_title">Feeler bei den Ufroen</string>
+    <string name="error_summary">%1$d vun %2$d Editioune gelueden</string>
+    <string name="error_all_ok">All Editioune goufen erfollegräich gelueden.</string>
+    <string name="error_partial">E puer Editiounen konnten net erreecht ginn. Tippt op «Detailer» fir eng Lëscht.</string>
+    <string name="error_total">Wikipedia konnt guer net erreecht ginn. Iwwerpréift Är Verbindung.</string>
+</resources>

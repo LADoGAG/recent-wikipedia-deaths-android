@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bàsan o chionn ghoirid air Wikipedia</string>
+    <string name="wiki_sections">Deasachaidhean cànain Wikipedia</string>
+    <string name="all_languages">A h-uile cànan</string>
+    <string name="langs_selected">%1$d à %2$d</string>
+    <string name="select_all">Tagh a h-uile</string>
+    <string name="done">Deiseil</string>
+    <string name="timeframe">Ùine</string>
+    <string name="live_only">Bho chaidh an aplacaid fhosgladh</string>
+    <string name="last_hours">Na X uairean mu dheireadh</string>
+    <string name="hours_value">%1$d u</string>
+    <string name="edit_by">Deasachadh le %1$s</string>
+    <string name="no_description">Chan eil tuairisgeul ri fhaighinn.</string>
+    <string name="empty">Chan eil clàran ann airson na criathragan a thagh thu.</string>
+    <string name="settings">Roghainnean</string>
+    <string name="back">Air ais</string>
+    <string name="details">Fiosrachadh</string>
+    <string name="error_details_title">Fàilligidhean iarrtais</string>
+    <string name="error_summary">%1$d à %2$d deasachadh cànain air a luchdadh</string>
+    <string name="error_all_ok">Chaidh a h-uile deasachadh a luchdadh gu soirbheachail.</string>
+    <string name="error_partial">Cha b\' urrainn dhuinn cuid de na deasachaidhean a ruighinn. Brùth «Fiosrachadh» airson liosta.</string>
+    <string name="error_total">Cha b\' urrainn dhuinn Wikipedia a ruighinn idir. Thoir sùil air a\' cheangal agad.</string>
+</resources>

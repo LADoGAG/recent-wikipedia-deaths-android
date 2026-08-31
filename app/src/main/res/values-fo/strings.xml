@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Nýlig andlát á Wikipedia</string>
+    <string name="wiki_sections">Wikipedia málútgávur</string>
+    <string name="all_languages">Øll mál</string>
+    <string name="langs_selected">%1$d av %2$d</string>
+    <string name="select_all">Vel øll</string>
+    <string name="done">Liðugt</string>
+    <string name="timeframe">Tíðarskeið</string>
+    <string name="live_only">Síðan appin varð latin upp</string>
+    <string name="last_hours">Seinastu X tímarnir</string>
+    <string name="hours_value">%1$d t</string>
+    <string name="edit_by">Rætting av %1$s</string>
+    <string name="no_description">Eingin frágreiðing tøk.</string>
+    <string name="empty">Ongar skrásetingar fyri valdu filters.</string>
+    <string name="settings">Stillingar</string>
+    <string name="back">Aftur</string>
+    <string name="details">Nærri upplýsingar</string>
+    <string name="error_details_title">Umbønir miseydnaðust</string>
+    <string name="error_summary">%1$d av %2$d málútgávum løddar</string>
+    <string name="error_all_ok">Allar útgávur eru løddar.</string>
+    <string name="error_partial">Nakrar útgávur kundu ikki røkkast. Trýst á «Nærri upplýsingar» fyri lista.</string>
+    <string name="error_total">Kundi als ikki røkka Wikipedia. Kanna tína samband.</string>
+</resources>

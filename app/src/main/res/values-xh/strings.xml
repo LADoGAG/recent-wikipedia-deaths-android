@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Abasandul\' ukusweleka kwi-Wikipedia</string>
+    <string name="wiki_sections">Iinguqulelo zolimi zeWikipedia</string>
+    <string name="all_languages">Zonke iilwimi</string>
+    <string name="langs_selected">%1$d kwezingama-%2$d</string>
+    <string name="select_all">Khetha konke</string>
+    <string name="done">Kugqityiwe</string>
+    <string name="timeframe">Ixesha</string>
+    <string name="live_only">Ukusukela oko yavulwa i-app</string>
+    <string name="last_hours">Iiyure ezingu-X ezidlulileyo</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Ukuhlelwa ngu-%1$s</string>
+    <string name="no_description">Akukho nkcazelo ifumanekayo.</string>
+    <string name="empty">Akukho zirekhodi kwizihluzi ezikhethiweyo.</string>
+    <string name="settings">Izicwangciso</string>
+    <string name="back">Buyela umva</string>
+    <string name="details">Iinkcukacha</string>
+    <string name="error_details_title">Ukusilela kwezicelo</string>
+    <string name="error_summary">%1$d kwezingama-%2$d iinguqulelo zolimi zilayishiwe</string>
+    <string name="error_all_ok">Zonke iinguqulelo zolimi zilayishwe ngempumelelo.</string>
+    <string name="error_partial">Ezinye iinguqulelo zolimi azikwazanga ukufikelelwa. Cofa «Iinkcukacha» ukuze ubone uluhlu.</string>
+    <string name="error_total">Ayikwazanga ukufikelela kwiWikipedia kwaphela. Jonga uqhagamshelwano lwakho.</string>
+</resources>

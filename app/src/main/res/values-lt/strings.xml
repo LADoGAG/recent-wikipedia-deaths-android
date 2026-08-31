@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Naujausios mirtys Vikipedijoje</string>
+    <string name="wiki_sections">Vikipedijos kalbų versijos</string>
+    <string name="all_languages">Visos kalbos</string>
+    <string name="langs_selected">%1$d iš %2$d</string>
+    <string name="select_all">Pasirinkti viską</string>
+    <string name="done">Atlikta</string>
+    <string name="timeframe">Laikotarpis</string>
+    <string name="live_only">Nuo programėlės atidarymo</string>
+    <string name="last_hours">Paskutinės X valandos</string>
+    <string name="hours_value">%1$d val</string>
+    <string name="edit_by">Redagavo %1$s</string>
+    <string name="no_description">Aprašymo nėra.</string>
+    <string name="empty">Pasirinktiems filtrams įrašų nerasta.</string>
+    <string name="settings">Nustatymai</string>
+    <string name="back">Atgal</string>
+    <string name="details">Išsami informacija</string>
+    <string name="error_details_title">Užklausų klaidos</string>
+    <string name="error_summary">Įkelta %1$d iš %2$d kalbų versijų</string>
+    <string name="error_all_ok">Visi leidimai sėkmingai įkelti.</string>
+    <string name="error_partial">Kai kurių leidimų pasiekti nepavyko. Bakstelėkite «Išsami informacija», kad pamatytumėte sąrašą.</string>
+    <string name="error_total">Iš viso nepavyko prisijungti prie Vikipedijos. Patikrinkite ryšį.</string>
+</resources>

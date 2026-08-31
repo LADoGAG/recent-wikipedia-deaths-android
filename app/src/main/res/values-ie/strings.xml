@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Recent mortes in Wikipedia</string>
+    <string name="wiki_sections">Editiones linguistic de Wikipedia</string>
+    <string name="all_languages">Omni lingues</string>
+    <string name="langs_selected">%1$d de %2$d</string>
+    <string name="select_all">Selecter omni</string>
+    <string name="done">Finit</string>
+    <string name="timeframe">Periode de témpor</string>
+    <string name="live_only">Depos que li app es apertet</string>
+    <string name="last_hours">Ultim X hores</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Redaction per %1$s</string>
+    <string name="no_description">Null description disponibil.</string>
+    <string name="empty">Null registras por li selectet filtriles.</string>
+    <string name="settings">Configurationes</string>
+    <string name="back">Retro</string>
+    <string name="details">Detallies</string>
+    <string name="error_details_title">Fallimentes del requestes</string>
+    <string name="error_summary">%1$d de %2$d editiones linguistic cargat</string>
+    <string name="error_all_ok">Omni editiones linguistic ha esset cargat con successe.</string>
+    <string name="error_partial">Alcun editiones linguistic ne posset esser atinget. Tappar «Detallies» por li liste.</string>
+    <string name="error_total">Ne posset atinger Wikipedia. Controla tui conexion.</string>
+</resources>

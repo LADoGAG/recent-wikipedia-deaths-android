@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Недавне смрти на Википедији</string>
+    <string name="wiki_sections">Језичке верзије Википедије</string>
+    <string name="all_languages">Сви језици</string>
+    <string name="langs_selected">%1$d од %2$d</string>
+    <string name="select_all">Изабери све</string>
+    <string name="done">Готово</string>
+    <string name="timeframe">Временски период</string>
+    <string name="live_only">Од отварања апликације</string>
+    <string name="last_hours">Последњих X сати</string>
+    <string name="hours_value">%1$d ч</string>
+    <string name="edit_by">Уређивање од %1$s</string>
+    <string name="no_description">Нема доступног описа.</string>
+    <string name="empty">Нема записа за изабране филтере.</string>
+    <string name="settings">Подешавања</string>
+    <string name="back">Назад</string>
+    <string name="details">Детаљи</string>
+    <string name="error_details_title">Грешке у захтевима</string>
+    <string name="error_summary">Учитано %1$d од %2$d језичких верзија</string>
+    <string name="error_all_ok">Све језичке верзије су успешно учитане.</string>
+    <string name="error_partial">Неким језичким верзијама није могло да се приступи. Додирните «Детаљи» за листу.</string>
+    <string name="error_total">Уопште није могло да се приступи Википедији. Проверите везу.</string>
+</resources>

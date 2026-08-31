@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Miriyên dawîn li Wîkîpediyayê</string>
+    <string name="wiki_sections">Guhertoyên zimên ên Wîkîpediyayê</string>
+    <string name="all_languages">Hemû ziman</string>
+    <string name="langs_selected">%1$d ji %2$d</string>
+    <string name="select_all">Hemûyan hilbijêre</string>
+    <string name="done">Qediya</string>
+    <string name="timeframe">Dema</string>
+    <string name="live_only">Ji dema vekirina sepanê</string>
+    <string name="last_hours">X saetên dawîn</string>
+    <string name="hours_value">%1$d s</string>
+    <string name="edit_by">Guhertina ji hêla %1$s ve</string>
+    <string name="no_description">Danasîn tune ye.</string>
+    <string name="empty">Ji bo parzûnên hilbijartî qeyd tune ne.</string>
+    <string name="settings">Mîheng</string>
+    <string name="back">Paşve</string>
+    <string name="details">Hûrgulî</string>
+    <string name="error_details_title">Têkçûnên daxwazan</string>
+    <string name="error_summary">%1$d ji %2$d guhertoyên zimên hatin barkirin</string>
+    <string name="error_all_ok">Hemû guhertoyên zimên bi serkeftî hatin barkirin.</string>
+    <string name="error_partial">Nikaribû bigihîje hin guhertoyên zimên. Ji bo lîsteyê li «Hûrgulî» bitikîne.</string>
+    <string name="error_total">Qet nikaribû bigihîje Wîkîpediyayê. Girêdana xwe kontrol bikin.</string>
+</resources>

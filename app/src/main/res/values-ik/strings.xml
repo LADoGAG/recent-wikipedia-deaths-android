@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Anniġaaqtat Wikipedia-mi</string>
+    <string name="wiki_sections">Uqautchit Wikipedia-mi</string>
+    <string name="all_languages">Uqautchit iluqaisa</string>
+    <string name="langs_selected">%1$d %2$d-ñit</string>
+    <string name="select_all">Iluqaisa suli</string>
+    <string name="done">Naatpux</string>
+    <string name="timeframe">Uvlupak</string>
+    <string name="live_only">App aŋatnanit</string>
+    <string name="last_hours">Akiqsrat %1$d tiimit</string>
+    <string name="hours_value">%1$d t</string>
+    <string name="edit_by">%1$s-mun Simmitat</string>
+    <string name="no_description">Kanuġipmanitchuq taiguagut.</string>
+    <string name="empty">Sumi taitchut qiniġatñi.</string>
+    <string name="settings">Suluktaat</string>
+    <string name="back">Utiriñ</string>
+    <string name="details">Uqałhiñat</string>
+    <string name="error_details_title">Piliat tamatqut</string>
+    <string name="error_summary">%1$d %2$d-ñit uqautchit aggiqtat</string>
+    <string name="error_all_ok">Iluqaisa uqautchit aggiqtut nallunaitchut.</string>
+    <string name="error_partial">Ilaat uqautchit suli tikitchumiñaitchut. Tuvqiñ «Uqałhiñat» qiniġluŋa.</string>
+    <string name="error_total">Wikipedia tikitchumiñaitchuq. Qiniġin ikuutaġalun.</string>
+</resources>

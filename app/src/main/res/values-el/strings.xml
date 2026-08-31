@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Πρόσφατοι θάνατοι στη Wikipedia</string>
+    <string name="wiki_sections">Γλωσσικές εκδόσεις της Wikipedia</string>
+    <string name="all_languages">Όλες οι γλώσσες</string>
+    <string name="langs_selected">%1$d από %2$d</string>
+    <string name="select_all">Επιλογή όλων</string>
+    <string name="done">Τέλος</string>
+    <string name="timeframe">Χρονική περίοδος</string>
+    <string name="live_only">Από το άνοιγμα της εφαρμογής</string>
+    <string name="last_hours">Τελευταίες X ώρες</string>
+    <string name="hours_value">%1$d ώ</string>
+    <string name="edit_by">Επεξεργασία από %1$s</string>
+    <string name="no_description">Δεν υπάρχει διαθέσιμη περιγραφή.</string>
+    <string name="empty">Δεν βρέθηκαν εγγραφές για τα επιλεγμένα φίλτρα.</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="back">Πίσω</string>
+    <string name="details">Λεπτομέρειες</string>
+    <string name="error_details_title">Αποτυχίες αιτημάτων</string>
+    <string name="error_summary">Φορτώθηκαν %1$d από %2$d γλωσσικές εκδόσεις</string>
+    <string name="error_all_ok">Όλες οι εκδόσεις φορτώθηκαν επιτυχώς.</string>
+    <string name="error_partial">Δεν ήταν δυνατή η πρόσβαση σε ορισμένες εκδόσεις. Πατήστε «Λεπτομέρειες» για λίστα.</string>
+    <string name="error_total">Αδύνατη η σύνδεση με τη Wikipedia. Ελέγξτε τη σύνδεσή σας.</string>
+</resources>

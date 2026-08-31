@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Википедияын берын кулöмаяс</string>
+    <string name="wiki_sections">Википедия кыв войтыръяс</string>
+    <string name="all_languages">Став кывъяс</string>
+    <string name="langs_selected">%1$d %2$d-ысь</string>
+    <string name="select_all">Бöрны ставсö</string>
+    <string name="done">Помасис</string>
+    <string name="timeframe">Кад</string>
+    <string name="live_only">Приложение восьтöмсянь</string>
+    <string name="last_hours">Бöръя X час</string>
+    <string name="hours_value">%1$d ч</string>
+    <string name="edit_by">%1$s-öн вежöм</string>
+    <string name="no_description">Гöгöрвотöг абу.</string>
+    <string name="empty">Бöрйöм фильтрертöг гижöдъяс абуöсь.</string>
+    <string name="settings">Лöсьöдöмъяс</string>
+    <string name="back">Бöр</string>
+    <string name="details">Детальяс</string>
+    <string name="error_details_title">Корöмъясын сорöмъяс</string>
+    <string name="error_summary">%2$d кыв войтырысь %1$d локтіс</string>
+    <string name="error_all_ok">Став кыв войтыръяс локтісны.</string>
+    <string name="error_partial">Кымынкö кыв войтырö он вермы пырны. «Детальяс» индыв.</string>
+    <string name="error_total">Википедияö он вермы пырны. Йитöдтö видлы.</string>
+</resources>

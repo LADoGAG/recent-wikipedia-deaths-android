@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ವಿಕಿಪೀಡಿಯಾದಲ್ಲಿ ಇತ್ತೀಚಿನ ಸಾವುಗಳು</string>
+    <string name="wiki_sections">ವಿಕಿಪೀಡಿಯ ಭಾಷಾ ಆವೃತ್ತಿಗಳು</string>
+    <string name="all_languages">ಎಲ್ಲಾ ಭಾಷೆಗಳು</string>
+    <string name="langs_selected">%2$d ರಲ್ಲಿ %1$d</string>
+    <string name="select_all">ಎಲ್ಲವನ್ನೂ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="done">ಮುಗಿದಿದೆ</string>
+    <string name="timeframe">ಸಮಯ ಅವಧಿ</string>
+    <string name="live_only">ಅಪ್ಲಿಕೇಶನ್ ತೆರೆದಾಗಿನಿಂದ</string>
+    <string name="last_hours">ಕಳೆದ X ಗಂಟೆಗಳು</string>
+    <string name="hours_value">%1$d ಗಂ</string>
+    <string name="edit_by">%1$s ಅವರಿಂದ ಆವೃತ್ತಿ</string>
+    <string name="no_description">ಯಾವುದೇ ವಿವರಣೆ ಲಭ್ಯವಿಲ್ಲ.</string>
+    <string name="empty">ಆಯ್ಕೆಮಾಡಿದ ಫಿಲ್ಟರ್‌ಗಳಿಗೆ ಯಾವುದೇ ದಾಖಲೆಗಳಿಲ್ಲ.</string>
+    <string name="settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="back">ಹಿಂದೆ</string>
+    <string name="details">ವಿವರಗಳು</string>
+    <string name="error_details_title">ವಿನಂತಿ ವೈಫಲ್ಯಗಳು</string>
+    <string name="error_summary">%2$d ಭಾಷಾ ಆವೃತ್ತಿಗಳಲ್ಲಿ %1$d ಲೋಡ್ ಆಗಿದೆ</string>
+    <string name="error_all_ok">ಎಲ್ಲಾ ಆವೃತ್ತಿಗಳನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಲೋಡ್ ಮಾಡಲಾಗಿದೆ.</string>
+    <string name="error_partial">ಕೆಲವು ಆವೃತ್ತಿಗಳನ್ನು ತಲುಪಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಪಟ್ಟಿಗಾಗಿ «ವಿವರಗಳು» ಒತ್ತಿರಿ.</string>
+    <string name="error_total">ವಿಕಿಪೀಡಿಯಾವನ್ನು ತಲುಪಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ನಿಮ್ಮ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ.</string>
+</resources>

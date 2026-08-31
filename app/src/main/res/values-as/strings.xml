@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ৱিকিপিডিয়াত শেহতীয়া মৃত্যু</string>
+    <string name="wiki_sections">ৱিকিপিডিয়া ভাষা সংস্কৰণসমূহ</string>
+    <string name="all_languages">সকলো ভাষা</string>
+    <string name="langs_selected">%2$d ৰ ভিতৰত %1$d</string>
+    <string name="select_all">সকলো বাছনি কৰক</string>
+    <string name="done">সম্পন্ন</string>
+    <string name="timeframe">সময়সীমা</string>
+    <string name="live_only">এপ খোলাৰ পৰা</string>
+    <string name="last_hours">যোৱা X ঘণ্টা</string>
+    <string name="hours_value">%1$d ঘ</string>
+    <string name="edit_by">%1$s ৰ দ্বাৰা সম্পাদনা</string>
+    <string name="no_description">কোনো বিৱৰণ উপলব্ধ নাই।</string>
+    <string name="empty">নিৰ্বাচিত ফিল্টাৰসমূহৰ বাবে কোনো ৰেকৰ্ড নাই।</string>
+    <string name="settings">ছেটিংছ</string>
+    <string name="back">পিছলৈ</string>
+    <string name="details">সবিশেষ</string>
+    <string name="error_details_title">অনুৰোধৰ বিফলতা</string>
+    <string name="error_summary">%2$d ভাষা সংস্কৰণসমূহৰ %1$d লোড হৈছে</string>
+    <string name="error_all_ok">সকলো সংস্কৰণ সফলতাৰে লোড হৈছে।</string>
+    <string name="error_partial">কিছুমান সংস্কৰণলৈ প্ৰৱেশ কৰিব পৰা নগ\'ল। তালিকাৰ বাবে «সবিশেষ» টেপ কৰক।</string>
+    <string name="error_total">ৱিকিপিডিয়ালৈ একেবাৰেই প্ৰৱেশ কৰিব পৰা নগ\'ল। আপোনাৰ সংযোগ পৰীক্ষা কৰক।</string>
+</resources>

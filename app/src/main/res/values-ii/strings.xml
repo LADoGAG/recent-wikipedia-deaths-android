@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">开放ꔳꄜꏃꃅꄿꇬꁧꊂ</string>
+    <string name="wiki_sections">开放ꔳꄜꏃꃅꉙꅉꗷ</string>
+    <string name="all_languages">ꉙꊈꐚꏦ</string>
+    <string name="langs_selected">%2$d ꇬ %1$d ꏝ</string>
+    <string name="select_all">ꐚꏦꏝ</string>
+    <string name="done">ꉬꌠ</string>
+    <string name="timeframe">ꏭꅉ</string>
+    <string name="live_only">ꌠꅪꏧꈌꅑꕪ</string>
+    <string name="last_hours">ꎺꈎ %1$d ꏳꅪꇬ</string>
+    <string name="hours_value">%1$d ꏳꅪ</string>
+    <string name="edit_by">%1$s ꄜꏃꐛ</string>
+    <string name="no_description">ꐚꅪꏂꏸꎵ。</string>
+    <string name="empty">ꏝꅉꇬꐚꅪꏸꎵ。</string>
+    <string name="settings">ꏭꒉꐛ</string>
+    <string name="back">ꇬꐛ</string>
+    <string name="details">ꉬꉙ</string>
+    <string name="error_details_title">ꏭꒉꇇꄿ</string>
+    <string name="error_summary">%2$d ꇬ %1$d ꉙꅉꖇꉬ</string>
+    <string name="error_all_ok">ꉙꅉꐚꏦꖇꉬꌠ。</string>
+    <string name="error_partial">ꉙꅉꌠꅉꇇꄿ。«ꉬꉙ» ꇬꉑꅑ。</string>
+    <string name="error_total">开放ꔳꄜꏃꃅꇇꄿ。ꔳꃅꍘꇬꎂꏦ。</string>
+</resources>

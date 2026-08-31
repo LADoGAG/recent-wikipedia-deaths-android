@@ -1,0 +1,23 @@
+<resources>
+ <string name="app_name">Tử vong gần đây trên Wikipedia</string>
+ <string name="wiki_sections">Phiên bản ngôn ngữ Wikipedia</string>
+ <string name="all_languages">Tất cả ngôn ngữ</string>
+ <string name="langs_selected">%1$d / %2$d</string>
+ <string name="select_all">Chọn tất cả</string>
+ <string name="done">Xong</string>
+ <string name="timeframe">Khoảng thời gian</string>
+ <string name="live_only">Kể từ khi mở ứng dụng</string>
+ <string name="last_hours">X giờ qua</string>
+ <string name="hours_value">%1$d giờ</string>
+ <string name="edit_by">Sửa đổi bởi %1$s</string>
+ <string name="no_description">Không có mô tả.</string>
+ <string name="empty">Không có bản ghi nào cho các bộ lọc đã chọn.</string>
+ <string name="settings">Cài đặt</string>
+ <string name="back">Quay lại</string>
+ <string name="details">Chi tiết</string>
+ <string name="error_details_title">Lỗi yêu cầu</string>
+ <string name="error_summary">Đã tải %1$d / %2$d phiên bản ngôn ngữ</string>
+ <string name="error_all_ok">Tất cả phiên bản ngôn ngữ đã tải thành công.</string>
+ <string name="error_partial">Không thể truy cập một số phiên bản ngôn ngữ. Nhấn «Chi tiết» để xem danh sách.</string>
+ <string name="error_total">Không thể kết nối đến Wikipedia. Hãy kiểm tra kết nối.</string>
+</resources>

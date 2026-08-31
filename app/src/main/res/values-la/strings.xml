@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Recentes mortes in Vicipaedia</string>
+    <string name="wiki_sections">Versiones linguisticae Vicipaediae</string>
+    <string name="all_languages">Omnes linguae</string>
+    <string name="langs_selected">%1$d ex %2$d</string>
+    <string name="select_all">Eligere omnia</string>
+    <string name="done">Factum</string>
+    <string name="timeframe">Spatium temporis</string>
+    <string name="live_only">Ex quo applicatio aperta est</string>
+    <string name="last_hours">Novissimae X horae</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Recensio a %1$s</string>
+    <string name="no_description">Nulla descriptio praesto.</string>
+    <string name="empty">Nulla monumenta pro filtris electis.</string>
+    <string name="settings">Configurationes</string>
+    <string name="back">Retro</string>
+    <string name="details">Particulae</string>
+    <string name="error_details_title">Errores petitionum</string>
+    <string name="error_summary">%1$d ex %2$d versionibus linguisticis oneratis</string>
+    <string name="error_all_ok">Omnes versiones linguisticae feliciter oneratae sunt.</string>
+    <string name="error_partial">Aliquae versiones linguisticae attingi non potuerunt. Tange «Particulae» pro indice.</string>
+    <string name="error_total">Vicipaedia omnino attingi non potuit. Connexionem tuam proba.</string>
+</resources>

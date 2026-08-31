@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ukufa okusanda ku-Wikipedia</string>
+    <string name="wiki_sections">Iinguqulo zolimi ze-Wikipedia</string>
+    <string name="all_languages">Zoke iilimi</string>
+    <string name="langs_selected">%1$d kwezingama-%2$d</string>
+    <string name="select_all">Khetha zoke</string>
+    <string name="done">Kwenzakele</string>
+    <string name="timeframe">Isikhathi</string>
+    <string name="live_only">Kusukela ivulwe i-app</string>
+    <string name="last_hours">Amahora angu-X adlule</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Ukuhlela ngu-%1$s</string>
+    <string name="no_description">Akukho ncazelo etholakalako.</string>
+    <string name="empty">Akukho marekhodi wamafiltha akhethiwe.</string>
+    <string name="settings">Izilungiselelo</string>
+    <string name="back">Emuva</string>
+    <string name="details">Imininingwana</string>
+    <string name="error_details_title">Ukwehluleka kwezicelo</string>
+    <string name="error_summary">%1$d kwezingama-%2$d zezinguqulo zolimi zilayishiwe</string>
+    <string name="error_all_ok">Zoke iinguqulo zolimi zilayishwe ngempumelelo.</string>
+    <string name="error_partial">Ezinye iinguqulo zolimi azikwazanga ukufinyelelwa. Thepha «Imininingwana» ukuze uthole uhlu.</string>
+    <string name="error_total">Ayikwazanga ukufinyelela ku-Wikipedia nhlobo. Hlola ukuxhumana kwakho.</string>
+</resources>

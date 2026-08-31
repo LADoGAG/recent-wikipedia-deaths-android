@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Hiljutised surmad Vikipeedias</string>
+    <string name="wiki_sections">Vikipeedia keeleversioonid</string>
+    <string name="all_languages">Kõik keeled</string>
+    <string name="langs_selected">%1$d / %2$d</string>
+    <string name="select_all">Vali kõik</string>
+    <string name="done">Valmis</string>
+    <string name="timeframe">Ajavahemik</string>
+    <string name="live_only">Alates rakenduse avamisest</string>
+    <string name="last_hours">Viimased X tundi</string>
+    <string name="hours_value">%1$d t</string>
+    <string name="edit_by">Muutja: %1$s</string>
+    <string name="no_description">Kirjeldus puudub.</string>
+    <string name="empty">Valitud filtrite jaoks pole kirjeid.</string>
+    <string name="settings">Seaded</string>
+    <string name="back">Tagasi</string>
+    <string name="details">Üksikasjad</string>
+    <string name="error_details_title">Päringute tõrked</string>
+    <string name="error_summary">Laaditud %1$d / %2$d keeleversioonist</string>
+    <string name="error_all_ok">Kõik väljaanded on edukalt laaditud.</string>
+    <string name="error_partial">Mõne väljaandeni ei õnnestunud jõuda. Loendi nägemiseks puudutage valikut «Üksikasjad».</string>
+    <string name="error_total">Vikipeediani ei õnnestunud üldse jõuda. Kontrollige ühendust.</string>
+</resources>

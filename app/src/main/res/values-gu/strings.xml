@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">વિકિપીડિયા પર તાજેતરના મૃત્યુ</string>
+    <string name="wiki_sections">વિકિપીડિયા ભાષા આવૃત્તિઓ</string>
+    <string name="all_languages">બધી ભાષાઓ</string>
+    <string name="langs_selected">%2$d માંથી %1$d</string>
+    <string name="select_all">બધું પસંદ કરો</string>
+    <string name="done">થઈ ગયું</string>
+    <string name="timeframe">સમયગાળો</string>
+    <string name="live_only">એપ્લિકેશન ખોલ્યા પછીથી</string>
+    <string name="last_hours">છેલ્લા X કલાક</string>
+    <string name="hours_value">%1$d ક</string>
+    <string name="edit_by">%1$s દ્વારા ફેરફાર</string>
+    <string name="no_description">કોઈ વર્ણન ઉપલબ્ધ નથી.</string>
+    <string name="empty">પસંદ કરેલા ફિલ્ટર્સ માટે કોઈ રેકોર્ડ નથી.</string>
+    <string name="settings">સેટિંગ્સ</string>
+    <string name="back">પાછળ</string>
+    <string name="details">વિગતો</string>
+    <string name="error_details_title">વિનંતી નિષ્ફળતાઓ</string>
+    <string name="error_summary">%2$d ભાષા આવૃત્તિઓમાંથી %1$d લોડ થઈ</string>
+    <string name="error_all_ok">બધી આવૃત્તિઓ સફળતાપૂર્વક લોડ થઈ ગઈ છે.</string>
+    <string name="error_partial">અમુક આવૃત્તિઓ સુધી પહોંચી શકાયું નથી. યાદી માટે «વિગતો» પર ટેપ કરો.</string>
+    <string name="error_total">વિકિપીડિયા સુધી બિલકુલ પહોંચી શકાયું નથી. તમારું કનેક્શન તપાસો.</string>
+</resources>

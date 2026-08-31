@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Onlangse Wikipedia-sterftes</string>
+    <string name="wiki_sections">Wikipedia-taaluitgawes</string>
+    <string name="all_languages">Alle tale</string>
+    <string name="langs_selected">%1$d van %2$d</string>
+    <string name="select_all">Kies alles</string>
+    <string name="done">Klaar</string>
+    <string name="timeframe">Tydperk</string>
+    <string name="live_only">Sedert die app oopgemaak is</string>
+    <string name="last_hours">Laaste X ure</string>
+    <string name="hours_value">%1$d u</string>
+    <string name="edit_by">Redaksie deur %1$s</string>
+    <string name="no_description">Geen beskikbare beskrywing nie.</string>
+    <string name="empty">Geen rekords vir die gekose filters nie.</string>
+    <string name="settings">Instellings</string>
+    <string name="back">Terug</string>
+    <string name="details">Besonderhede</string>
+    <string name="error_details_title">Versoekmislukkings</string>
+    <string name="error_summary">%1$d van %2$d taaluitgawes gelaai</string>
+    <string name="error_all_ok">Alle uitgawes suksesvol gelaai.</string>
+    <string name="error_partial">Sommige uitgawes kon nie bereik word nie. Tik «Besonderhede» vir \'n lys.</string>
+    <string name="error_total">Kon Wikipedia glad nie bereik nie. Gaan jou verbinding na.</string>
+</resources>

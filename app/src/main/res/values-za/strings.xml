@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Veizgibhazgoh Gaeuq Ndau Ndaiqsawj</string>
+    <string name="wiki_sections">Banyenj Vah Veizgibhazgoh</string>
+    <string name="all_languages">Gungzbuenz Vahcoengh</string>
+    <string name="langs_selected">%1$d / %2$d</string>
+    <string name="select_all">Gactsienj Gungzbuenz</string>
+    <string name="done">Cunghbanj</string>
+    <string name="timeframe">Seizgien</string>
+    <string name="live_only">Ywz Ndau Daiz App Caiq</string>
+    <string name="last_hours">Daujcawq %1$d Diemjbaenz</string>
+    <string name="hours_value">%1$d Diemjbaenz</string>
+    <string name="edit_by">Banyenj: %1$s</string>
+    <string name="no_description">Menz Gaeuq Swjmingz.</string>
+    <string name="empty">Sienjdingh Gaeuq Swjgiu Menz Dawzgi.</string>
+    <string name="settings">Sietdingh</string>
+    <string name="back">Daujhlaeng</string>
+    <string name="details">Gaeuq Sienggauh</string>
+    <string name="error_details_title">Cinggieu Silbaih</string>
+    <string name="error_summary">Ywz Caicwngh %1$d / %2$d Banyenj Vah</string>
+    <string name="error_all_ok">Gungzbuenz Banyenj Vah Caicwngh Singgong.</string>
+    <string name="error_partial">Bouhfun Banyenj Vah Menz Dauzcawq. Diengz «Gaeuq Sienggauh» canj liwz.</string>
+    <string name="error_total">Menz Dauzcawq Veizgibhazgoh. Caenz canj uengjloc sietbi.</string>
+</resources>

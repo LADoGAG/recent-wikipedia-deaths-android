@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ostatnie zgony w Wikipedii</string>
+    <string name="wiki_sections">Wersje językowe Wikipedii</string>
+    <string name="all_languages">Wszystkie języki</string>
+    <string name="langs_selected">%1$d z %2$d</string>
+    <string name="select_all">Zaznacz wszystko</string>
+    <string name="done">Gotowe</string>
+    <string name="timeframe">Okres czasu</string>
+    <string name="live_only">Od otwarcia aplikacji</string>
+    <string name="last_hours">Ostatnie X godzin</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Edycja przez %1$s</string>
+    <string name="no_description">Brak opisu.</string>
+    <string name="empty">Brak wyników dla wybranych filtrów.</string>
+    <string name="settings">Ustawienia</string>
+    <string name="back">Wstecz</string>
+    <string name="details">Szczegóły</string>
+    <string name="error_details_title">Błędy żądań</string>
+    <string name="error_summary">Wczytano %1$d z %2$d wersji językowych</string>
+    <string name="error_all_ok">Wszystkie wersje językowe wczytane pomyślnie.</string>
+    <string name="error_partial">Niektóre wersje językowe są niedostępne. Stuknij «Szczegóły».</string>
+    <string name="error_total">Nie można połączyć z Wikipedią. Sprawdź połączenie.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ການເສຍຊີວິດລ່າສຸດໃນວິກິພີເດຍ</string>
+    <string name="wiki_sections">ສະບັບພາສາວິກິພີເດຍ</string>
+    <string name="all_languages">ທຸກພາສາ</string>
+    <string name="langs_selected">%1$d ຈາກ %2$d</string>
+    <string name="select_all">ເລືອກທັງໝົດ</string>
+    <string name="done">ແລ້ວໆ</string>
+    <string name="timeframe">ໄລຍະເວລາ</string>
+    <string name="live_only">ນັບຕັ້ງແຕ່ເປີດແອັບ</string>
+    <string name="last_hours">X ຊົ່ວໂມງຜ່ານມາ</string>
+    <string name="hours_value">%1$d ຊມ</string>
+    <string name="edit_by">ແກ້ໄຂໂດຍ %1$s</string>
+    <string name="no_description">ບໍ່ມີຄຳອະທິບາຍ.</string>
+    <string name="empty">ບໍ່ມີບັນທຶກສຳລັບຕົວກອງທີ່ເລືອກ.</string>
+    <string name="settings">ການຕັ້ງຄ່າ</string>
+    <string name="back">ກັບຄືນ</string>
+    <string name="details">ລາຍລະອຽດ</string>
+    <string name="error_details_title">ຄວາມລົ້ມເຫລວຂອງຄຳຂໍ</string>
+    <string name="error_summary">ໂຫລດ %1$d ຈາກ %2$d ສະບັບພາສາ</string>
+    <string name="error_all_ok">ທຸກສະບັບໂຫລດສຳເລັດແລ້ວ.</string>
+    <string name="error_partial">ບາງສະບັບບໍ່ສາມາດເຂົ້າເຖິງໄດ້. ແຕະ «ລາຍລະອຽດ» ເພື່ອເບິ່ງລາຍການ.</string>
+    <string name="error_total">ບໍ່ສາມາດເຂົ້າເຖິງວິກິພີເດຍໄດ້ເລີຍ. ກະລຸນາກວດສອບການເຊື່ອມຕໍ່.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Wikipedia ཐོག་གི་ཉེ་ཆར་གྱི་འདས་པོ།</string>
+    <string name="wiki_sections">Wikipedia སྐད་ཡིག་པར་གཞི།</string>
+    <string name="all_languages">སྐད་ཡིག་ཡོངས།</string>
+    <string name="langs_selected">%2$d ལས་ %1$d</string>
+    <string name="select_all">ཡོངས་འདེམས།</string>
+    <string name="done">ལེགས་གྲུབ།</string>
+    <string name="timeframe">དུས་ཡུན།</string>
+    <string name="live_only">མཉེན་ཆས་ཕྱེ་བ་ནས།</string>
+    <string name="last_hours">ཉེ་ཆར་གྱི་ཆུ་ཚོད་ X</string>
+    <string name="hours_value">%1$d ཆུ་ཚོད།</string>
+    <string name="edit_by">%1$s ཀྱིས་ཞུན་དག་བྱས་པ།</string>
+    <string name="no_description">ངོ་སྤྲོད་མེད།</string>
+    <string name="empty">འདེམས་ཟིན་པའི་ཚགས་མར་ཐོ་གཞུང་མེད།</string>
+    <string name="settings">སྒྲིག་འགོད།</string>
+    <string name="back">ཕྱིར་ལོག</string>
+    <string name="details">ཞིབ་ཕྲ།</string>
+    <string name="error_details_title">རེ་འདུན་ཕམ་པ།</string>
+    <string name="error_summary">%2$d སྐད་ཡིག་པར་གཞི་ལས་ %1$d ཕབ་ལེན་བྱས་ཟིན།</string>
+    <string name="error_all_ok">པར་གཞི་ཡོངས་ལེགས་གྲུབ་ངང་ཕབ་ལེན་བྱས་ཟིན།</string>
+    <string name="error_partial">པར་གཞི་ཁ་ཤས་ལ་འབྲེལ་མཐུད་མི་ཐུབ། ཐོ་གཞུང་ལ་ «ཞིབ་ཕྲ།» གནོན།</string>
+    <string name="error_total">Wikipedia ལ་གཏན་ནས་འབྲེལ་མཐུད་མི་ཐུབ། སྦྲེལ་མཐུད་ལ་ཞིབ་བཤེར་བྱོས།</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Na mate vou e Wikipedia</string>
+    <string name="wiki_sections">iVola vosa ni Wikipedia</string>
+    <string name="all_languages">Vosa kece</string>
+    <string name="langs_selected">%1$d mai na %2$d</string>
+    <string name="select_all">Digitaka kece</string>
+    <string name="done">Sa oti</string>
+    <string name="timeframe">Gauna</string>
+    <string name="live_only">Mai na gauna sa dolavi kina na app</string>
+    <string name="last_hours">Na auwa X sa oti</string>
+    <string name="hours_value">%1$d a</string>
+    <string name="edit_by">Vakavoutaki e %1$s</string>
+    <string name="no_description">Sega ni tiko e dua na ivakamacala.</string>
+    <string name="empty">Sega ni tiko e dua na itukutuku ni veika sa digitaki.</string>
+    <string name="settings">iTuvatuva</string>
+    <string name="back">Lesu</string>
+    <string name="details">iVakamatailalai</string>
+    <string name="error_details_title">Na cala ni kerekere</string>
+    <string name="error_summary">%1$d mai na %2$d na vosa sa vakadewataki tiko</string>
+    <string name="error_all_ok">Na vosa kece sa load vinaka.</string>
+    <string name="error_partial">Eso na vosa e sega ni rawa ni curumi. Tabaka na «iVakamatailalai».</string>
+    <string name="error_total">E sega ni rawa ni curumi na Wikipedia. Raica na veisemati.</string>
+</resources>

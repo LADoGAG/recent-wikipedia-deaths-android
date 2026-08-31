@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Vdekjet e fundit në Wikipedia</string>
+    <string name="wiki_sections">Versionet gjuhësore të Wikipedias</string>
+    <string name="all_languages">Të gjitha gjuhët</string>
+    <string name="langs_selected">%1$d nga %2$d</string>
+    <string name="select_all">Zgjidh të gjitha</string>
+    <string name="done">Përfunduar</string>
+    <string name="timeframe">Periudha kohore</string>
+    <string name="live_only">Që nga hapja e aplikacionit</string>
+    <string name="last_hours">X orët e fundit</string>
+    <string name="hours_value">%1$d orë</string>
+    <string name="edit_by">Redaktim nga %1$s</string>
+    <string name="no_description">Nuk ka përshkrim në dispozicion.</string>
+    <string name="empty">Nuk ka regjistrime për filtrat e zgjedhur.</string>
+    <string name="settings">Cilësimet</string>
+    <string name="back">Prapa</string>
+    <string name="details">Detajet</string>
+    <string name="error_details_title">Dështimet e kërkesave</string>
+    <string name="error_summary">%1$d nga %2$d versione gjuhësore të ngarkuara</string>
+    <string name="error_all_ok">Të gjitha versionet gjuhësore u ngarkuan me sukses.</string>
+    <string name="error_partial">Disa versione gjuhësore nuk mund të arriheshin. Prek «Detajet» për listën.</string>
+    <string name="error_total">Nuk mund të arrihej fare te Wikipedia. Kontrollo lidhjen tënde.</string>
+</resources>

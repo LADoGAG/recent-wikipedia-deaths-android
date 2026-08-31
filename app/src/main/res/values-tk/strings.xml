@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Wikipediýada ýakyndaky ölümler</string>
+    <string name="wiki_sections">Wikipediýa dil bölümleri</string>
+    <string name="all_languages">Ähli diller</string>
+    <string name="langs_selected">%2$d-den %1$d</string>
+    <string name="select_all">Hemmesini saýla</string>
+    <string name="done">Boldy</string>
+    <string name="timeframe">Wagt aralygy</string>
+    <string name="live_only">Programma açylandan bäri</string>
+    <string name="last_hours">Soňky X sagat</string>
+    <string name="hours_value">%1$d s</string>
+    <string name="edit_by">%1$s tarapyndan redaktirleme</string>
+    <string name="no_description">Düşündiriş ýok.</string>
+    <string name="empty">Saýlanan filtrler üçin ýazgylar ýok.</string>
+    <string name="settings">Sazlamalar</string>
+    <string name="back">Yza</string>
+    <string name="details">Jikme-jiklikler</string>
+    <string name="error_details_title">Haýyş ýalňyşlyklary</string>
+    <string name="error_summary">%2$d dil bölüminden %1$d ýüklendi</string>
+    <string name="error_all_ok">Ähli dil bölümleri üstünlikli ýüklendi.</string>
+    <string name="error_partial">Käbir dil bölümlerine girip bolmady. Sanaw üçin «Jikme-jiklikler» basyň.</string>
+    <string name="error_total">Wikipediýa düýbünden girip bolmady. Birikmäňizi barlaň.</string>
+</resources>

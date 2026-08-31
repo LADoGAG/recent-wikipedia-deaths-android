@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Lastaj mortoj en Vikipedio</string>
+    <string name="wiki_sections">Lingvaj eldonoj de Vikipedio</string>
+    <string name="all_languages">Ĉiuj lingvoj</string>
+    <string name="langs_selected">%1$d el %2$d</string>
+    <string name="select_all">Elekti ĉiujn</string>
+    <string name="done">Finite</string>
+    <string name="timeframe">Tempoperiodo</string>
+    <string name="live_only">Ekde la malfermo de la apo</string>
+    <string name="last_hours">Lastaj X horoj</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Redakto de %1$s</string>
+    <string name="no_description">Neniu priskribo disponebla.</string>
+    <string name="empty">Neniuj registroj por la elektitaj filtriloj.</string>
+    <string name="settings">Agordoj</string>
+    <string name="back">Reen</string>
+    <string name="details">Detaloj</string>
+    <string name="error_details_title">Petoj malsukcesis</string>
+    <string name="error_summary">%1$d el %2$d lingvaj eldonoj ŝargitaj</string>
+    <string name="error_all_ok">Ĉiuj eldonoj ŝargiĝis sukcese.</string>
+    <string name="error_partial">Iuj eldonoj ne estis atingeblaj. Tuŝetu «Detaloj» por listo.</string>
+    <string name="error_total">Tute ne eblis atingi Vikipedion. Kontrolu vian konekton.</string>
+</resources>

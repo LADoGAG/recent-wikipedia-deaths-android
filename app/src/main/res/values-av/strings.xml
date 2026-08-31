@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Википедиялда ахирисел хвелал</string>
+    <string name="wiki_sections">Википедиялъул мацІазул бутІаби</string>
+    <string name="all_languages">Киналго мацІал</string>
+    <string name="langs_selected">%2$d-лдаса %1$d</string>
+    <string name="select_all">Кинабго бищизе</string>
+    <string name="done">ЛъугІана</string>
+    <string name="timeframe">Заман</string>
+    <string name="live_only">Приложение рагьаралдаса</string>
+    <string name="last_hours">Ахирисел X сагІатал</string>
+    <string name="hours_value">%1$d с</string>
+    <string name="edit_by">%1$s-лъул хисизаби</string>
+    <string name="no_description">Баян гьечІо.</string>
+    <string name="empty">ТІасарищарал фильтразул цІех-рех гьечІо.</string>
+    <string name="settings">Настройкаби</string>
+    <string name="back">Нахъе</string>
+    <string name="details">Баян кьей</string>
+    <string name="error_details_title">Гьариялъул гъалатІал</string>
+    <string name="error_summary">%2$d мацІазул бутІабаздаса %1$d цІунана</string>
+    <string name="error_all_ok">Киналго бутІаби цІунана.</string>
+    <string name="error_partial">Цо-цо бутІабазде щвезе кІоларо. Рихьизариялъе «Баян кьей» цуяй.</string>
+    <string name="error_total">Википедиялде щвезе кІоларо. Бухьен хал гьабе.</string>
+</resources>

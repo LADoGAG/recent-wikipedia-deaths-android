@@ -1,0 +1,23 @@
+<resources>
+ <string name="app_name">위키백과 최근 사망자</string>
+ <string name="wiki_sections">위키백과 언어판</string>
+ <string name="all_languages">모든 언어</string>
+ <string name="langs_selected">%1$d / %2$d</string>
+ <string name="select_all">모두 선택</string>
+ <string name="done">완료</string>
+ <string name="timeframe">기간</string>
+ <string name="live_only">앱 실행 이후</string>
+ <string name="last_hours">최근 X시간</string>
+ <string name="hours_value">%1$d시간</string>
+ <string name="edit_by">%1$s의 편집</string>
+ <string name="no_description">사용 가능한 설명이 없습니다.</string>
+ <string name="empty">선택한 필터에 대한 기록이 없습니다.</string>
+ <string name="settings">설정</string>
+ <string name="back">뒤로</string>
+ <string name="details">세부정보</string>
+ <string name="error_details_title">요청 실패</string>
+ <string name="error_summary">%2$d 언어판 중 %1$d 로드됨</string>
+ <string name="error_all_ok">모든 언어판이 성공적으로 로드되었습니다.</string>
+ <string name="error_partial">일부 언어판에 도달할 수 없습니다. 목록은 «세부정보»를 탭하세요.</string>
+ <string name="error_total">위키백과에 연결할 수 없습니다. 연결을 확인하세요.</string>
+</resources>

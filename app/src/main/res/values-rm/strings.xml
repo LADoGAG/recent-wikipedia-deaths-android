@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Morts recents sin Wikipedia</string>
+    <string name="wiki_sections">Versiuns linguisticas da Wikipedia</string>
+    <string name="all_languages">Tut las linguas</string>
+    <string name="langs_selected">%1$d da %2$d</string>
+    <string name="select_all">Selecziunar tuts</string>
+    <string name="done">Finì</string>
+    <string name="timeframe">Perioda</string>
+    <string name="live_only">Dapi che l\'app è averta</string>
+    <string name="last_hours">Ultimas X uras</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Modificaziun da %1$s</string>
+    <string name="no_description">Nagina descripziun disponibla.</string>
+    <string name="empty">Nagins registres per ils filters tschernids.</string>
+    <string name="settings">Preferenzas</string>
+    <string name="back">Enavos</string>
+    <string name="details">Detagls</string>
+    <string name="error_details_title">Sbagls da dumondas</string>
+    <string name="error_summary">%1$d da %2$d versiuns linguisticas chargiadas</string>
+    <string name="error_all_ok">Tut las versiuns linguisticas èn chargiadas cun success.</string>
+    <string name="error_partial">Intginas versiuns linguisticas n\'èn betg accessiblas. Cliccar «Detagls» per la glista.</string>
+    <string name="error_total">Impussibel da contactar Wikipedia. Controllai Vossa connexiun.</string>
+</resources>

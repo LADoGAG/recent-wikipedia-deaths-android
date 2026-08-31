@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Àwọn tí ó ṣẹ̀ṣẹ̀ kú lórí Wikipedia</string>
+    <string name="wiki_sections">Àwọn ẹ̀dà èdè Wikipedia</string>
+    <string name="all_languages">Gbogbo èdè</string>
+    <string name="langs_selected">%1$d nínú %2$d</string>
+    <string name="select_all">Yan gbogbo rẹ̀</string>
+    <string name="done">Ó ti parí</string>
+    <string name="timeframe">Àkókò</string>
+    <string name="live_only">Láti ìgbà tí a ti ṣí app náà</string>
+    <string name="last_hours">Wákàtí X tó kọjá</string>
+    <string name="hours_value">%1$d w</string>
+    <string name="edit_by">Àtúnṣe láti ọwọ́ %1$s</string>
+    <string name="no_description">Kò sí àpèjúwe kankan.</string>
+    <string name="empty">Kò sí àkọsílẹ̀ fún àwọn àlẹ̀mọ tí a yàn.</string>
+    <string name="settings">Ètò</string>
+    <string name="back">Padà</string>
+    <string name="details">Àwọn àlàyé</string>
+    <string name="error_details_title">Ìkùnà àwọn ìbéèrè</string>
+    <string name="error_summary">%1$d nínú %2$d àwọn ẹ̀dà èdè ti gbà wọlé</string>
+    <string name="error_all_ok">Gbogbo àwọn ẹ̀dà èdè ti gbà wọlé dáadáa.</string>
+    <string name="error_partial">A kò lè dé ọ̀dọ̀ àwọn ẹ̀dà èdè kan. Tẹ «Àwọn àlàyé» láti wo àtòjọ.</string>
+    <string name="error_total">A kò lè dé ọ̀dọ̀ Wikipedia rárá. Ṣàyẹ̀wò ìsopọ̀ rẹ.</string>
+</resources>

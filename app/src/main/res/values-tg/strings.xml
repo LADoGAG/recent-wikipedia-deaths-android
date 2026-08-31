@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Маргҳои охирин дар Википедиа</string>
+    <string name="wiki_sections">Нашрияҳои забонии Википедиа</string>
+    <string name="all_languages">Ҳама забонҳо</string>
+    <string name="langs_selected">%1$d аз %2$d</string>
+    <string name="select_all">Интихоби ҳама</string>
+    <string name="done">Тайёр</string>
+    <string name="timeframe">Давраи вақт</string>
+    <string name="live_only">Аз лаҳзаи кушодани барнома</string>
+    <string name="last_hours">X соати охир</string>
+    <string name="hours_value">%1$d с</string>
+    <string name="edit_by">Таҳрир аз ҷониби %1$s</string>
+    <string name="no_description">Тавсиф дастрас нест.</string>
+    <string name="empty">Барои филтрҳои интихобшуда сабтҳо нест.</string>
+    <string name="settings">Танзимот</string>
+    <string name="back">Бозгашт</string>
+    <string name="details">Тафсилот</string>
+    <string name="error_details_title">Хатогиҳои дархост</string>
+    <string name="error_summary">%1$d аз %2$d нашрияҳои забонӣ бор карда шуд</string>
+    <string name="error_all_ok">Ҳама нашрияҳои забонӣ бо муваффақият бор карда шуданд.</string>
+    <string name="error_partial">Ба баъзе нашрияҳои забонӣ дастрасӣ нашуд. Барои рӯйхат «Тафсилот»-ро пахш кунед.</string>
+    <string name="error_total">Ба Википедиа умуман дастрасӣ нашуд. Пайвастшавии худро санҷед.</string>
+</resources>

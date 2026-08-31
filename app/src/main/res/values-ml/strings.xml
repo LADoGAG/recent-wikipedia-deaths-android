@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">വിക്കിപീഡിയയിലെ പുതിയ മരണങ്ങൾ</string>
+    <string name="wiki_sections">വിക്കിപീഡിയ ഭാഷാ പതിപ്പുകൾ</string>
+    <string name="all_languages">എല്ലാ ഭാഷകളും</string>
+    <string name="langs_selected">%2$d-ൽ %1$d</string>
+    <string name="select_all">എല്ലാം തിരഞ്ഞെടുക്കുക</string>
+    <string name="done">പൂർത്തിയായി</string>
+    <string name="timeframe">സമയപരിധി</string>
+    <string name="live_only">ആപ്പ് തുറന്നതിനുശേഷം</string>
+    <string name="last_hours">കഴിഞ്ഞ X മണിക്കൂറുകൾ</string>
+    <string name="hours_value">%1$d മ</string>
+    <string name="edit_by">%1$s-ന്റെ എഡിറ്റ്</string>
+    <string name="no_description">വിവരണം ലഭ്യമല്ല.</string>
+    <string name="empty">തിരഞ്ഞെടുത്ത ഫിൽട്ടറുകൾക്ക് റെക്കോർഡുകളില്ല.</string>
+    <string name="settings">ക്രമീകരണങ്ങൾ</string>
+    <string name="back">പിന്നോട്ട്</string>
+    <string name="details">വിശദാംശങ്ങൾ</string>
+    <string name="error_details_title">അഭ്യർത്ഥന പരാജയങ്ങൾ</string>
+    <string name="error_summary">%2$d ഭാഷാ പതിപ്പുകളിൽ %1$d ലോഡ് ചെയ്തു</string>
+    <string name="error_all_ok">എല്ലാ ഭാഷാ പതിപ്പുകളും വിജയകരമായി ലോഡ് ചെയ്തു.</string>
+    <string name="error_partial">ചില ഭാഷാ പതിപ്പുകളിലേക്ക് പ്രവേശിക്കാനായില്ല. ലിസ്റ്റിനായി «വിശദാംശങ്ങൾ» ടാപ്പ് ചെയ്യുക.</string>
+    <string name="error_total">വിക്കിപീഡിയയിലേക്ക് പ്രവേശിക്കാനായില്ല. നിങ്ങളുടെ കണക്ഷൻ പരിശോധിക്കുക.</string>
+</resources>

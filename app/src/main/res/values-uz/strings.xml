@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Vikipediyadagi soʻnggi vafotlar</string>
+    <string name="wiki_sections">Vikipediya til boʻlimlari</string>
+    <string name="all_languages">Barcha tillar</string>
+    <string name="langs_selected">%2$d dan %1$d</string>
+    <string name="select_all">Hammasini belgilash</string>
+    <string name="done">Tayyor</string>
+    <string name="timeframe">Vaqt oraligʻi</string>
+    <string name="live_only">Ilova ochilgandan beri</string>
+    <string name="last_hours">Oxirgi X soat</string>
+    <string name="hours_value">%1$d s</string>
+    <string name="edit_by">%1$s tomonidan tahrir</string>
+    <string name="no_description">Tavsif mavjud emas.</string>
+    <string name="empty">Tanlangan filtrlar uchun yozuvlar yoʻq.</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="back">Orqaga</string>
+    <string name="details">Tafsilotlar</string>
+    <string name="error_details_title">Soʻrov xatoliklari</string>
+    <string name="error_summary">%2$d ta til boʻlimidan %1$d tasi yuklandi</string>
+    <string name="error_all_ok">Barcha til boʻlimlari muvaffaqiyatli yuklandi.</string>
+    <string name="error_partial">Baʼzi til boʻlimlariga kirib boʻlmadi. Roʻyxat uchun «Tafsilotlar»ga bosing.</string>
+    <string name="error_total">Vikipediyaga umuman kirib boʻlmadi. Ulanishni tekshiring.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Imwiet reċenti fuq Wikipedia</string>
+    <string name="wiki_sections">Verżjonijiet lingwistiċi ta\' Wikipedia</string>
+    <string name="all_languages">Il-lingwi kollha</string>
+    <string name="langs_selected">%1$d minn %2$d</string>
+    <string name="select_all">Agħżel kollha</string>
+    <string name="done">Lest</string>
+    <string name="timeframe">Perjodu ta\' żmien</string>
+    <string name="live_only">Minn meta nfetaħ l-app</string>
+    <string name="last_hours">L-aħħar X sigħat</string>
+    <string name="hours_value">%1$d s</string>
+    <string name="edit_by">Editjar minn %1$s</string>
+    <string name="no_description">Ebda deskrizzjoni disponibbli.</string>
+    <string name="empty">Ebda rekords għall-filtri magħżula.</string>
+    <string name="settings">Preferenzi</string>
+    <string name="back">Lura</string>
+    <string name="details">Dettalji</string>
+    <string name="error_details_title">Fallimenti tat-talbiet</string>
+    <string name="error_summary">%1$d minn %2$d verżjonijiet lingwistiċi mniżżla</string>
+    <string name="error_all_ok">Il-verżjonijiet lingwistiċi kollha tniżżlu b\'suċċess.</string>
+    <string name="error_partial">Ma setgħux jiġu aċċessati xi verżjonijiet lingwistiċi. Agħfas «Dettalji» għal-lista.</string>
+    <string name="error_total">Ma setax jiġi aċċessat għal Wikipedia. Iċċekkja l-konnessjoni tiegħek.</string>
+</resources>

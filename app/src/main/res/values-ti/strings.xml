@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ኣብ ዊኪፐድያ ዝተራእዩ ናይ ቀረባ ሞታት</string>
+    <string name="wiki_sections">ናይ ቋንቋ ሕታማት ዊኪፐድያ</string>
+    <string name="all_languages">ኩሎም ቋንቋታት</string>
+    <string name="langs_selected">%1$d ካብ %2$d</string>
+    <string name="select_all">ኩሎም ምረጽ</string>
+    <string name="done">ተወዲኡ</string>
+    <string name="timeframe">ግዜ</string>
+    <string name="live_only">ካብ ዝተኸፈተሉ ጀሚሩ</string>
+    <string name="last_hours">ዝሓለፉ X ሰዓታት</string>
+    <string name="hours_value">%1$d ሰ</string>
+    <string name="edit_by">ብ %1$s ዝተቐየረ</string>
+    <string name="no_description">ዝርዝር የለን።</string>
+    <string name="empty">ንዝተመርጹ መምረጺታት ዝኸውን መዝገብ የለን።</string>
+    <string name="settings">ኣወዳድባ</string>
+    <string name="back">ንድሕሪት</string>
+    <string name="details">ዝርዝር</string>
+    <string name="error_details_title">ናይ ጠለብ ጌጋታት</string>
+    <string name="error_summary">ካብ %2$d ሕታማት %1$d ተጻዒኖም</string>
+    <string name="error_all_ok">ኩሎም ሕታማት ብዓወት ተጻዒኖም።</string>
+    <string name="error_partial">ገለ ሕታማት ክርከቡ ኣይከኣሉን። ንዝርዝር «ዝርዝር» ጠውቕ።</string>
+    <string name="error_total">ዊኪፐድያ ፈጺሙ ክርከብ ኣይከኣለን። ርክብካ ረአ።</string>
+</resources>

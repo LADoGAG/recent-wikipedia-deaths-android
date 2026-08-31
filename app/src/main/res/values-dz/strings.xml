@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ཝི་ཀི་པི་ཌི་ཡ་གུ་འཕྲལ་ཁམས་གཤེགས་མི་ཚུ།</string>
+    <string name="wiki_sections">ཝི་ཀི་པི་ཌི་ཡ་སྐད་ཡིག་པར་བསྐྲུན།</string>
+    <string name="all_languages">སྐད་ཡིག་ཆ་མཉམ།</string>
+    <string name="langs_selected">%2$d ལས་ %1$d སེལ་འཐུ་འབད་ཡོདཔ།</string>
+    <string name="select_all">ཆ་མཉམ་སེལ་འཐུ་འབད།</string>
+    <string name="done">མཇུག་བསྡུ་ཡོདཔ།</string>
+    <string name="timeframe">དུས་ཡུན།</string>
+    <string name="live_only">ཨེཔ་ཁ་ཕྱེ་བའི་ཤུལ་ལས།</string>
+    <string name="last_hours">མཇུག་གི་ཆུ་ཚོད་ %1$d ནང་ལུ།</string>
+    <string name="hours_value">%1$d ཆུ་ཚོད།</string>
+    <string name="edit_by">%1$s གིས་བསྒྱུར་བཅོས་འབད་ཡོདཔ།</string>
+    <string name="no_description">འགྲེལ་བཤད་མེདཔ།</string>
+    <string name="empty">སེལ་འཐུ་འབད་མི་ཚགས་མ་ལུ་གནས་སྡུད་མེདཔ།</string>
+    <string name="settings">སྒྲིག་སྟངས།</string>
+    <string name="back">ལོག་སྟེ།</string>
+    <string name="details">ཞིབ་ཁྲ།</string>
+    <string name="error_details_title">ཞུ་བ་ལྷོད་མ་ཚུགསཔ།</string>
+    <string name="error_summary">པར་བསྐྲུན་ %2$d ལས་ %1$d མངོན་གསལ་འབད་ཡོདཔ།</string>
+    <string name="error_all_ok">པར་བསྐྲུན་ཆ་མཉམ་མངོན་གསལ་འབད་ཚུགས་ཡོདཔ།</string>
+    <string name="error_partial">པར་བསྐྲུན་ལ་ལུ་ཅིག་ལུ་འབྲེལ་མཐུད་འབད་མ་ཚུགས། ཐོ་ཡིག་གི་དོན་ལུ་ «ཞིབ་ཁྲ།» གུ་ཨེབ་གཏང་འབད།</string>
+    <string name="error_total">ཝི་ཀི་པི་ཌི་ཡ་ལུ་འབྲེལ་མཐུད་འབད་མ་ཚུགས། མཐུད་ལམ་ལ་ཞིབ་འབད།</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ဝီကီပီးဒီးယားရှိ မကြာသေးမီက သေဆုံးမှုများ</string>
+    <string name="wiki_sections">ဝီကီပီးဒီးယား ဘာသာစကား မူကွဲများ</string>
+    <string name="all_languages">ဘာသာစကားအားလုံး</string>
+    <string name="langs_selected">%2$d ထဲမှ %1$d</string>
+    <string name="select_all">အားလုံးရွေးပါ</string>
+    <string name="done">ပြီးပြီ</string>
+    <string name="timeframe">အချိန်ကာလ</string>
+    <string name="live_only">အက်ပ်ဖွင့်ပြီးကတည်းက</string>
+    <string name="last_hours">နောက်ဆုံး X နာရီ</string>
+    <string name="hours_value">%1$d န</string>
+    <string name="edit_by">%1$s မှ တည်းဖြတ်ခြင်း</string>
+    <string name="no_description">ဖော်ပြချက်မရှိပါ။</string>
+    <string name="empty">ရွေးထားသော စစ်ထုတ်မှုများအတွက် မှတ်တမ်းမရှိပါ။</string>
+    <string name="settings">ဆက်တင်များ</string>
+    <string name="back">နောက်သို့</string>
+    <string name="details">အသေးစိတ်</string>
+    <string name="error_details_title">တောင်းဆိုမှု ကျရှုံးခြင်းများ</string>
+    <string name="error_summary">%2$d ဘာသာစကား မူကွဲများထဲမှ %1$d ခု ဖတ်ပြီးပြီ</string>
+    <string name="error_all_ok">ဘာသာစကား မူကွဲအားလုံး အောင်မြင်စွာ ဖတ်ပြီးပါပြီ။</string>
+    <string name="error_partial">အချို့သော ဘာသာစကား မူကွဲများကို ဝင်ရောက်၍မရပါ။ စာရင်းအတွက် «အသေးစိတ်» ကို နှိပ်ပါ။</string>
+    <string name="error_total">ဝီကီပီးဒီးယားကို လုံးဝ ဝင်ရောက်၍မရပါ။ သင့်ချိတ်ဆက်မှုကို စစ်ဆေးပါ။</string>
+</resources>

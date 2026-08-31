@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Vifo vya hivi karibuni kwenye Wikipedia</string>
+    <string name="wiki_sections">Matoleo ya lugha ya Wikipedia</string>
+    <string name="all_languages">Lugha zote</string>
+    <string name="langs_selected">%1$d kati ya %2$d</string>
+    <string name="select_all">Chagua zote</string>
+    <string name="done">Imekamilika</string>
+    <string name="timeframe">Kipindi cha muda</string>
+    <string name="live_only">Tangu programu kufunguliwa</string>
+    <string name="last_hours">Saa X zilizopita</string>
+    <string name="hours_value">%1$d s</string>
+    <string name="edit_by">Hariri na %1$s</string>
+    <string name="no_description">Hakuna maelezo yanayopatikana.</string>
+    <string name="empty">Hakuna rekodi za vichujio vilivyochaguliwa.</string>
+    <string name="settings">Mipangilio</string>
+    <string name="back">Rudi</string>
+    <string name="details">Maelezo</string>
+    <string name="error_details_title">Kushindwa kwa maombi</string>
+    <string name="error_summary">%1$d kati ya matoleo %2$d ya lugha yamepakiwa</string>
+    <string name="error_all_ok">Matoleo yote ya lugha yamepakiwa kwa mafanikio.</string>
+    <string name="error_partial">Baadhi ya matoleo ya lugha hayakuweza kufikiwa. Gonga «Maelezo» kwa orodha.</string>
+    <string name="error_total">Haikuweza kufikia Wikipedia kabisa. Angalia muunganisho wako.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Recent Wikipedia Deaths</string>
+    <string name="wiki_sections">Wikipedia language editions</string>
+    <string name="all_languages">All languages</string>
+    <string name="langs_selected">%1$d of %2$d</string>
+    <string name="select_all">Select all</string>
+    <string name="done">Done</string>
+    <string name="timeframe">Time period</string>
+    <string name="live_only">Since app open</string>
+    <string name="last_hours">Last X hours</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Edit by %1$s</string>
+    <string name="no_description">No description available.</string>
+    <string name="empty">No records for the selected filters.</string>
+    <string name="settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="details">Details</string>
+    <string name="error_details_title">Request failures</string>
+    <string name="error_summary">%1$d of %2$d language editions loaded</string>
+    <string name="error_all_ok">All language editions loaded successfully.</string>
+    <string name="error_partial">Some language editions could not be reached. Tap «Details» for a list.</string>
+    <string name="error_total">Could not reach Wikipedia at all. Check your connection.</string>
+</resources>

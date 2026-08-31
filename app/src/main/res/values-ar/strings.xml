@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">وفيات ويكيبيديا الأخيرة</string>
+    <string name="wiki_sections">إصدارات ويكيبيديا</string>
+    <string name="all_languages">جميع اللغات</string>
+    <string name="langs_selected">%1$d من %2$d</string>
+    <string name="select_all">تحديد الكل</string>
+    <string name="done">تم</string>
+    <string name="timeframe">الفترة الزمنية</string>
+    <string name="live_only">منذ فتح التطبيق</string>
+    <string name="last_hours">آخر X ساعات</string>
+    <string name="hours_value">%1$d س</string>
+    <string name="edit_by">تعديل بواسطة %1$s</string>
+    <string name="no_description">لا يوجد وصف متاح.</string>
+    <string name="empty">لا توجد سجلات للفلاتر المحددة.</string>
+    <string name="settings">الإعدادات</string>
+    <string name="back">رجوع</string>
+    <string name="details">التفاصيل</string>
+    <string name="error_details_title">أخطاء الطلبات</string>
+    <string name="error_summary">تم تحميل %1$d من %2$d إصدار</string>
+    <string name="error_all_ok">تم تحميل جميع النسخ اللغوية بنجاح.</string>
+    <string name="error_partial">تعذر الوصول إلى بعض النسخ اللغوية. انقر على «التفاصيل» لعرض القائمة.</string>
+    <string name="error_total">تعذر الوصول إلى ويكيبيديا تماماً. تحقق من اتصالك.</string>
+</resources>

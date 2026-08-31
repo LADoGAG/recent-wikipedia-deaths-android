@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mga kamakailang namatay sa Wikipedia</string>
+    <string name="wiki_sections">Mga edisyon ng wika ng Wikipedia</string>
+    <string name="all_languages">Lahat ng wika</string>
+    <string name="langs_selected">%1$d sa %2$d</string>
+    <string name="select_all">Piliin lahat</string>
+    <string name="done">Tapos na</string>
+    <string name="timeframe">Panahon</string>
+    <string name="live_only">Mula nang mabuksan ang app</string>
+    <string name="last_hours">Huling X oras</string>
+    <string name="hours_value">%1$d o</string>
+    <string name="edit_by">Pag-edit ni %1$s</string>
+    <string name="no_description">Walang available na paglalarawan.</string>
+    <string name="empty">Walang mga tala para sa mga napiling filter.</string>
+    <string name="settings">Mga setting</string>
+    <string name="back">Bumalik</string>
+    <string name="details">Mga detalye</string>
+    <string name="error_details_title">Mga pagkabigo ng kahilingan</string>
+    <string name="error_summary">%1$d sa %2$d edisyon ng wika ang na-load</string>
+    <string name="error_all_ok">Lahat ng edisyon ng wika ay matagumpay na na-load.</string>
+    <string name="error_partial">Hindi ma-access ang ilang edisyon ng wika. I-tap ang «Mga detalye» para sa listahan.</string>
+    <string name="error_total">Hindi ma-access ang Wikipedia. Suriin ang iyong koneksyon.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">የቅርብ ጊዜ የዊኪፔዲያ ሞቶች</string>
+    <string name="wiki_sections">የዊኪፔዲያ የቋንቋ እትሞች</string>
+    <string name="all_languages">ሁሉም ቋንቋዎች</string>
+    <string name="langs_selected">ከ%2$d ውስጥ %1$d</string>
+    <string name="select_all">ሁሉንም ምረጥ</string>
+    <string name="done">ተጠናቅቋል</string>
+    <string name="timeframe">የጊዜ ገደብ</string>
+    <string name="live_only">መተግበሪያው ከተከፈተ ጀምሮ</string>
+    <string name="last_hours">ባለፉት X ሰዓታት</string>
+    <string name="hours_value">%1$d ሰ</string>
+    <string name="edit_by">በ%1$s የተቀየረ</string>
+    <string name="no_description">ምንም መግለጫ የለም።</string>
+    <string name="empty">ለተመረጡት ማጣሪያዎች ምንም መዝገቦች የሉም።</string>
+    <string name="settings">ቅንብሮች</string>
+    <string name="back">ተመለስ</string>
+    <string name="details">ዝርዝሮች</string>
+    <string name="error_details_title">የጥያቄ ውድቀቶች</string>
+    <string name="error_summary">ከ%2$d የቋንቋ እትሞች %1$d ተጭነዋል</string>
+    <string name="error_all_ok">ሁሉም እትሞች በተሳካ ሁኔታ ተጭነዋል።</string>
+    <string name="error_partial">አንዳንድ እትሞች ሊደረስባቸው አልተቻለም። ዝርዝር ለማየት «ዝርዝሮች»ን መታ ያድርጉ።</string>
+    <string name="error_total">ወደ ዊኪፔዲያ ፈጽሞ መድረስ አልተቻለም። ግንኙነትዎን ይፈትሹ።</string>
+</resources>

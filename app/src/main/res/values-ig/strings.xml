@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ndị nwụrụ anwụ na nso nso a na Wikipedia</string>
+    <string name="wiki_sections">Mbipụta asụsụ Wikipedia</string>
+    <string name="all_languages">Asụsụ niile</string>
+    <string name="langs_selected">%1$d n\'ime %2$d</string>
+    <string name="select_all">Họrọ ha niile</string>
+    <string name="done">Emechaala</string>
+    <string name="timeframe">Oge</string>
+    <string name="live_only">Site na mgbe emepere ngwa a</string>
+    <string name="last_hours">elekere X gara aga</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Ndezigharị nke %1$s</string>
+    <string name="no_description">Enweghị nkọwa dịnụ.</string>
+    <string name="empty">Enweghị ndekọ maka nzacha ahọpụtara.</string>
+    <string name="settings">Ntọala</string>
+    <string name="back">Azụ</string>
+    <string name="details">Nkọwa zuru ezu</string>
+    <string name="error_details_title">Ọdịda arịrịọ</string>
+    <string name="error_summary">%1$d n\'ime %2$d mbipụta asụsụ ebu dịla</string>
+    <string name="error_all_ok">Ebujuru mbipụta asụsụ niile nke ọma.</string>
+    <string name="error_partial">Enweghị ike ịnweta ụfọdụ mbipụta asụsụ. Metụ «Nkọwa zuru ezu» ka ịhụ ndepụta.</string>
+    <string name="error_total">Enweghị ike ịnweta Wikipedia ma ọlị. Lelee njikọ gị.</string>
+</resources>

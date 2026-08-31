@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Kufa kwakamuva ku-Wikipedia</string>
+    <string name="wiki_sections">Tinkhulumo telulwimi teWikipedia</string>
+    <string name="all_languages">Tonkhe tilwimi</string>
+    <string name="langs_selected">%1$d ku-%2$d</string>
+    <string name="select_all">Khetsa konkhe</string>
+    <string name="done">Kwentiwe</string>
+    <string name="timeframe">Sikhatsi</string>
+    <string name="live_only">Kusukela kuvulwa i-app</string>
+    <string name="last_hours">Emahora langu-X ekuqina</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Kuhlela ngu-%1$s</string>
+    <string name="no_description">Akukho nchazelo letfolakalako.</string>
+    <string name="empty">Akukho marekhodi emitshini lekhetsiwe.</string>
+    <string name="settings">Tilungiselelo</string>
+    <string name="back">Emuva</string>
+    <string name="details">Imininingwane</string>
+    <string name="error_details_title">Kuhluleka kweticelo</string>
+    <string name="error_summary">%1$d ku-%2$d tinkhulumo telulwimi tilayishwe</string>
+    <string name="error_all_ok">Tonkhe tinkhulumo telulwimi tilayishwe ngemphumelelo.</string>
+    <string name="error_partial">Letinye tinkhulumo telulwimi atikwati kufinyelelwa. Thepha «Imininingwane» kutfole luhlu.</string>
+    <string name="error_total">Akukwati kufinyelelwa ku-Wikipedia. Hlola luhlanganiso lwakho.</string>
+</resources>

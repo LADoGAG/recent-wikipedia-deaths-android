@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Legutóbbi halálozások a Wikipédián</string>
+    <string name="wiki_sections">Wikipédia nyelvi változatai</string>
+    <string name="all_languages">Minden nyelv</string>
+    <string name="langs_selected">%1$d / %2$d</string>
+    <string name="select_all">Összes kijelölése</string>
+    <string name="done">Kész</string>
+    <string name="timeframe">Időszak</string>
+    <string name="live_only">Az alkalmazás megnyitása óta</string>
+    <string name="last_hours">Utolsó X óra</string>
+    <string name="hours_value">%1$d ó</string>
+    <string name="edit_by">Szerkesztette: %1$s</string>
+    <string name="no_description">Nincs elérhető leírás.</string>
+    <string name="empty">Nincsenek rekordok a kiválasztott szűrőkhöz.</string>
+    <string name="settings">Beállítások</string>
+    <string name="back">Vissza</string>
+    <string name="details">Részletek</string>
+    <string name="error_details_title">Kérési hibák</string>
+    <string name="error_summary">%1$d / %2$d nyelvi változat betöltve</string>
+    <string name="error_all_ok">Minden kiadás sikeresen betöltődött.</string>
+    <string name="error_partial">Néhány kiadást nem sikerült elérni. Érintse meg a «Részletek» gombot a listáért.</string>
+    <string name="error_total">Egyáltalán nem sikerült elérni a Wikipédiát. Ellenőrizze a kapcsolatot.</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ku fa ka sweswi eka Wikipedia</string>
+    <string name="wiki_sections">Swihundla swa ririmi swa Wikipedia</string>
+    <string name="all_languages">Tindzimi hinkwato</string>
+    <string name="langs_selected">%1$d ku huma eka %2$d</string>
+    <string name="select_all">Hlawula hinkwaswo</string>
+    <string name="done">Swi herile</string>
+    <string name="timeframe">Nkarhi</string>
+    <string name="live_only">Ku suka loko app yi pfuriwile</string>
+    <string name="last_hours">Tiawara ta X to hetelela</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Ku cinca hi %1$s</string>
+    <string name="no_description">A ku na nhlamuselo leyi kumekaka.</string>
+    <string name="empty">A ku na switshudeni swa tifiltara leti hlawuriweke.</string>
+    <string name="settings">Swisetelo</string>
+    <string name="back">Tlhelela ndzhaku</string>
+    <string name="details">Vuxokoxoko</string>
+    <string name="error_details_title">Ku tsandzeka ka swikombelo</string>
+    <string name="error_summary">%1$d ku huma eka %2$d swihundla swa ririmi swi lowiwe</string>
+    <string name="error_all_ok">Swihundla hinkwaswo swa ririmi swi lowiwe hi ndlela leyi humelelaka.</string>
+    <string name="error_partial">Swihundla swin\'wana swa ririmi a swi kumekanga. Thikha «Vuxokoxoko» ku vona nxaxamelo.</string>
+    <string name="error_total">A wu swi kotanga ku fikelela Wikipedia. Languta vuxokoxoko bya wena.</string>
+</resources>

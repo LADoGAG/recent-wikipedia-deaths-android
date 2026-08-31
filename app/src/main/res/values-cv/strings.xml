@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Википедире юлашки вилӗмсем</string>
+    <string name="wiki_sections">Википеди чӗлхе уйрӑмӗсем</string>
+    <string name="all_languages">Пур чӗлхесем</string>
+    <string name="langs_selected">%2$d шайран %1$d</string>
+    <string name="select_all">Пурне те суйласа ил</string>
+    <string name="done">Хатӗр</string>
+    <string name="timeframe">Вӑхӑт</string>
+    <string name="live_only">Приложени уҫӑлнӑранпа</string>
+    <string name="last_hours">Юлашки X сехет</string>
+    <string name="hours_value">%1$d с</string>
+    <string name="edit_by">%1$s тӳрлетни</string>
+    <string name="no_description">Ҫырса кӑтартни ҫук.</string>
+    <string name="empty">Суйланӑ фильтрсемпе ҫырусем ҫук.</string>
+    <string name="settings">Ӗнерленӳ</string>
+    <string name="back">Кайалла</string>
+    <string name="details">Тӗплӗн</string>
+    <string name="error_details_title">Ыйтусен йӑнӑшӗсем</string>
+    <string name="error_summary">%2$d чӗлхе уйрӑмӗнчен %1$d тиеннӗ</string>
+    <string name="error_all_ok">Пур пайсем те ӑнӑҫлӑ тиеннӗ.</string>
+    <string name="error_partial">Хӑш-пӗр пайсем патне ҫитме ҫук. Списокшӑн «Тӗплӗн» пусӑр.</string>
+    <string name="error_total">Википеди патне пачах ҫитме ҫук. Ҫыхӑнӑва тӗрӗслӗр.</string>
+</resources>

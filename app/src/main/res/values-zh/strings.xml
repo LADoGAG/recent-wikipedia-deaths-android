@@ -1,0 +1,23 @@
+<resources>
+ <string name="app_name">维基百科近期逝世</string>
+ <string name="wiki_sections">维基百科语言版本</string>
+ <string name="all_languages">所有语言</string>
+ <string name="langs_selected">%1$d / %2$d</string>
+ <string name="select_all">全选</string>
+ <string name="done">完成</string>
+ <string name="timeframe">时间段</string>
+ <string name="live_only">自应用打开起</string>
+ <string name="last_hours">过去 X 小时</string>
+ <string name="hours_value">%1$d 小时</string>
+ <string name="edit_by">编辑者：%1$s</string>
+ <string name="no_description">暂无描述。</string>
+ <string name="empty">所选筛选条件无记录。</string>
+ <string name="settings">设置</string>
+ <string name="back">返回</string>
+ <string name="details">详情</string>
+ <string name="error_details_title">请求失败</string>
+ <string name="error_summary">已加载 %1$d / %2$d 个语言版本</string>
+ <string name="error_all_ok">所有语言版本加载成功。</string>
+ <string name="error_partial">部分语言版本无法访问。点击"详情"查看列表。</string>
+ <string name="error_total">无法访问维基百科。请检查网络连接。</string>
+</resources>

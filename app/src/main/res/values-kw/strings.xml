@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mernansow a-dhiwedhes war Wikipedia</string>
+    <string name="wiki_sections">Yethow Wikipedia</string>
+    <string name="all_languages">Oll an yethow</string>
+    <string name="langs_selected">%1$d a %2$d</string>
+    <string name="select_all">Dewis pup tra</string>
+    <string name="done">Gwrys</string>
+    <string name="timeframe">Termyn</string>
+    <string name="live_only">A-ban veu an app ygerys</string>
+    <string name="last_hours">Diwettha X our</string>
+    <string name="hours_value">%1$d o</string>
+    <string name="edit_by">Chanjys gans %1$s</string>
+    <string name="no_description">Nyns eus deskrivyans kavadow.</string>
+    <string name="empty">Nyns eus kovadhow rag an sidhlow dewisys.</string>
+    <string name="settings">Settys</string>
+    <string name="back">War-dhelergh</string>
+    <string name="details">Munyson</string>
+    <string name="error_details_title">Fyllellow govynnow</string>
+    <string name="error_summary">%1$d a %2$d yethow kargys</string>
+    <string name="error_all_ok">Oll an yethow re beu kargys yn sewen.</string>
+    <string name="error_partial">Nyns o possybyl dhe dhrehedhes rann a\'n yethow. Towch «Munyson» rag an rol.</string>
+    <string name="error_total">Nyns o possybyl dhe dhrehedhes Wikipedia. Checkya agas junyans.</string>
+</resources>

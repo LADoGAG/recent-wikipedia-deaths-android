@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">การเสียชีวิตล่าสุดบนวิกิพีเดีย</string>
+    <string name="wiki_sections">รุ่นภาษาของวิกิพีเดีย</string>
+    <string name="all_languages">ทุกภาษา</string>
+    <string name="langs_selected">%1$d จาก %2$d</string>
+    <string name="select_all">เลือกทั้งหมด</string>
+    <string name="done">เสร็จสิ้น</string>
+    <string name="timeframe">ช่วงเวลา</string>
+    <string name="live_only">ตั้งแต่เปิดแอป</string>
+    <string name="last_hours">X ชั่วโมงที่ผ่านมา</string>
+    <string name="hours_value">%1$d ชม.</string>
+    <string name="edit_by">แก้ไขโดย %1$s</string>
+    <string name="no_description">ไม่มีคำอธิบาย</string>
+    <string name="empty">ไม่พบบันทึกสำหรับตัวกรองที่เลือก</string>
+    <string name="settings">การตั้งค่า</string>
+    <string name="back">ย้อนกลับ</string>
+    <string name="details">รายละเอียด</string>
+    <string name="error_details_title">ความล้มเหลวของคำขอ</string>
+    <string name="error_summary">โหลดแล้ว %1$d จาก %2$d รุ่นภาษา</string>
+    <string name="error_all_ok">ทุกรุ่นภาษาโหลดสำเร็จแล้ว</string>
+    <string name="error_partial">ไม่สามารถเข้าถึงบางรุ่นภาษา แตะ «รายละเอียด» เพื่อดูรายการ</string>
+    <string name="error_total">ไม่สามารถเข้าถึงวิกิพีเดียได้เลย ตรวจสอบการเชื่อมต่อของคุณ</string>
+</resources>

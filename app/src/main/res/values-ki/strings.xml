@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Andu maakuire mweri-ini wa Wikipedia</string>
+    <string name="wiki_sections">Mathangũ ma rũthiomi rwa Wikipedia</string>
+    <string name="all_languages">Ndĩrĩmĩ ciothe</string>
+    <string name="langs_selected">%1$d kuuma %2$d</string>
+    <string name="select_all">Thuura ciothe</string>
+    <string name="done">Kũrĩhĩkĩtie</string>
+    <string name="timeframe">Ihinda</string>
+    <string name="live_only">Kuuma rĩrĩa app yarugũrwo</string>
+    <string name="last_hours">Maawaa X ma mbere</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Gũcenjia nĩ %1$s</string>
+    <string name="no_description">Ndũngĩkĩrĩra ĩtarĩ ho.</string>
+    <string name="empty">Gũtirĩ records cia filters itũthuuranĩtwo.</string>
+    <string name="settings">Maundu ma gutuĩka</string>
+    <string name="back">Thutha</string>
+    <string name="details">Ũhoro ũngĩ</string>
+    <string name="error_details_title">Mahitia ma maombi</string>
+    <string name="error_summary">%1$d kuuma %2$d mathangũ ma rũthiomi ma loaded</string>
+    <string name="error_all_ok">Mathangũ mothe ma rũthiomi ma loaded na ũhoro mwega.</string>
+    <string name="error_partial">Mathangũ mangĩ ma rũthiomi matirikanĩtwo. Hũra «Ũhoro ũngĩ» nĩ ũndũ wa list.</string>
+    <string name="error_total">Wikipedia ndĩrĩkinyĩtwo. Rora connection yaku.</string>
+</resources>

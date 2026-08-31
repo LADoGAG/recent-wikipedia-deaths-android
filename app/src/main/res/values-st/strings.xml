@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Mafu a morao ho Wikipedia</string>
+    <string name="wiki_sections">Liphetolelo tsa puo tsa Wikipedia</string>
+    <string name="all_languages">Lipuo tsohle</string>
+    <string name="langs_selected">%1$d ho %2$d</string>
+    <string name="select_all">Khetha tsohle</string>
+    <string name="done">Ho felile</string>
+    <string name="timeframe">Nako</string>
+    <string name="live_only">Ho tloha ha app e butsoe</string>
+    <string name="last_hours">Lihora tse X tse fetileng</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Ho hlophisa ke %1$s</string>
+    <string name="no_description">Ha ho tlhaloso e fumanehang.</string>
+    <string name="empty">Ha ho lirekoto tsa lifilthara tse khethiloeng.</string>
+    <string name="settings">Litlhophiso</string>
+    <string name="back">Khutlela</string>
+    <string name="details">Lintlha</string>
+    <string name="error_details_title">Ho hloleha ha likopo</string>
+    <string name="error_summary">%1$d ho %2$d liphetolelo tsa puo li laoditsoe</string>
+    <string name="error_all_ok">Liphetolelo tsohle tsa puo li laoditsoe ka katleho.</string>
+    <string name="error_partial">Tse ling tsa liphetolelo tsa puo ha lia ka tsa fihlelleha. Tobetsa «Lintlha» bakeng sa lenane.</string>
+    <string name="error_total">Ho sitiloe ho fihlella Wikipedia ho hang. Hlahloba khokahano ea hau.</string>
+</resources>

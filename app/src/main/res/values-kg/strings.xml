@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bawufwa ya mpa na Wikipedia</string>
+    <string name="wiki_sections">Bangi ya ndinga ya Wikipedia</string>
+    <string name="all_languages">Bandinga yonso</string>
+    <string name="langs_selected">%1$d na %2$d</string>
+    <string name="select_all">Pona yonso</string>
+    <string name="done">Esili</string>
+    <string name="timeframe">Ntangu</string>
+    <string name="live_only">Tangu app kangulama</string>
+    <string name="last_hours">Bangunga X yina me luta</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Soba na %1$s</string>
+    <string name="no_description">Kele ve na ntendula.</string>
+    <string name="empty">Kele ve na mikanda sambu na bafiltre yina me ponama.</string>
+    <string name="settings">Baparametre</string>
+    <string name="back">Vutuka</string>
+    <string name="details">Bansangu</string>
+    <string name="error_details_title">Bifu ya kulomba</string>
+    <string name="error_summary">%1$d na %2$d bangi ya ndinga me zingisama</string>
+    <string name="error_all_ok">Bangi yonso ya ndinga me zingisama na nswalu.</string>
+    <string name="error_partial">Bangi ya nkaka ya ndinga me kuka ve kubaka. Bula «Bansangu» sambu na liste.</string>
+    <string name="error_total">Wikipedia me kuka ve kubaka. Tala connexion na nge.</string>
+</resources>

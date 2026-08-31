@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Wikipidiyapi qayna wañuykuna</string>
+    <string name="wiki_sections">Wikipidiya simi rakiy</string>
+    <string name="all_languages">Tukuy simikuna</string>
+    <string name="langs_selected">%1$d %2$d-manta</string>
+    <string name="select_all">Tukuy akllay</string>
+    <string name="done">Tukusqa</string>
+    <string name="timeframe">Pacha</string>
+    <string name="live_only">App kicharisqamanta</string>
+    <string name="last_hours">Qhipa X uras</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">%1$s-pa llamk\'aynin</string>
+    <string name="no_description">Mana willakuy kanchu.</string>
+    <string name="empty">Akllasqa suysuypaq mana qillqakuna kanchu.</string>
+    <string name="settings">Churaykuna</string>
+    <string name="back">Kutiy</string>
+    <string name="details">K\'iti</string>
+    <string name="error_details_title">Mañakuy pantaykuna</string>
+    <string name="error_summary">%2$d simi rakiymanta %1$d chayasqa</string>
+    <string name="error_all_ok">Tukuy simi rakiykuna allin chayasqa.</string>
+    <string name="error_partial">Wakin simi rakiykunaman mana chayayta atikurqachu. Sut\'ipaq «K\'iti» ñit\'iy.</string>
+    <string name="error_total">Wikipidiyaman mana chayayta atikurqachu. T\'inkiykita qhaway.</string>
+</resources>

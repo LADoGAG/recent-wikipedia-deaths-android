@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Վիքիպեդիայի վերջին մահերը</string>
+    <string name="wiki_sections">Վիքիպեդիայի լեզվական տարբերակներ</string>
+    <string name="all_languages">Բոլոր լեզուները</string>
+    <string name="langs_selected">%1$d-ը %2$d-ից</string>
+    <string name="select_all">Ընտրել բոլորը</string>
+    <string name="done">Պատրաստ է</string>
+    <string name="timeframe">Ժամանակահատված</string>
+    <string name="live_only">Հավելվածը բացելու պահից</string>
+    <string name="last_hours">Վերջին X ժամ</string>
+    <string name="hours_value">%1$d ժ</string>
+    <string name="edit_by">Խմբագրում %1$s-ի կողմից</string>
+    <string name="no_description">Նկարագրություն չկա:</string>
+    <string name="empty">Ընտրված զտիչների համար գրառումներ չկան:</string>
+    <string name="settings">Կարգավորումներ</string>
+    <string name="back">Հետ</string>
+    <string name="details">Մանրամասներ</string>
+    <string name="error_details_title">Հարցման սխալներ</string>
+    <string name="error_summary">Բեռնվել է %1$d-ը %2$d լեզվական տարբերակից</string>
+    <string name="error_all_ok">Բոլոր տարբերակները հաջողությամբ բեռնվել են:</string>
+    <string name="error_partial">Որոշ տարբերակների հասանելի չէին: Ցանկի համար սեղմեք «Մանրամասներ»:</string>
+    <string name="error_total">Հնարավոր չէ կապ հաստատել Վիքիպեդիայի հետ: Ստուգեք կապը:</string>
+</resources>

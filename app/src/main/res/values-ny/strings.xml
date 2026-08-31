@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Maliro aposachedwa pa Wikipedia</string>
+    <string name="wiki_sections">Maulendo a chinenero cha Wikipedia</string>
+    <string name="all_languages">Zinenero zonse</string>
+    <string name="langs_selected">%1$d mwa %2$d</string>
+    <string name="select_all">Sankhani zonse</string>
+    <string name="done">Chatha</string>
+    <string name="timeframe">Nthawi</string>
+    <string name="live_only">Kuyambira pomwe pulogalamu yatsegulidwa</string>
+    <string name="last_hours">Maola X apitawa</string>
+    <string name="hours_value">%1$d h</string>
+    <string name="edit_by">Kusintha ndi %1$s</string>
+    <string name="no_description">Palibe kufotokoza kulipo.</string>
+    <string name="empty">Palibe zolemba za zosankhidwa.</string>
+    <string name="settings">Zokonda</string>
+    <string name="back">Bwerera</string>
+    <string name="details">Zambiri</string>
+    <string name="error_details_title">Zolakwika zopempha</string>
+    <string name="error_summary">%1$d mwa %2$d zaulendo wa chinenero zalembedwa</string>
+    <string name="error_all_ok">Zaulendo zonse zalembedwa bwino.</string>
+    <string name="error_partial">Zina sizingapezeke. Dinani «Zambiri» kuti muwone mndandanda.</string>
+    <string name="error_total">Sitingapeze Wikipedia konse. Onani kulumikizana kwanu.</string>
+</resources>
