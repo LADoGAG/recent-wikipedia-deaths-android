@@ -3,7 +3,9 @@ package io.github.ladogag.recentwikipediadeaths.data
 data class WikiTarget(
     val lang: String,
     val category: String,
-    val displayName: String
+    val displayName: String,
+    val englishName: String,
+    val nativeName: String
 )
 
 data class DeathEvent(

@@ -70,6 +70,18 @@ android {
     }
 }
 
+androidComponents {
+    onVariants(selector().withBuildType("release")) { variant ->
+        variant.outputs.forEach { output ->
+            val filter = output.filters.firstOrNull { it.filterType.name == "ABI" }
+            val abi = filter?.identifier ?: "universal"
+
+            @Suppress("UnstableApiUsage")
+            output.outputFileName.set("Recent_Wikipedia_Deaths-${abi}-release.apk")
+        }
+    }
+}
+
 dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)

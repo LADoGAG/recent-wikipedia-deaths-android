@@ -446,9 +446,14 @@ fun LanguageSearchScreen(
 
     val filteredTargets = remember(targets, searchQuery) {
         if (searchQuery.isBlank()) targets
-        else targets.filter {
-            it.displayName.contains(searchQuery, ignoreCase = true) ||
-                    it.lang.contains(searchQuery, ignoreCase = true)
+        else {
+            val q = searchQuery.trim()
+            targets.filter {
+                it.displayName.contains(q, ignoreCase = true) ||
+                        it.englishName.contains(q, ignoreCase = true) ||
+                        it.nativeName.contains(q, ignoreCase = true) ||
+                        it.lang.equals(q, ignoreCase = true)
+            }
         }
     }
 

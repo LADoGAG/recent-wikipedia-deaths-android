@@ -222,8 +222,17 @@ object WikiRepository {
             if (code !in priority) priority += code
         }
 
-        fun target(pair: Pair<String, String>) =
-            WikiTarget(pair.first, pair.second, displayName(pair.first, display))
+        fun target(pair: Pair<String, String>): WikiTarget {
+            val code = pair.first
+            val nativeLocale = runCatching { Locale.forLanguageTag(code) }.getOrDefault(Locale.ENGLISH)
+            return WikiTarget(
+                lang = code,
+                category = pair.second,
+                displayName = displayName(code, display),
+                englishName = displayName(code, Locale.ENGLISH),
+                nativeName = displayName(code, nativeLocale)
+            )
+        }
 
         val head = priority.mapNotNull { p ->
             cachedTargets.firstOrNull { it.first == p }?.let { target(it) }
