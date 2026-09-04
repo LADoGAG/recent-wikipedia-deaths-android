@@ -24,8 +24,8 @@ android {
         applicationId = "io.github.ladogag.recentwikipediadeaths"
         minSdk = 24
         targetSdk = 37
-        versionCode = 3
-        versionName = "1.0.2"
+        versionCode = 4
+        versionName = "1.0.3"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -75,14 +75,18 @@ androidComponents {
         variant.outputs.forEach { output ->
             val filter = output.filters.firstOrNull { it.filterType.name == "ABI" }
             val abi = filter?.identifier ?: "universal"
+            val version = android.defaultConfig.versionName
 
             @Suppress("UnstableApiUsage")
-            output.outputFileName.set("Recent_Wikipedia_Deaths-${abi}-release.apk")
+            output.outputFileName.set("Recent_Wikipedia_Deaths-v$version-$abi-release.apk")
         }
     }
 }
 
 dependencies {
+    implementation(libs.androidx.material3)
+    val composeBom = platform("androidx.compose:compose-bom:2025.01.01")
+    implementation(composeBom)
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
