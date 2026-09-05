@@ -36,11 +36,7 @@ import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CornerSize
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.filled.Close
-import androidx.compose.material.icons.filled.Search
-import androidx.compose.material.icons.filled.Settings
+import androidx.compose.ui.res.painterResource
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
@@ -157,7 +153,7 @@ fun FeedScreen(
                 actions = {
                     IconButton(onClick = onOpenSettings) {
                         Icon(
-                            imageVector = Icons.Default.Settings,
+                            painter = painterResource(R.drawable.rounded_settings_24),
                             contentDescription = stringResource(R.string.settings),
                         )
                     }
@@ -275,7 +271,7 @@ fun SettingsScreen(
                 navigationIcon = {
                     IconButton(onClick = onBack) {
                         Icon(
-                            imageVector = Icons.AutoMirrored.Filled.ArrowBack,
+                            painter = painterResource(R.drawable.rounded_arrow_back_24),
                             contentDescription = stringResource(R.string.back),
                         )
                     }
@@ -288,7 +284,7 @@ fun SettingsScreen(
                 actions = {
                     IconButton(onClick = onOpenSearch) {
                         Icon(
-                            imageVector = Icons.Default.Search,
+                            painter = painterResource(R.drawable.rounded_search_24),
                             contentDescription = null,
                         )
                     }
@@ -529,7 +525,7 @@ fun LanguageSearchScreen(
                 navigationIcon = {
                     IconButton(onClick = onBack) {
                         Icon(
-                            imageVector = Icons.AutoMirrored.Filled.ArrowBack,
+                            painter = painterResource(R.drawable.rounded_arrow_back_24),
                             contentDescription = null,
                         )
                     }
@@ -538,7 +534,7 @@ fun LanguageSearchScreen(
                     if (searchQuery.isNotEmpty()) {
                         IconButton(onClick = { searchQuery = "" }) {
                             Icon(
-                                imageVector = Icons.Default.Close,
+                                painter = painterResource(R.drawable.rounded_close_24),
                                 contentDescription = null,
                             )
                         }
